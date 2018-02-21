@@ -1,8 +1,8 @@
 const request = require('request');
 const JSZip = require('jszip');
-const FZZ = require('./fzz');
-const FZZCode = require('./fzz-code');
-const {parseFZ} = require('./fz');
+const FZZ = require('./fzz/fzz');
+const FZZCode = require('./fzz/code');
+const {parseFZ} = require('./fz/fz');
 
 /**
  * Load a fzz file from an url
@@ -37,7 +37,7 @@ function readFZZ(url, data, cb) {
 
         // check the file extension
         let ext = filename.split('.').pop();
-        console.log('FILENAME', filename, ext);
+        // console.log('FILENAME', filename, ext);
 
         switch (ext) {
           case 'fz':
@@ -59,7 +59,7 @@ function readFZZ(url, data, cb) {
 
           default:
             console.error('filetype not supported', ext, filename);
-            break
+            break;
         }
       }
 
@@ -73,7 +73,6 @@ function readFZZ(url, data, cb) {
           cb(null, tmpFZZ);
         });
       });
-
     }
 }).catch((e) => {
   cb(e);

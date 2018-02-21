@@ -1,4 +1,4 @@
-const {FZ} = require('../src/fz');
+const {FZ} = require('../fz/fz');
 
 /**
  * FZZ is the root object of each fzz file

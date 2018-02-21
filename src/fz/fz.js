@@ -1,7 +1,7 @@
 const parseXml = require('xml2js').parseString;
-const FZBoard = require('./fz-board');
-const FZView = require('./fz-view');
-const FZInstance = require('./fz-instance');
+const FZBoard = require('./board');
+const FZView = require('./view');
+const FZInstance = require('./instance');
 
 /**
  * the FZ constructor
@@ -44,6 +44,48 @@ class FZ {
   }
 }
 
+class InstanceView {
+  constructor(opt) {
+    opt = opt || {};
+    this.layer = opt.layer || '';
+    this.bottom = opt.bottom || '';
+    this.geometry = new Geometry(opt.geometry) || new Geometry();
+    this.wireExtra = opt.wireExtra || '';
+    this.connectors = opt.connectors || '';
+  }
+}
+
+class Geometry {
+  constructor(opt) {
+    opt = opt || {};
+    this.x = opt.x || 0;
+    this.y = opt.y || 0;
+    this.z = opt.z || 0;
+    this.x1 = opt.x1 || 0;
+    this.y1 = opt.y1 || 0;
+    this.x2 = opt.x2 || 0;
+    this.y2 = opt.y1 || 0;
+    this.wireFlags = opt.wireFlags || '';
+  }
+}
+
+class Vector2D {
+  constructor(opt) {
+    this.x = opt.x || 0;
+    this.y = opt.y || 0;
+  }
+}
+
+class Connector {
+  constructor(opt) {
+    opt = opt || {};
+    this.connectorId = opt.connectorId || '';
+    this.layer = opt.layer || '';
+    this.geometry = opt.geometry || null;
+    this.connectors = opt.connectors || null;
+  }
+}
+
 // parse fz xml data and return a FZ object.
 function parseFZ(uri, src, cb) {
   let tmpFZ = new FZ();
@@ -70,7 +112,7 @@ function parseFZ(uri, src, cb) {
       tmpFZ.fritzingVersion = xmlDoc.module.$.fritzingVersion;
       if (xmlDoc.module.boards) tmpFZ.boards = parseFZBoards(xmlDoc.module.boards);
       if (xmlDoc.module.views) tmpFZ.views = parseFZViews(xmlDoc.module.views);
-      if (xmlDoc.module.instances) tmpFZ.instances = parseFZInstances(xmlDoc.module.instances)
+      if (xmlDoc.module.instances) tmpFZ.instances = parseFZInstances(xmlDoc.module.instances);
 
       // tmpFZ.programs = parseFZPrograms(xmlDoc.module.programs);
     }
@@ -82,7 +124,7 @@ function parseFZ(uri, src, cb) {
 function parseFZInstances(xml) {
   let instances = [];
   for (let i = 0; i < xml.length; i++) {
-    for (var j = 0; j < xml[i].instance.length; j++) {
+    for (let j = 0; j < xml[i].instance.length; j++) {
       instances.push(parseFZInstance(xml[i].instance[j]));
     }
   }
@@ -91,15 +133,26 @@ function parseFZInstances(xml) {
 
 function parseFZInstance(xml) {
   let instance = new FZInstance();
-  instance.moduleIdRef = xml.$.moduleIdRef
-  instance.modelIndex =xml.$.modelIndex
-  instance.path = xml.$.path
-  instance.property = xml.property
-  instance.title = xml.title
-  if (xml.views[0].breadboardView) instance.views.breadboard = xml.views[0].breadboardView
-  if (xml.views[0].pcbView) instance.views.pcb = xml.views[0].pcbView
-  if (xml.views[0].schematicView) instance.views.schematic = xml.views[0].schematicView
+  instance.moduleIdRef = xml.$.moduleIdRef;
+  instance.modelIndex =xml.$.modelIndex;
+  instance.path = xml.$.path;
+  instance.property = xml.property;
+  instance.title = xml.title;
+  if (xml.views[0].breadboardView) instance.views.breadboard = parseInstanceView(xml.views[0].breadboardView);
+  if (xml.views[0].pcbView) instance.views.pcb = parseInstanceView(xml.views[0].pcbView);
+  if (xml.views[0].schematicView) instance.views.schematic = parseInstanceView(xml.views[0].schematicView);
   return instance;
+}
+
+function parseInstanceView(xml) {
+  let instanceView = new InstanceView({
+    layer: xml[0].$.layer,
+    bottom: xml[0].$.bottom,
+    geometry: xml[0].geometry[0].$,
+    wireExtra: xml[0].wireExtra,
+    connectors: xml[0].connectors,
+  });
+  return instanceView;
 }
 
 function parseFZBoards(xml) {

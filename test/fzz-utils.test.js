@@ -1,4 +1,4 @@
-const {loadFZZ, readFZZ} = require('../src/fzz-utils');
+const {loadFZZ, readFZZ} = require('../src/utils');
 const fs = require('fs');
 
 test( 'Test loadFZZ', (done) => {
