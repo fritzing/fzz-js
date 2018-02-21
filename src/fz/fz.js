@@ -1,6 +1,5 @@
 const parseXml = require('xml2js').parseString;
 const FZBoard = require('./board');
-const FZView = require('./view');
 const FZInstance = require('./instance');
 
 /**
@@ -17,10 +16,33 @@ class FZ {
     this.boards = {}; // list of FZBoard items
     this.programs = {}; // list of FZProgram items
     this.instances = {}; //
-    this.views = {}; //
+    this.views = {
+      breadboard: {
+        backgroundColor: "#ffffff",
+        gridSize: "0.1in",
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0
+      },
+      schematic: {
+        backgroundColor: "#ffffff",
+        gridSize: "0.1in",
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0
+      },
+      pcb: {
+        backgroundColor: "#333333",
+        gridSize: "0.05in",
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0,
+        autorouteViaHoleSize: "0.4mm",
+        autorouteTraceWidth: 24,
+        autorouteViaRingThickness: "0.3mm"
+      }
+    };
     this.code = {};
-    this.svgs = {};
-    this.fzps = {};
   }
 
   /**
@@ -81,8 +103,23 @@ class Connector {
     opt = opt || {};
     this.connectorId = opt.connectorId || '';
     this.layer = opt.layer || '';
-    this.geometry = opt.geometry || null;
-    this.connectors = opt.connectors || null;
+    this.leg = {};
+    this.geometry = opt.geometry || {};
+    this.connects = opt.connects || {};
+  }
+}
+
+class Leg {
+  constructor() {
+    this.point = new Vector2D()
+    this.bezier = null
+  }
+}
+class Connect {
+  constructor() {
+    this.connectorId = "",
+    this.modelIndex = ""
+    this.layer = ''
   }
 }
 
@@ -131,12 +168,21 @@ function parseFZInstances(xml) {
   return instances;
 }
 
+function parseProperty(xml) {
+  let d = {}
+  for (var i = 0; i < xml.length; i++) {
+    const key = xml[i].$.name
+    d[key] = xml[i].$.value
+  }
+  return d
+}
+
 function parseFZInstance(xml) {
   let instance = new FZInstance();
   instance.moduleIdRef = xml.$.moduleIdRef;
   instance.modelIndex =xml.$.modelIndex;
   instance.path = xml.$.path;
-  instance.property = xml.property;
+  if (xml.property) instance.property = parseProperty(xml.property);
   instance.title = xml.title;
   if (xml.views[0].breadboardView) instance.views.breadboard = parseInstanceView(xml.views[0].breadboardView);
   if (xml.views[0].pcbView) instance.views.pcb = parseInstanceView(xml.views[0].pcbView);
@@ -150,9 +196,52 @@ function parseInstanceView(xml) {
     bottom: xml[0].$.bottom,
     geometry: xml[0].geometry[0].$,
     wireExtra: xml[0].wireExtra,
-    connectors: xml[0].connectors,
+    connectors: parseInstanceViewConnectors(xml[0].connectors),
   });
   return instanceView;
+}
+
+function parseInstanceViewConnectors(xml) {
+  let connectors = []
+  if (xml) {
+    for (var i = 0; i < xml[0].connector.length; i++) {
+      // console.log(xml[0].connector[i]);
+      let connector = new Connector()
+      connector.connectorId = xml[0].connector[i].$.connectorId
+      connector.layer = xml[0].connector[i].$.layer
+      connector.geometry = parseGeometry(xml[0].connector[i].geometry)
+      connector.connects = parseConnects(xml[0].connector[i].connects)
+      connectors.push(connector)
+    }
+  }
+  return connectors
+}
+
+function parseConnects(xml) {
+  let connects = {}
+  if (xml) {
+    if (xml[0]) {
+      for (var i = 0; i < xml[0].connect.length; i++) {
+        let id = xml[0].connect[i].$.connectorId
+        connects[id] = {
+          modelIndex: xml[0].connect[i].$.modelIndex,
+          layer: xml[0].connect[i].$.layer
+        }
+      }
+    }
+  }
+  return connects
+}
+
+function parseGeometry(xml) {
+  var vect = {x: 0, y: 0}
+  if (xml) {
+    if (xml[0]) {
+      vect.x = xml[0].$.x
+      vect.y = xml[0].$.y
+    }
+  }
+  return vect
 }
 
 function parseFZBoards(xml) {
@@ -201,10 +290,50 @@ function parseFZPrograms(xml) {
 }
 
 function parseFZViews(xml) {
-  let views = [];
-  for (let i = 0; i < xml.length; i++) {
-    for (let j = 0; j < xml[i].view.length; j++) {
-      views.push(parseFZView(xml[i].view[j]));
+  let views = {
+    breadboard: {},
+    schematic: {},
+    pcb: {}
+  };
+  for (let j = 0; j < xml[0].view.length; j++) {
+    switch (xml[0].view[j].$.name) {
+      case 'breadboardView':
+        views.breadboard = {
+          name: xml[0].view[j].$.name,
+          backgroundColor: xml[0].view[j].$.backgroundColor,
+          gridSize: xml[0].view[j].$.gridSize,
+          showGrid: xml[0].view[j].$.showGrid,
+          alignToGrid: xml[0].view[j].$.alignToGrid,
+          viewFromBelow: xml[0].view[j].$.viewFromBelow
+        }
+        break;
+
+      case 'schematicView':
+        views.schematic = {
+          name: xml[0].view[j].$.name,
+          backgroundColor: xml[0].view[j].$.backgroundColor,
+          gridSize: xml[0].view[j].$.gridSize,
+          showGrid: xml[0].view[j].$.showGrid,
+          alignToGrid: xml[0].view[j].$.alignToGrid,
+          viewFromBelow: xml[0].view[j].$.viewFromBelow
+        }
+        break;
+
+      case 'pcbView':
+        views.pcb = {
+          name: xml[0].view[j].$.name,
+          backgroundColor: xml[0].view[j].$.backgroundColor,
+          gridSize: xml[0].view[j].$.gridSize,
+          showGrid: xml[0].view[j].$.showGrid,
+          alignToGrid: xml[0].view[j].$.alignToGrid,
+          viewFromBelow: xml[0].view[j].$.viewFromBelow,
+          gpgKeepout: xml[0].view[j].$.gpgKeepout,
+          autorouteViaHoleSize: xml[0].view[j].$.autorouteViaHoleSize,
+          autorouteTraceWidth: xml[0].view[j].$.autorouteTraceWidth,
+          autorouteViaRingThickness: xml[0].view[j].$.autorouteViaRingThickness,
+          drcKeepout: xml[0].view[j].$.drcKeepout
+        }
+        break;
     }
   }
   return views;
