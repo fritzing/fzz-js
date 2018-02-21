@@ -1,5 +1,13 @@
-const Utils = require('./src/fzz-utils')
-const FZ = require('./src/fz')
-const FZZ = require('./src/fzz')
+const FZ = require('./src/fz');
+const FZBoard = require('./src/fz-board');
+const FZView = require('./src/fz-view');
+const FZZ = require('./src/fzz');
+const FZZUtils = require('./src/fzz-utils');
 
-module.exports = {Utils, FZ, FZZ}
+module.exports = {
+  FZ,
+  FZBoard,
+  FZView,
+  FZZ,
+  FZZUtils,
+};

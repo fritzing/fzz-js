@@ -1,14 +1,13 @@
 /**
  * supported file types and the extension
  */
-let FZZSourceTypes = {
+const FZZSourceTypes = {
   fz: '.fz',
   ino: '.ino',
 };
 
 /**
- * e.g. getting the path from a fzz.object:
- * fzz.fz.instance[0].path
+ * e.g. getting the path from a fzz.object
  * @param {string} src
  * @return {string}
  */
