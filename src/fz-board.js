@@ -5,13 +5,15 @@
 class FZBoard {
   /**
    * the FZBoard constructor
+   * @param {Object} opt
    */
-  constructor() {
-    this.moduleId = '';
-    this.title = '';
-    this.instance = '';
-    this.width = '';
-    this.height = '';
+  constructor(opt) {
+    opt = opt || {};
+    this.moduleId = opt.moduleId || '';
+    this.title = opt.title || '';
+    this.instance = opt.instance || '';
+    this.width = opt.width || '';
+    this.height = opt.height || '';
   }
 }
 

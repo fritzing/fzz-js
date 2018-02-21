@@ -1,6 +1,7 @@
 const request = require('request');
 const JSZip = require('jszip');
 const FZZ = require('./fzz');
+const FZZCode = require('./fzz-code');
 const {parseFZ} = require('./fz');
 
 /**
@@ -36,56 +37,43 @@ function readFZZ(url, data, cb) {
 
         // check the file extension
         let ext = filename.split('.').pop();
-        // console.log(counter, 'FILENAME', filename, ext);
+        console.log('FILENAME', filename, ext);
 
         switch (ext) {
           case 'fz':
             tmpFZZ.fz.filename = filename;
-
-            // the fz file must be the same name as the filepath/filename.fz
-            // var base = src.replace(/^.*[\\\/]/, '');
-            // var baseFz = base.slice(0, -1);
-            // if (filename !== undefined || filename !== baseFz) {
-            //   alert('FZZ NOT VALID')
-            //   console.log('OKKK', filename, baseFz);
-            // }
-
-            zip.file(filename).async('string').then(function success(text) {
-              parseFZ(filename, text, (err, data) => {
-                if (err) {
-                  throw err
-                }
-                tmpFZZ.fz = data;
-                cb(null, tmpFZZ);
-              });
-            });
+            break;
 
           case 'fzp':
-            // TODO: load fzp
-            // console.log('FZP', filename);
+            tmpFZZ.fz.fzps[filename] = filename;
             break;
 
           case 'svg':
-            // TODO: loadsvg
-            // console.log('SVG', filename);
+            tmpFZZ.fz.svgs[filename] = filename;
             break;
 
           case 'ino':
-            console.log('CODE', filename);
-            // zip.file(filename).async('string').then(success(text) => {
-            // //   counter++;
-            // //   // console.log(counter);
-            //   tmpFZZ.code.addSource(filename, text);
-            // //   // if (counter === totalFiles) {
-            // //   //   cb(tmpFZZ);
-            // //   // }
-            // });
+            tmpFZZ.fz.code[filename] = new FZZCode();
+            tmpFZZ.fz.code[filename].filename = filename;
             break;
 
           default:
-            throw new Error('filetype not supported');
+            console.error('filetype not supported', ext, filename);
+            break
         }
       }
+
+      // unzip the files one by one
+      zip.file(tmpFZZ.fz.filename).async('string').then(function success(text) {
+        parseFZ(tmpFZZ.fz.filename, text, (err, data) => {
+          if (err) {
+            throw err;
+          }
+          tmpFZZ.fz = data;
+          cb(null, tmpFZZ);
+        });
+      });
+
     }
 }).catch((e) => {
   cb(e);

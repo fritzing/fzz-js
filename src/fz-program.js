@@ -4,8 +4,9 @@
 class FZProgram {
   /**
    * the FZProgram constructor
+   * @param {Object} opt
    */
-  constructor() {
+  constructor(opt) {
     this.language = '';
     this.source = '';
   }
