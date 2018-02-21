@@ -6,6 +6,7 @@
     "pretest": "make lint",
     "test": "make test"
   },
+  "main": "index.js",
   "keywords": [
     "fritzing",
     "fzz"
