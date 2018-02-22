@@ -21,6 +21,10 @@
     "url": "https://github.com/paulvollmer/fzz-js/issues"
   },
   "homepage": "https://github.com/paulvollmer/fzz-js#readme",
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
   "devDependencies": {
     "esdoc": "^1.0.4",
     "esdoc-ecmascript-proposal-plugin": "^1.0.0",
