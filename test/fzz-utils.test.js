@@ -16,19 +16,18 @@ test( 'Test loadFZZ', (done) => {
     expect(fzz.fz.fritzingVersion).toEqual('0.8.4b.12.07.8b2c');
     expect(fzz.fz.boards.length).toEqual(1);
     expect(fzz.fz.views.length).toEqual(3);
-    console.log('==> FZZ', fzz.fz.views);
     done();
   });
 });
 
-test.only( 'Test readFZZ', (done) => {
+test( 'Test readFZZ', (done) => {
   const data = fs.readFileSync('./test/fixtures/Blink.fzz');
   readFZZ('test', data, (err, fzz) => {
     if (err) {
       console.log('ERROR', err);
       throw err;
     }
-    console.log(fzz.fz.instances);
+    // console.log(JSON.stringify(fzz.fz.instances[0], '', '  '));
     done();
   });
 });

@@ -1,4 +1,3 @@
-
 /**
  *
  */
@@ -16,8 +15,8 @@ class FZInstance {
     this.title = opt.title || '';
     this.views = {
       breadboard: [],
-      pcbView: [],
-      schematicView: [],
+      pcb: [],
+      schematic: [],
     };
   }
 }
