@@ -18,31 +18,33 @@ class FZ {
     this.instances = {}; //
     this.views = {
       breadboard: {
-        backgroundColor: "#ffffff",
-        gridSize: "0.1in",
-        showGrid: 1,
-        alignToGrid: 1,
-        viewFromBelow: 0
-      },
-      schematic: {
-        backgroundColor: "#ffffff",
-        gridSize: "0.1in",
-        showGrid: 1,
-        alignToGrid: 1,
-        viewFromBelow: 0
-      },
-      pcb: {
-        backgroundColor: "#333333",
-        gridSize: "0.05in",
+        backgroundColor: '#ffffff',
+        gridSize: '0.1in',
         showGrid: 1,
         alignToGrid: 1,
         viewFromBelow: 0,
-        autorouteViaHoleSize: "0.4mm",
+      },
+      schematic: {
+        backgroundColor: '#ffffff',
+        gridSize: '0.1in',
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0,
+      },
+      pcb: {
+        backgroundColor: '#333333',
+        gridSize: '0.05in',
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0,
+        autorouteViaHoleSize: '0.4mm',
         autorouteTraceWidth: 24,
-        autorouteViaRingThickness: "0.3mm"
-      }
+        autorouteViaRingThickness: '0.3mm',
+      },
     };
     this.code = {};
+
+    this.fzps = {};
   }
 
   /**
@@ -111,15 +113,15 @@ class Connector {
 
 class Leg {
   constructor() {
-    this.point = new Vector2D()
-    this.bezier = null
+    this.point = new Vector2D();
+    this.bezier = null;
   }
 }
 class Connect {
   constructor() {
-    this.connectorId = "",
-    this.modelIndex = ""
-    this.layer = ''
+    this.connectorId = '',
+    this.modelIndex = '';
+    this.layer = '';
   }
 }
 
@@ -169,12 +171,12 @@ function parseFZInstances(xml) {
 }
 
 function parseProperty(xml) {
-  let d = {}
-  for (var i = 0; i < xml.length; i++) {
-    const key = xml[i].$.name
-    d[key] = xml[i].$.value
+  let d = {};
+  for (let i = 0; i < xml.length; i++) {
+    const key = xml[i].$.name;
+    d[key] = xml[i].$.value;
   }
-  return d
+  return d;
 }
 
 function parseFZInstance(xml) {
@@ -202,46 +204,46 @@ function parseInstanceView(xml) {
 }
 
 function parseInstanceViewConnectors(xml) {
-  let connectors = []
+  let connectors = [];
   if (xml) {
-    for (var i = 0; i < xml[0].connector.length; i++) {
+    for (let i = 0; i < xml[0].connector.length; i++) {
       // console.log(xml[0].connector[i]);
-      let connector = new Connector()
-      connector.connectorId = xml[0].connector[i].$.connectorId
-      connector.layer = xml[0].connector[i].$.layer
-      connector.geometry = parseGeometry(xml[0].connector[i].geometry)
-      connector.connects = parseConnects(xml[0].connector[i].connects)
-      connectors.push(connector)
+      let connector = new Connector();
+      connector.connectorId = xml[0].connector[i].$.connectorId;
+      connector.layer = xml[0].connector[i].$.layer;
+      connector.geometry = parseGeometry(xml[0].connector[i].geometry);
+      connector.connects = parseConnects(xml[0].connector[i].connects);
+      connectors.push(connector);
     }
   }
-  return connectors
+  return connectors;
 }
 
 function parseConnects(xml) {
-  let connects = {}
+  let connects = {};
   if (xml) {
     if (xml[0]) {
-      for (var i = 0; i < xml[0].connect.length; i++) {
-        let id = xml[0].connect[i].$.connectorId
+      for (let i = 0; i < xml[0].connect.length; i++) {
+        let id = xml[0].connect[i].$.connectorId;
         connects[id] = {
           modelIndex: xml[0].connect[i].$.modelIndex,
-          layer: xml[0].connect[i].$.layer
-        }
+          layer: xml[0].connect[i].$.layer,
+        };
       }
     }
   }
-  return connects
+  return connects;
 }
 
 function parseGeometry(xml) {
-  var vect = {x: 0, y: 0}
+  let vect = {x: 0, y: 0};
   if (xml) {
     if (xml[0]) {
-      vect.x = xml[0].$.x
-      vect.y = xml[0].$.y
+      vect.x = xml[0].$.x;
+      vect.y = xml[0].$.y;
     }
   }
-  return vect
+  return vect;
 }
 
 function parseFZBoards(xml) {
@@ -293,7 +295,7 @@ function parseFZViews(xml) {
   let views = {
     breadboard: {},
     schematic: {},
-    pcb: {}
+    pcb: {},
   };
   for (let j = 0; j < xml[0].view.length; j++) {
     switch (xml[0].view[j].$.name) {
@@ -304,8 +306,8 @@ function parseFZViews(xml) {
           gridSize: xml[0].view[j].$.gridSize,
           showGrid: xml[0].view[j].$.showGrid,
           alignToGrid: xml[0].view[j].$.alignToGrid,
-          viewFromBelow: xml[0].view[j].$.viewFromBelow
-        }
+          viewFromBelow: xml[0].view[j].$.viewFromBelow,
+        };
         break;
 
       case 'schematicView':
@@ -315,8 +317,8 @@ function parseFZViews(xml) {
           gridSize: xml[0].view[j].$.gridSize,
           showGrid: xml[0].view[j].$.showGrid,
           alignToGrid: xml[0].view[j].$.alignToGrid,
-          viewFromBelow: xml[0].view[j].$.viewFromBelow
-        }
+          viewFromBelow: xml[0].view[j].$.viewFromBelow,
+        };
         break;
 
       case 'pcbView':
@@ -331,8 +333,8 @@ function parseFZViews(xml) {
           autorouteViaHoleSize: xml[0].view[j].$.autorouteViaHoleSize,
           autorouteTraceWidth: xml[0].view[j].$.autorouteTraceWidth,
           autorouteViaRingThickness: xml[0].view[j].$.autorouteViaRingThickness,
-          drcKeepout: xml[0].view[j].$.drcKeepout
-        }
+          drcKeepout: xml[0].view[j].$.drcKeepout,
+        };
         break;
     }
   }
