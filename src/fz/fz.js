@@ -144,7 +144,7 @@ function createFZPsMap(xml) {
           theType = 'obsolete';
         }
 
-        console.log(theName, theType);
+        // console.log(theName, theType);
         d[modId] = {
           name: theName,
           type: theType,

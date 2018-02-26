@@ -30,36 +30,38 @@ function readFZZ(url, data, cb) {
 
   JSZip.loadAsync(data).then((zip) => {
     tmpFZZ.zip = zip;
-    for (let filename in zip.files) {
-      if (zip.files.hasOwnProperty(filename)) {
-        // add each filename to the files array...
-        tmpFZZ.files.push(filename);
+    if (zip.files) {
+      for (let filename in zip.files) {
+        if (zip.files.hasOwnProperty(filename)) {
+          // add each filename to the files array...
+          tmpFZZ.files.push(filename);
 
-        // check the file extension
-        let ext = filename.split('.').pop();
-        // console.log('FILENAME', filename, ext);
+          // check the file extension
+          let ext = filename.split('.').pop();
+          // console.log('FILENAME', filename, ext);
 
-        switch (ext) {
-          case 'fz':
+          switch (ext) {
+            case 'fz':
             tmpFZZ.fz.filename = filename;
             break;
 
-          case 'fzp':
+            case 'fzp':
             tmpFZZ.fz.fzps[filename] = filename;
             break;
 
-          case 'svg':
+            case 'svg':
             tmpFZZ.fz.svgs[filename] = filename;
             break;
 
-          case 'ino':
+            case 'ino':
             tmpFZZ.fz.code[filename] = new FZZCode();
             tmpFZZ.fz.code[filename].filename = filename;
             break;
 
-          default:
+            default:
             console.error('filetype not supported', ext, filename);
             break;
+          }
         }
       }
 

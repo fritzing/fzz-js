@@ -1,5 +1,4 @@
-const {loadFZZ, readFZZ} = require('../src/utils');
-const fs = require('fs');
+const {loadFZZ} = require('../src/utils');
 
 test( 'Test loadFZZ', (done) => {
   const url = 'https://raw.githubusercontent.com/fritzing/creatorkit-code/master/en/Fritzing/Blink.fzz';

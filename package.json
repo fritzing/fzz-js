@@ -2,17 +2,13 @@
   "name": "fzz-js",
   "version": "0.2.0",
   "description": "fritzing fzz javascript library",
-  "scripts": {
-    "pretest": "make lint",
-    "test": "make test"
-  },
-  "main": "index.js",
+  "author": "Paul Vollmer",
+  "license": "MIT",
   "keywords": [
     "fritzing",
     "fzz"
   ],
-  "author": "Paul Vollmer",
-  "license": "MIT",
+  "homepage": "https://github.com/paulvollmer/fzz-js#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paulvollmer/fzz-js.git"
@@ -20,20 +16,31 @@
   "bugs": {
     "url": "https://github.com/paulvollmer/fzz-js/issues"
   },
-  "homepage": "https://github.com/paulvollmer/fzz-js#readme",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "make lint",
+    "test": "make test",
+    "precommit": "make lint",
+    "prepush": "make lint"
+  },
   "jest": {
     "verbose": true,
     "collectCoverage": true
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-header-comment": "^1.0.3",
+    "babel-preset-env": "^1.6.1",
     "esdoc": "^1.0.4",
     "esdoc-ecmascript-proposal-plugin": "^1.0.0",
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^4.18.0",
     "eslint-config-google": "^0.9.1",
+    "husky": "^0.14.3",
     "jest": "^22.0.6"
   },
   "dependencies": {
+    "fzp-js": "paulvollmer/fzp-js",
     "jszip": "^3.1.5",
     "jszip-utils": "^0.0.2",
     "request": "^2.83.0",
