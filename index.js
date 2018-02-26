@@ -4,7 +4,7 @@ const FZ = require('./lib/fz/fz');
 const FZGeometry = require('./lib/fz/geometry');
 const FZInstance = require('./lib/fz/instance');
 const FZLeg = require('./lib/fz/leg');
-const FZProgram = require('./lib/fz/progam');
+const FZProgram = require('./lib/fz/program');
 const Vector2D = require('./lib/fz/vector2d');
 
 const FZZ = require('./lib/fzz/fzz');
