@@ -1,3 +1,5 @@
+const Geometry = require('./geometry');
+
 /**
  *
  */
@@ -21,4 +23,22 @@ class FZInstance {
   }
 }
 
-module.exports = FZInstance;
+/**
+ * FZInstanceView
+ */
+class FZInstanceView {
+  /**
+   * FZInstanceView constructor
+   * @param {Object} opt
+   */
+  constructor(opt) {
+    opt = opt || {};
+    this.layer = opt.layer || '';
+    this.bottom = opt.bottom || '';
+    this.geometry = new Geometry(opt.geometry) || new Geometry();
+    this.wireExtra = opt.wireExtra || '';
+    this.connectors = opt.connectors || '';
+  }
+}
+
+module.exports = {FZInstance, FZInstanceView};

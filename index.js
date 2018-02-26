@@ -1,15 +1,15 @@
-const FZ = require('./src/fz/fz');
-const FZBoard = require('./src/fz/board');
-const FZInstance = require('./src/fz/instance');
-const FZZ = require('./src/fzz/fzz');
-const FZZCode = require('./src/fzz/code');
-const Utils = require('./src/utils');
+const FZ = require('./lib/fz/fz');
+const FZBoard = require('./lib/fz/board');
+const FZInstance = require('./lib/fz/instance');
+const FZZ = require('./lib/fzz/fzz');
+const FZZCode = require('./lib/fzz/code');
+const FZZUtils = require('./lib/utils');
 
 module.exports = {
-  FZ,
-  FZBoard,
-  FZInstance,
-  FZZ,
-  FZZCode,
-  Utils,
+  FZ: FZ,
+  FZBoard: FZBoard,
+  FZInstance: FZInstance,
+  FZZ: FZZ,
+  FZZCode: FZZCode,
+  FZZUtils: FZZUtils,
 };
