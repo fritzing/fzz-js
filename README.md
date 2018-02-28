@@ -1,4 +1,4 @@
-# fzz-js
+# fzz-js [![](https://paulvollmer.net/fzz-js/badge.svg)](https://paulvollmer.net/fzz-js/)
 
 fritzing fzz javascript library
 

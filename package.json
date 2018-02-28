@@ -40,7 +40,7 @@
     "jest": "^22.0.6"
   },
   "dependencies": {
-    "fzp-js": "paulvollmer/fzp-js",
+    "fzp-js": "paulvollmer/fzp-js#develop",
     "jszip": "^3.1.5",
     "jszip-utils": "^0.0.2",
     "request": "^2.83.0",
