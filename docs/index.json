@@ -1,0 +1,3142 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/fz/board.js",
+    "content": "/**\n *\n */\nclass FZBoard {\n  /**\n   * the FZBoard constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    opt = opt || {};\n    this.moduleId = opt.moduleId || '';\n    this.title = opt.title || '';\n    this.instance = opt.instance || '';\n    this.width = opt.width || '';\n    this.height = opt.height || '';\n  }\n}\n\nmodule.exports = FZBoard;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/board.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "FZBoard",
+    "memberof": "src/fz/board.js",
+    "static": true,
+    "longname": "src/fz/board.js~FZBoard",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/board.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/board.js~FZBoard",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/board.js~FZBoard#constructor",
+    "access": "public",
+    "description": "the FZBoard constructor",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "moduleId",
+    "memberof": "src/fz/board.js~FZBoard",
+    "static": false,
+    "longname": "src/fz/board.js~FZBoard#moduleId",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "title",
+    "memberof": "src/fz/board.js~FZBoard",
+    "static": false,
+    "longname": "src/fz/board.js~FZBoard#title",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "instance",
+    "memberof": "src/fz/board.js~FZBoard",
+    "static": false,
+    "longname": "src/fz/board.js~FZBoard#instance",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "width",
+    "memberof": "src/fz/board.js~FZBoard",
+    "static": false,
+    "longname": "src/fz/board.js~FZBoard#width",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "height",
+    "memberof": "src/fz/board.js~FZBoard",
+    "static": false,
+    "longname": "src/fz/board.js~FZBoard#height",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/fz/connector.js",
+    "content": "/**\n * FZ Connector\n */\nclass Connector {\n  /**\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    opt = opt || {};\n    this.connectorId = opt.connectorId || '';\n    this.layer = opt.layer || '';\n    this.leg = {};\n    this.geometry = opt.geometry || {};\n    this.connects = opt.connects || {};\n  }\n}\n\n/**\n * FZ Connect\n */\nclass Connect {\n  /**\n   *\n   */\n  constructor() {\n    this.connectorId = '',\n    this.modelIndex = '';\n    this.layer = '';\n  }\n}\n\nmodule.exports = {Connector, Connect};\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/connector.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "Connector",
+    "memberof": "src/fz/connector.js",
+    "static": true,
+    "longname": "src/fz/connector.js~Connector",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/connector.js",
+    "importStyle": null,
+    "description": "FZ Connector",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 58,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/connector.js~Connector",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/connector.js~Connector#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "connectorId",
+    "memberof": "src/fz/connector.js~Connector",
+    "static": false,
+    "longname": "src/fz/connector.js~Connector#connectorId",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "layer",
+    "memberof": "src/fz/connector.js~Connector",
+    "static": false,
+    "longname": "src/fz/connector.js~Connector#layer",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "leg",
+    "memberof": "src/fz/connector.js~Connector",
+    "static": false,
+    "longname": "src/fz/connector.js~Connector#leg",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "geometry",
+    "memberof": "src/fz/connector.js~Connector",
+    "static": false,
+    "longname": "src/fz/connector.js~Connector#geometry",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "name": "connects",
+    "memberof": "src/fz/connector.js~Connector",
+    "static": false,
+    "longname": "src/fz/connector.js~Connector#connects",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "class",
+    "name": "Connect",
+    "memberof": "src/fz/connector.js",
+    "static": true,
+    "longname": "src/fz/connector.js~Connect",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/connector.js",
+    "importStyle": null,
+    "description": "FZ Connect",
+    "lineNumber": 21,
+    "interface": false
+  },
+  {
+    "__docId__": 65,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/connector.js~Connect",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/connector.js~Connect#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 25
+  },
+  {
+    "__docId__": 66,
+    "kind": "member",
+    "name": "layer",
+    "memberof": "src/fz/connector.js~Connect",
+    "static": false,
+    "longname": "src/fz/connector.js~Connect#layer",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/fz/fz.js",
+    "content": "const parseXml = require('xml2js').parseString;\nconst {FZP} = require('fzp-js');\nconst FZBoard = require('./board');\nconst {Connector} = require('./connector');\nconst {FZInstance, FZInstanceView} = require('./instance');\n\n/**\n * the FZ constructor\n */\nclass FZ {\n  /**\n   * @param {String} uri uri of the fz\n   */\n  constructor(uri) {\n    this.xml = undefined; // store the raw xml data\n    this.uri = uri || ''; // store the fzz filename\n    this.fritzingVersion = '';\n    this.boards = {}; // list of FZBoard items\n    this.programs = {}; // list of FZProgram items\n    this.instances = {}; //\n    this.views = {\n      breadboard: {\n        backgroundColor: '#ffffff',\n        gridSize: '0.1in',\n        showGrid: 1,\n        alignToGrid: 1,\n        viewFromBelow: 0,\n      },\n      schematic: {\n        backgroundColor: '#ffffff',\n        gridSize: '0.1in',\n        showGrid: 1,\n        alignToGrid: 1,\n        viewFromBelow: 0,\n      },\n      pcb: {\n        backgroundColor: '#333333',\n        gridSize: '0.05in',\n        showGrid: 1,\n        alignToGrid: 1,\n        viewFromBelow: 0,\n        autorouteViaHoleSize: '0.4mm',\n        autorouteTraceWidth: 24,\n        autorouteViaRingThickness: '0.3mm',\n      },\n    };\n    this.code = {};\n\n    this.fzps = {};\n  }\n\n  /**\n   * get the BOM\n   * @return {Array}\n   */\n  getBOM() {\n    let bomData = [];\n    for (let i = 0; i < this.fz.instances.length; i++) {\n      // console.log(this.fz.instances[i]);\n      if (this.fz.instances[i].moduleIdRef !== 'WireModuleID' &&\n          this.fz.instances[i].moduleIdRef !== 'LogoImageModuleID') {\n        let bomItem = {\n          moduleIdRef: this.fz.instances[i].moduleIdRef,\n          active: true,\n        };\n        bomData.push(bomItem);\n      }\n    }\n    return bomData;\n  }\n}\n\n/**\n * parse fz xml data and return a FZ object.§§§§§§\n * @param {String} uri\n * @param {String} src\n * @param {Function} cb\n */\nfunction parseFZ(uri, src, cb) {\n  let tmpFZ = new FZ();\n  tmpFZ.uri = uri;\n\n  parseXml(src, (err, xmlDoc) => {\n    if (err) {\n      cb(err);\n    }\n\n    if (xmlDoc) {\n      // console.log('#-------------------------------------');\n      // console.log(xmlDoc);\n      // console.log('#-------------------------------------');\n\n      // the fz file must be the same name as the filepath/filename.fz\n      // var base = src.replace(/^.*[\\\\\\/]/, '');\n      // var baseFz = base.slice(0, -1);\n      // if (filename !== undefined || filename !== baseFz) {\n      //   alert('FZZ NOT VALID')\n      //   console.log('OKKK', filename, baseFz);\n      // }\n\n      tmpFZ.fritzingVersion = xmlDoc.module.$.fritzingVersion;\n      if (xmlDoc.module.boards) tmpFZ.boards = parseFZBoards(xmlDoc.module.boards);\n      if (xmlDoc.module.views) tmpFZ.views = parseFZViews(xmlDoc.module.views);\n      if (xmlDoc.module.instances) tmpFZ.instances = parseFZInstances(xmlDoc.module.instances);\n\n      // tmpFZ.programs = parseFZPrograms(xmlDoc.module.programs);\n\n      tmpFZ.fzps = createFZPsMap(xmlDoc.module.instances);\n    }\n\n    cb(null, tmpFZ);\n  });\n}\n\n/**\n * @param {String} src\n * @return {String}\n */\nfunction getFileExt(src) {\n  return src.substr((src.lastIndexOf('.') +1));\n}\n\n/**\n * @param {Object} xml\n * @return {Object}\n */\nfunction createFZPsMap(xml) {\n  let d = {};\n  for (let i = 0; i < xml.length; i++) {\n    for (let j = 0; j < xml[i].instance.length; j++) {\n      let modId = xml[i].instance[j].$.moduleIdRef;\n      let path = xml[i].instance[j].$.path;\n      if (getFileExt(path) === 'fzp') {\n        let theName = '';\n        let theType = '';\n\n        let pathSplitted = path.split('/');\n        theName = pathSplitted[pathSplitted.length-1];\n        if (pathSplitted[0] === ':' && pathSplitted[1] === 'resources') {\n          theType = 'core-resources';\n        } else if (pathSplitted[pathSplitted.length-2] === 'core') {\n          theType = 'core';\n        } else if (pathSplitted[pathSplitted.length-2] === 'obsolete') {\n          theType = 'obsolete';\n        }\n\n        // console.log(theName, theType);\n        d[modId] = {\n          name: theName,\n          type: theType,\n          path: path,\n          fzp: new FZP(),\n        };\n      }\n    }\n  }\n  return d;\n}\n\n/**\n * @param {Object} xml\n * @return {Object}\n */\nfunction parseProperty(xml) {\n  let d = {};\n  for (let i = 0; i < xml.length; i++) {\n    const key = xml[i].$.name;\n    d[key] = xml[i].$.value;\n  }\n  return d;\n}\n\n/**\n * @param {Object} xml\n * @return {ARRAY}\n */\nfunction parseFZInstances(xml) {\n  let instances = [];\n  for (let i = 0; i < xml.length; i++) {\n    for (let j = 0; j < xml[i].instance.length; j++) {\n      instances.push(parseFZInstance(xml[i].instance[j]));\n    }\n  }\n  return instances;\n}\n\n/**\n * @param {Object} xml\n * @return {FZInstance}\n */\nfunction parseFZInstance(xml) {\n  let instance = new FZInstance();\n  instance.moduleIdRef = xml.$.moduleIdRef;\n  instance.modelIndex =xml.$.modelIndex;\n  instance.path = xml.$.path;\n  if (xml.property) instance.property = parseProperty(xml.property);\n  instance.title = xml.title;\n  if (xml.views[0].breadboardView) instance.views.breadboard = parseInstanceView(xml.views[0].breadboardView);\n  if (xml.views[0].pcbView) instance.views.pcb = parseInstanceView(xml.views[0].pcbView);\n  if (xml.views[0].schematicView) instance.views.schematic = parseInstanceView(xml.views[0].schematicView);\n  return instance;\n}\n\n/**\n * @param {Object} xml\n * @return {FZInstanceView}\n */\nfunction parseInstanceView(xml) {\n  let instanceView = new FZInstanceView({\n    layer: xml[0].$.layer,\n    bottom: xml[0].$.bottom,\n    geometry: xml[0].geometry[0].$,\n    wireExtra: xml[0].wireExtra,\n    connectors: parseInstanceViewConnectors(xml[0].connectors),\n  });\n  return instanceView;\n}\n\n/**\n * @param {Object} xml\n * @return {ARRAY}\n */\nfunction parseInstanceViewConnectors(xml) {\n  let connectors = [];\n  if (xml) {\n    for (let i = 0; i < xml[0].connector.length; i++) {\n      // console.log(xml[0].connector[i]);\n      let connector = new Connector();\n      connector.connectorId = xml[0].connector[i].$.connectorId;\n      connector.layer = xml[0].connector[i].$.layer;\n      connector.geometry = parseGeometry(xml[0].connector[i].geometry);\n      connector.connects = parseConnects(xml[0].connector[i].connects);\n      connectors.push(connector);\n    }\n  }\n  return connectors;\n}\n\n/**\n * @param {Object} xml\n * @return {OBJECT}\n */\nfunction parseConnects(xml) {\n  let connects = {};\n  if (xml) {\n    if (xml[0]) {\n      for (let i = 0; i < xml[0].connect.length; i++) {\n        let id = xml[0].connect[i].$.connectorId;\n        connects[id] = {\n          modelIndex: xml[0].connect[i].$.modelIndex,\n          layer: xml[0].connect[i].$.layer,\n        };\n      }\n    }\n  }\n  return connects;\n}\n\n/**\n * @param {Object} xml\n * @return {Object}\n */\nfunction parseGeometry(xml) {\n  let vect = {x: 0, y: 0};\n  if (xml) {\n    if (xml[0]) {\n      vect.x = xml[0].$.x;\n      vect.y = xml[0].$.y;\n    }\n  }\n  return vect;\n}\n\n/**\n * @param {Object} xml\n * @return {Array}\n */\nfunction parseFZBoards(xml) {\n  let boards = [];\n  for (let i = 0; i < xml.length; i++) {\n    boards.push(parseFZBoard(xml[i].board));\n  }\n  return boards;\n }\n\n /**\n  * @param {Object} xml\n  * @return {FZBoard}\n  */\nfunction parseFZBoard(xml) {\n  let board = new FZBoard();\n  board.moduleId = xml[0].$.moduleId;\n  board.title = xml[0].$.title;\n  board.instance = xml[0].$.instance;\n  board.width = xml[0].$.width;\n  board.height = xml[0].$.height;\n  return board;\n}\n\n /**\n  * @param {Object} xml\n  * @return {Array}\n  */\n// function parseFZPrograms(xml) {\n//   // console.log('parseFZPrograms', xml);\n//   let programs = [];\n//   for (let i = 0; i < xml.childNodes.length; i++) {\n//     let tmpNode = xml.childNodes[i];\n//     // console.log('view', tmpNode);\n//     if (tmpNode.nodeName === 'program') {\n//       // console.log(tmpNode);\n//\n//       let tmpProgram = new FZProgram();\n//       tmpProgram.source = tmpNode.innerHTML;\n//\n//       for (let a = 0; a < tmpNode.attributes.length; a++) {\n//         let tmpAttr = tmpNode.attributes[a];\n//         switch (tmpAttr.name) {\n//           case 'language':\n//             tmpProgram.language = tmpAttr.nodeValue;\n//             break;\n//         }\n//       }\n//\n//       programs.push(tmpProgram);\n//     }\n//   }\n//   return programs;\n// }\n\n/**\n * @param {Object} xml\n * @return {Object}\n */\nfunction parseFZViews(xml) {\n  let views = {\n    breadboard: {},\n    schematic: {},\n    pcb: {},\n  };\n  for (let j = 0; j < xml[0].view.length; j++) {\n    switch (xml[0].view[j].$.name) {\n      case 'breadboardView':\n        views.breadboard = {\n          name: xml[0].view[j].$.name,\n          backgroundColor: xml[0].view[j].$.backgroundColor,\n          gridSize: xml[0].view[j].$.gridSize,\n          showGrid: xml[0].view[j].$.showGrid,\n          alignToGrid: xml[0].view[j].$.alignToGrid,\n          viewFromBelow: xml[0].view[j].$.viewFromBelow,\n        };\n        break;\n\n      case 'schematicView':\n        views.schematic = {\n          name: xml[0].view[j].$.name,\n          backgroundColor: xml[0].view[j].$.backgroundColor,\n          gridSize: xml[0].view[j].$.gridSize,\n          showGrid: xml[0].view[j].$.showGrid,\n          alignToGrid: xml[0].view[j].$.alignToGrid,\n          viewFromBelow: xml[0].view[j].$.viewFromBelow,\n        };\n        break;\n\n      case 'pcbView':\n        views.pcb = {\n          name: xml[0].view[j].$.name,\n          backgroundColor: xml[0].view[j].$.backgroundColor,\n          gridSize: xml[0].view[j].$.gridSize,\n          showGrid: xml[0].view[j].$.showGrid,\n          alignToGrid: xml[0].view[j].$.alignToGrid,\n          viewFromBelow: xml[0].view[j].$.viewFromBelow,\n          gpgKeepout: xml[0].view[j].$.gpgKeepout,\n          autorouteViaHoleSize: xml[0].view[j].$.autorouteViaHoleSize,\n          autorouteTraceWidth: xml[0].view[j].$.autorouteTraceWidth,\n          autorouteViaRingThickness: xml[0].view[j].$.autorouteViaRingThickness,\n          drcKeepout: xml[0].view[j].$.drcKeepout,\n        };\n        break;\n    }\n  }\n  return views;\n}\n\n/**\n * @param {Object} xml\n * @return {FZView}\n */\n// function parseFZView(xml) {\n//   let view = new FZView();\n//   view.name = xml.$.name;\n//   view.backgroundColor = xml.$.backgroundColor;\n//   view.gridSize = xml.$.gridSize;\n//   view.showGrid = xml.$.showGrid;\n//   view.alignToGrid = xml.$.alignToGrid;\n//   view.viewFromBelow = xml.$.viewFromBelow;\n//   view.gpgKeepout = xml.$.gpgKeepout;\n//   view.autorouteViaHoleSize = xml.$.autorouteViaHoleSize;\n//   view.autorouteTraceWidth = xml.$.autorouteTraceWidth;\n//   view.autorouteViaRingThickness = xml.$.autorouteViaRingThickness;\n//   view.drcKeepout = xml.$.drcKeepout;\n//   return view;\n// }\n\n// function parseFZInstances(xml) {\n//   // console.log('parseFZInstances', xml);\n//\n//   let instances = [];\n//\n//   for (let i = 0; i < xml.childNodes.length; i++) {\n//     let tmpNode = xml.childNodes[i];\n//     // console.log('view', tmpNode);\n//\n//     if (tmpNode.nodeName === 'instance') {\n//       // console.log(tmpNode);\n//\n//       let tmpInstance = {\n//           moduleIdRef: '',\n//           modelIndex: '',\n//           path: '',\n//           property: {\n//             name: '',\n//             value: '',\n//           },\n//           title: '',\n//           views: {\n//             breadboardView: undefined,\n//             pcbView: undefined,\n//             schematicView: undefined,\n//           },\n//       };\n//\n//       // get the attributes of the instance tag...\n//       // console.log('attributes', tmpNode.attributes);\n//       for (let a = 0; a < tmpNode.attributes.length; a++) {\n//         let tmpAttr = tmpNode.attributes[a];\n//         switch (tmpAttr.name) {\n//           case 'moduleIdRef':\n//             tmpInstance.moduleIdRef = tmpAttr.nodeValue;\n//             break;\n//           case 'modelIndex':\n//             tmpInstance.modelIndex = tmpAttr.nodeValue;\n//             break;\n//           case 'path':\n//             tmpInstance.path = tmpAttr.nodeValue;\n//             break;\n//         }\n//       }\n//\n//       // get the instance tag childs...\n//       // console.log(tmpNode.childNodes);\n//       for (let j = 0; j < tmpNode.childNodes.length; j++) {\n//         // console.log('--', j, tmpNode.childNodes[j]);\n//         switch (tmpNode.childNodes[j].nodeName) {\n//           // get property...\n//           case 'property':\n//             var tmpProp = tmpNode.childNodes[j];\n//             // console.log('tmpProp:', tmpProp);\n//             // get attributes...\n//             for (let pa = 0; pa < tmpProp.attributes.length; pa++) {\n//               // console.log(tmpProp.attributes[pa]);\n//               switch (tmpProp.attributes[pa].name) {\n//                 case 'name':\n//                   tmpInstance.property.name = tmpProp.attributes[pa].nodeValue;\n//                   break;\n//                 case 'value':\n//                   tmpInstance.property.value = tmpProp.attributes[pa].nodeValue;\n//                   break;\n//               }\n//             }\n//             break;\n//\n//           // get title...\n//           case 'title':\n//             // console.log('TITLE', tmpNode.childNodes[j].innerHTML);\n//             tmpInstance.title = tmpNode.childNodes[j].innerHTML;\n//             break;\n//\n//           // get views...\n//           case 'views':\n//             tmpInstance.views = parseFZInstancesViews(tmpNode.childNodes[j]);\n//             break;\n//         }\n//       }\n//\n//       instances.push(tmpInstance);\n//     }\n//   }\n//\n//   return instances;\n// }\n\n/**\n * @param {Object} xml\n * @return {Object}\n */\n// function parseFZInstancesViews(xml) {\n//   // console.log('call parseFZInstancesViews', xml);\n//   let tmpViews = {\n//     breadboardView: undefined,\n//     pcbView: undefined,\n//     schematicView: undefined,\n//   };\n//\n//\n//   for (let i = 0; i < xml.childNodes.length; i++) {\n//     let tmpNode = xml.childNodes[i];\n//     // console.log(tmpNode.nodeName);\n//\n//     let tmpInstanceView = {\n//       layer: '',\n//       geometry: {\n//         x: 0,\n//         y: 0,\n//         z: 0,\n//       },\n//       connectors: [],\n//     };\n//\n//     switch (tmpNode.nodeName) {\n//       case 'breadboardView':\n//\n//         // console.log('BB', tmpNode.childNodes);\n//         for (let ib = 0; ib < tmpNode.childNodes.length; ib++) {\n//           // console.log(tmpNode.childNodes[ib]);\n//           switch (tmpNode.childNodes[ib].nodeName) {\n//             case 'geometry':\n//               // console.log('X', 'Y', tmpNode.childNodes[ib].attributes);\n//               for (let i = 0; i < tmpNode.childNodes[ib].attributes.length; i++) {\n//                 let tmpAttr = tmpNode.childNodes[ib].attributes[i];\n//                 // console.log(tmpAttr);\n//                 switch (tmpAttr.name) {\n//                   case 'x':\n//                     tmpInstanceView.geometry.x = tmpAttr.nodeValue;\n//                     break;\n//                   case 'y':\n//                     tmpInstanceView.geometry.y = tmpAttr.nodeValue;\n//                     break;\n//                   case 'z':\n//                     tmpInstanceView.geometry.z = tmpAttr.nodeValue;\n//                     break;\n//                 }\n//               }\n//               break;\n//\n//             case 'connectors':\n//               let tmpCons = tmpNode.childNodes[ib].childNodes;\n//               // console.log(tmpCons);\n//               for (let ic = 0; ic < tmpCons.length; ic++) {\n//                 switch (tmpCons[ic].nodeName) {\n//                   case 'connector':\n//                     // console.log('CON', tmpCons[ic]);\n//\n//                     break;\n//                   default:\n//                 }\n//               }\n//               break;\n//           }\n//         }\n//         tmpViews.breadboardView = tmpInstanceView;\n//\n//         break;\n//     }\n//   }\n//\n//   return tmpViews;\n// }\n\nmodule.exports = {FZ, parseFZ};\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/fz.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "variable",
+    "name": "parseXml",
+    "memberof": "src/fz/fz.js",
+    "static": true,
+    "longname": "src/fz/fz.js~parseXml",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "FZP",
+    "memberof": "src/fz/fz.js",
+    "static": true,
+    "longname": "src/fz/fz.js~FZP",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "variable",
+    "name": "FZBoard",
+    "memberof": "src/fz/fz.js",
+    "static": true,
+    "longname": "src/fz/fz.js~FZBoard",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "Connector",
+    "memberof": "src/fz/fz.js",
+    "static": true,
+    "longname": "src/fz/fz.js~Connector",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "variable",
+    "name": "FZInstance",
+    "memberof": "src/fz/fz.js",
+    "static": true,
+    "longname": "src/fz/fz.js~FZInstance",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "class",
+    "name": "FZ",
+    "memberof": "src/fz/fz.js",
+    "static": true,
+    "longname": "src/fz/fz.js~FZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "the FZ constructor",
+    "lineNumber": 10,
+    "interface": false
+  },
+  {
+    "__docId__": 74,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/fz.js~FZ",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uri",
+        "description": "uri of the fz"
+      }
+    ]
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "xml",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#xml",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "uri",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#uri",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "member",
+    "name": "fritzingVersion",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#fritzingVersion",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "member",
+    "name": "boards",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#boards",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "member",
+    "name": "programs",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#programs",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "instances",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#instances",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "views",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#views",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"breadboard\": *, \"schematic\": *, \"pcb\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "member",
+    "name": "code",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#code",
+    "access": "public",
+    "description": null,
+    "lineNumber": 47,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "fzps",
+    "memberof": "src/fz/fz.js~FZ",
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#fzps",
+    "access": "public",
+    "description": null,
+    "lineNumber": 49,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "method",
+    "name": "getBOM",
+    "memberof": "src/fz/fz.js~FZ",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/fz.js~FZ#getBOM",
+    "access": "public",
+    "description": "get the BOM",
+    "lineNumber": 56,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "parseFZ",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseFZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "parse fz xml data and return a FZ object.§§§§§§",
+    "lineNumber": 79,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "uri",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "src",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cb",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "getFileExt",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~getFileExt",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 119,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "src",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "String"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "createFZPsMap",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~createFZPsMap",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 127,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "parseProperty",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseProperty",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 164,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "parseFZInstances",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseFZInstances",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 177,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ARRAY"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "parseFZInstance",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseFZInstance",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 191,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "FZInstance"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "parseInstanceView",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseInstanceView",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 208,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "FZInstanceView"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "parseInstanceViewConnectors",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseInstanceViewConnectors",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 223,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "ARRAY"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "parseConnects",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseConnects",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 243,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "OBJECT"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "parseGeometry",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseGeometry",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 263,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "parseFZBoards",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseFZBoards",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 278,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Array"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "parseFZBoard",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseFZBoard",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 290,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "FZBoard"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "parseFZViews",
+    "memberof": "src/fz/fz.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fz/fz.js~parseFZViews",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/fz.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 335,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xml",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/fz/geometry.js",
+    "content": "/**\n * Geometry\n */\nclass Geometry {\n  /**\n   * Geometry constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    opt = opt || {};\n    this.x = opt.x || 0;\n    this.y = opt.y || 0;\n    this.z = opt.z || 0;\n    this.x1 = opt.x1 || 0;\n    this.y1 = opt.y1 || 0;\n    this.x2 = opt.x2 || 0;\n    this.y2 = opt.y1 || 0;\n    this.wireFlags = opt.wireFlags || '';\n  }\n}\n\nmodule.exports = Geometry;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/geometry.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "class",
+    "name": "Geometry",
+    "memberof": "src/fz/geometry.js",
+    "static": true,
+    "longname": "src/fz/geometry.js~Geometry",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/geometry.js",
+    "importStyle": null,
+    "description": "Geometry",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 100,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#constructor",
+    "access": "public",
+    "description": "Geometry constructor",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 101,
+    "kind": "member",
+    "name": "x",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#x",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "member",
+    "name": "y",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#y",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "member",
+    "name": "z",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#z",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 104,
+    "kind": "member",
+    "name": "x1",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#x1",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "member",
+    "name": "y1",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#y1",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "x2",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#x2",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "member",
+    "name": "y2",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#y2",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "member",
+    "name": "wireFlags",
+    "memberof": "src/fz/geometry.js~Geometry",
+    "static": false,
+    "longname": "src/fz/geometry.js~Geometry#wireFlags",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "file",
+    "name": "src/fz/instance.js",
+    "content": "const Geometry = require('./geometry');\n\n/**\n *\n */\nclass FZInstance {\n  /**\n   * the FZInstance constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    opt = opt || {};\n    this.moduleIdRef = opt.moduleIdRef || '';\n    this.modelIndex = opt.modelIndex || '';\n    this.path = opt.path || '';\n    this.property = opt.property || [];\n    this.title = opt.title || '';\n    this.views = {\n      breadboard: [],\n      pcb: [],\n      schematic: [],\n    };\n  }\n}\n\n/**\n * FZInstanceView\n */\nclass FZInstanceView {\n  /**\n   * FZInstanceView constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    opt = opt || {};\n    this.layer = opt.layer || '';\n    this.bottom = opt.bottom || '';\n    this.geometry = new Geometry(opt.geometry) || new Geometry();\n    this.wireExtra = opt.wireExtra || '';\n    this.connectors = opt.connectors || '';\n  }\n}\n\nmodule.exports = {FZInstance, FZInstanceView};\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/instance.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 110,
+    "kind": "variable",
+    "name": "Geometry",
+    "memberof": "src/fz/instance.js",
+    "static": true,
+    "longname": "src/fz/instance.js~Geometry",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/instance.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 111,
+    "kind": "class",
+    "name": "FZInstance",
+    "memberof": "src/fz/instance.js",
+    "static": true,
+    "longname": "src/fz/instance.js~FZInstance",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/instance.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 112,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#constructor",
+    "access": "public",
+    "description": "the FZInstance constructor",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 113,
+    "kind": "member",
+    "name": "moduleIdRef",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#moduleIdRef",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "member",
+    "name": "modelIndex",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#modelIndex",
+    "access": "public",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 115,
+    "kind": "member",
+    "name": "path",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#path",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 116,
+    "kind": "member",
+    "name": "property",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#property",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 117,
+    "kind": "member",
+    "name": "title",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#title",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 118,
+    "kind": "member",
+    "name": "views",
+    "memberof": "src/fz/instance.js~FZInstance",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstance#views",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"breadboard\": *, \"pcb\": *, \"schematic\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 119,
+    "kind": "class",
+    "name": "FZInstanceView",
+    "memberof": "src/fz/instance.js",
+    "static": true,
+    "longname": "src/fz/instance.js~FZInstanceView",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/instance.js",
+    "importStyle": null,
+    "description": "FZInstanceView",
+    "lineNumber": 29,
+    "interface": false
+  },
+  {
+    "__docId__": 120,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/instance.js~FZInstanceView",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstanceView#constructor",
+    "access": "public",
+    "description": "FZInstanceView constructor",
+    "lineNumber": 34,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 121,
+    "kind": "member",
+    "name": "layer",
+    "memberof": "src/fz/instance.js~FZInstanceView",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstanceView#layer",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 122,
+    "kind": "member",
+    "name": "bottom",
+    "memberof": "src/fz/instance.js~FZInstanceView",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstanceView#bottom",
+    "access": "public",
+    "description": null,
+    "lineNumber": 37,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 123,
+    "kind": "member",
+    "name": "geometry",
+    "memberof": "src/fz/instance.js~FZInstanceView",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstanceView#geometry",
+    "access": "public",
+    "description": null,
+    "lineNumber": 38,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 124,
+    "kind": "member",
+    "name": "wireExtra",
+    "memberof": "src/fz/instance.js~FZInstanceView",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstanceView#wireExtra",
+    "access": "public",
+    "description": null,
+    "lineNumber": 39,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 125,
+    "kind": "member",
+    "name": "connectors",
+    "memberof": "src/fz/instance.js~FZInstanceView",
+    "static": false,
+    "longname": "src/fz/instance.js~FZInstanceView#connectors",
+    "access": "public",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 126,
+    "kind": "file",
+    "name": "src/fz/leg.js",
+    "content": "/**\n * FZLeg\n */\nclass FZLeg {\n  /**\n   * FZLeg constructor\n   */\n  constructor() {\n    this.point = new Vector2D();\n    this.bezier = null;\n  }\n}\n\nmodule.exports = FZLeg;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/leg.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 127,
+    "kind": "class",
+    "name": "FZLeg",
+    "memberof": "src/fz/leg.js",
+    "static": true,
+    "longname": "src/fz/leg.js~FZLeg",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/leg.js",
+    "importStyle": null,
+    "description": "FZLeg",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 128,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/leg.js~FZLeg",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/leg.js~FZLeg#constructor",
+    "access": "public",
+    "description": "FZLeg constructor",
+    "lineNumber": 8
+  },
+  {
+    "__docId__": 129,
+    "kind": "member",
+    "name": "point",
+    "memberof": "src/fz/leg.js~FZLeg",
+    "static": false,
+    "longname": "src/fz/leg.js~FZLeg#point",
+    "access": "public",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 130,
+    "kind": "member",
+    "name": "bezier",
+    "memberof": "src/fz/leg.js~FZLeg",
+    "static": false,
+    "longname": "src/fz/leg.js~FZLeg#bezier",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 131,
+    "kind": "file",
+    "name": "src/fz/program.js",
+    "content": "/**\n * FZProgram\n */\nclass FZProgram {\n  /**\n   * the FZProgram constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    this.language = '';\n    this.source = '';\n  }\n}\n\nmodule.exports = FZProgram;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/program.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 132,
+    "kind": "class",
+    "name": "FZProgram",
+    "memberof": "src/fz/program.js",
+    "static": true,
+    "longname": "src/fz/program.js~FZProgram",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/program.js",
+    "importStyle": null,
+    "description": "FZProgram",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 133,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/program.js~FZProgram",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/program.js~FZProgram#constructor",
+    "access": "public",
+    "description": "the FZProgram constructor",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 134,
+    "kind": "member",
+    "name": "language",
+    "memberof": "src/fz/program.js~FZProgram",
+    "static": false,
+    "longname": "src/fz/program.js~FZProgram#language",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 135,
+    "kind": "member",
+    "name": "source",
+    "memberof": "src/fz/program.js~FZProgram",
+    "static": false,
+    "longname": "src/fz/program.js~FZProgram#source",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 136,
+    "kind": "file",
+    "name": "src/fz/vector2d.js",
+    "content": "/**\n * Vector 2D\n */\nclass Vector2D {\n  /**\n   * Vector2D constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    this.x = opt.x || 0;\n    this.y = opt.y || 0;\n  }\n}\n\nmodule.exports = Vector2D;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fz/vector2d.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 137,
+    "kind": "class",
+    "name": "Vector2D",
+    "memberof": "src/fz/vector2d.js",
+    "static": true,
+    "longname": "src/fz/vector2d.js~Vector2D",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fz/vector2d.js",
+    "importStyle": null,
+    "description": "Vector 2D",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 138,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fz/vector2d.js~Vector2D",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fz/vector2d.js~Vector2D#constructor",
+    "access": "public",
+    "description": "Vector2D constructor",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 139,
+    "kind": "member",
+    "name": "x",
+    "memberof": "src/fz/vector2d.js~Vector2D",
+    "static": false,
+    "longname": "src/fz/vector2d.js~Vector2D#x",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 140,
+    "kind": "member",
+    "name": "y",
+    "memberof": "src/fz/vector2d.js~Vector2D",
+    "static": false,
+    "longname": "src/fz/vector2d.js~Vector2D#y",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 141,
+    "kind": "file",
+    "name": "src/fzz/code.js",
+    "content": "/**\n *\n */\nclass FZZCode {\n  /**\n   * the FZBoard constructor\n   * @param {Object} opt\n   */\n  constructor(opt) {\n    this.filename = '';\n    this.source = '';\n  }\n}\n\nmodule.exports = FZZCode;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fzz/code.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 142,
+    "kind": "class",
+    "name": "FZZCode",
+    "memberof": "src/fzz/code.js",
+    "static": true,
+    "longname": "src/fzz/code.js~FZZCode",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fzz/code.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 143,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fzz/code.js~FZZCode",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fzz/code.js~FZZCode#constructor",
+    "access": "public",
+    "description": "the FZBoard constructor",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 144,
+    "kind": "member",
+    "name": "filename",
+    "memberof": "src/fzz/code.js~FZZCode",
+    "static": false,
+    "longname": "src/fzz/code.js~FZZCode#filename",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 145,
+    "kind": "member",
+    "name": "source",
+    "memberof": "src/fzz/code.js~FZZCode",
+    "static": false,
+    "longname": "src/fzz/code.js~FZZCode#source",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 146,
+    "kind": "file",
+    "name": "src/fzz/fzz.js",
+    "content": "const {FZ} = require('../fz/fz');\n\n/**\n * FZZ is the root object of each fzz file\n */\nclass FZZ {\n  /**\n   * The FZZ constructor\n   * @param {Object} opt       constructor options\n   * @param {Object} opt.uri   name of the fzz (zip archive) file\n   * @param {Object} opt.files list of all files\n   * @param {Object} opt.fz    the man fritzing project file\n   * @param {Object} opt.code  list of code sources\n   * @param {Object} opt.fzps  list of parts fzp files\n   * @param {Object} opt.svg   list of parts svg files\n   * @param {Object} opt.zip   the list of files contained at the fzz archive\n   */\n  constructor(opt) {\n    opt = opt || {};\n    this.uri = opt.uri || undefined;\n    this.files = opt.files || [];\n    this.fz = opt.fz || new FZ();\n\n    // this.code = opt.code || new FZZCode();\n    // this.svgs = {};\n    // this.fzps = {};\n\n    // TODO: remove later. only useful for development\n    this.zip = opt.zip || undefined;\n  }\n}\n\nmodule.exports = FZZ;\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/fzz/fzz.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 147,
+    "kind": "variable",
+    "name": "FZ",
+    "memberof": "src/fzz/fzz.js",
+    "static": true,
+    "longname": "src/fzz/fzz.js~FZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fzz/fzz.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 148,
+    "kind": "class",
+    "name": "FZZ",
+    "memberof": "src/fzz/fzz.js",
+    "static": true,
+    "longname": "src/fzz/fzz.js~FZZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/fzz/fzz.js",
+    "importStyle": null,
+    "description": "FZZ is the root object of each fzz file",
+    "lineNumber": 6,
+    "interface": false
+  },
+  {
+    "__docId__": 149,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/fzz/fzz.js~FZZ",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/fzz/fzz.js~FZZ#constructor",
+    "access": "public",
+    "description": "The FZZ constructor",
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt",
+        "description": "constructor options"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.uri",
+        "description": "name of the fzz (zip archive) file"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.files",
+        "description": "list of all files"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.fz",
+        "description": "the man fritzing project file"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.code",
+        "description": "list of code sources"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.fzps",
+        "description": "list of parts fzp files"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.svg",
+        "description": "list of parts svg files"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "opt.zip",
+        "description": "the list of files contained at the fzz archive"
+      }
+    ]
+  },
+  {
+    "__docId__": 150,
+    "kind": "member",
+    "name": "uri",
+    "memberof": "src/fzz/fzz.js~FZZ",
+    "static": false,
+    "longname": "src/fzz/fzz.js~FZZ#uri",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 151,
+    "kind": "member",
+    "name": "files",
+    "memberof": "src/fzz/fzz.js~FZZ",
+    "static": false,
+    "longname": "src/fzz/fzz.js~FZZ#files",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 152,
+    "kind": "member",
+    "name": "fz",
+    "memberof": "src/fzz/fzz.js~FZZ",
+    "static": false,
+    "longname": "src/fzz/fzz.js~FZZ#fz",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 153,
+    "kind": "member",
+    "name": "zip",
+    "memberof": "src/fzz/fzz.js~FZZ",
+    "static": false,
+    "longname": "src/fzz/fzz.js~FZZ#zip",
+    "access": "public",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 154,
+    "kind": "file",
+    "name": "src/utils.js",
+    "content": "const request = require('request');\nconst JSZip = require('jszip');\nconst FZZ = require('./fzz/fzz');\nconst FZZCode = require('./fzz/code');\nconst {parseFZ} = require('./fz/fz');\n\n/**\n * Load a fzz file from an url\n * @param {string} url\n * @param {Function} cb\n */\nfunction loadFZZ(url, cb) {\n  request({method: 'GET', url: url, encoding: null}, (err, res, body) => {\n    if (err || res.statusCode !== 200) {\n      cb(err, null);\n    }\n    readFZZ(url, body, cb);\n  });\n}\n\n/**\n * read a fzz file data\n * @param {string} url\n * @param {string} data\n * @param {Function} cb\n */\nfunction readFZZ(url, data, cb) {\n  let tmpFZZ = new FZZ();\n  tmpFZZ.uri = url;\n\n  JSZip.loadAsync(data).then((zip) => {\n    tmpFZZ.zip = zip;\n    if (zip.files) {\n      for (let filename in zip.files) {\n        if (zip.files.hasOwnProperty(filename)) {\n          // add each filename to the files array...\n          tmpFZZ.files.push(filename);\n\n          // check the file extension\n          let ext = filename.split('.').pop();\n          // console.log('FILENAME', filename, ext);\n\n          switch (ext) {\n            case 'fz':\n            tmpFZZ.fz.filename = filename;\n            break;\n\n            case 'fzp':\n            tmpFZZ.fz.fzps[filename] = filename;\n            break;\n\n            case 'svg':\n            tmpFZZ.fz.svgs[filename] = filename;\n            break;\n\n            case 'ino':\n            tmpFZZ.fz.code[filename] = new FZZCode();\n            tmpFZZ.fz.code[filename].filename = filename;\n            break;\n\n            default:\n            console.error('filetype not supported', ext, filename);\n            break;\n          }\n        }\n      }\n\n      // unzip the files one by one\n      zip.file(tmpFZZ.fz.filename).async('string').then(function success(text) {\n        parseFZ(tmpFZZ.fz.filename, text, (err, data) => {\n          if (err) {\n            throw err;\n          }\n          tmpFZZ.fz = data;\n          cb(null, tmpFZZ);\n        });\n      });\n    }\n}).catch((e) => {\n  cb(e);\n});\n}\n\n\n/**\n * supported file types and the extension\n */\nconst FZZSourceTypes = {\n  fz: '.fz',\n  ino: '.ino',\n};\n\n/**\n * e.g. getting the path from a fzz.object\n * @param {string} src\n * @return {string}\n */\nfunction getFilenameFromPath(src) {\n  let split = src.split('/');\n  let splitLenght = split.length;\n  return split[splitLenght-1];\n}\n\n/**\n * url util\n * @param {string} src\n * @return {string}\n */\nfunction readFzpFromUrl(src) {\n  let fzpFile = getFilenameFromPath(src);\n  let url = 'http://fritzing.github.io/fritzing-parts/core/' + fzpFile;\n  return url;\n}\n\nmodule.exports = {\n  loadFZZ,\n  readFZZ,\n  FZZSourceTypes,\n  getFilenameFromPath,\n  readFzpFromUrl,\n};\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/src/utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 155,
+    "kind": "variable",
+    "name": "request",
+    "memberof": "src/utils.js",
+    "static": true,
+    "longname": "src/utils.js~request",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 156,
+    "kind": "variable",
+    "name": "JSZip",
+    "memberof": "src/utils.js",
+    "static": true,
+    "longname": "src/utils.js~JSZip",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 157,
+    "kind": "variable",
+    "name": "FZZ",
+    "memberof": "src/utils.js",
+    "static": true,
+    "longname": "src/utils.js~FZZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 158,
+    "kind": "variable",
+    "name": "FZZCode",
+    "memberof": "src/utils.js",
+    "static": true,
+    "longname": "src/utils.js~FZZCode",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 159,
+    "kind": "variable",
+    "name": "parseFZ",
+    "memberof": "src/utils.js",
+    "static": true,
+    "longname": "src/utils.js~parseFZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 160,
+    "kind": "function",
+    "name": "loadFZZ",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~loadFZZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": "Load a fzz file from an url",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cb",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 161,
+    "kind": "function",
+    "name": "readFZZ",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~readFZZ",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": "read a fzz file data",
+    "lineNumber": 27,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "url",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "cb",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 162,
+    "kind": "variable",
+    "name": "FZZSourceTypes",
+    "memberof": "src/utils.js",
+    "static": true,
+    "longname": "src/utils.js~FZZSourceTypes",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": "supported file types and the extension",
+    "lineNumber": 88,
+    "type": {
+      "types": [
+        "{\"fz\": string, \"ino\": string}"
+      ]
+    }
+  },
+  {
+    "__docId__": 163,
+    "kind": "function",
+    "name": "getFilenameFromPath",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~getFilenameFromPath",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": "e.g. getting the path from a fzz.object",
+    "lineNumber": 98,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "src",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 164,
+    "kind": "function",
+    "name": "readFzpFromUrl",
+    "memberof": "src/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils.js~readFzpFromUrl",
+    "access": "public",
+    "export": false,
+    "importPath": "fzz-js/src/utils.js",
+    "importStyle": null,
+    "description": "url util",
+    "lineNumber": 109,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "src",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# fzz-js [![](https://paulvollmer.net/fzz-js/badge.svg)](https://paulvollmer.net/fzz-js/)\n\nfritzing fzz javascript library\n\n## Development\n```sh\nyarn install\nmake test\n```\n\nand int your files after changes\n```sh\nmake lint\n```\n\nto build an es5 compatible version run\n```sh\nmake build\n```\n\n## License\n[MIT-LICENSE](LICENSE)\n",
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"fzz-js\",\n  \"version\": \"0.2.0\",\n  \"description\": \"fritzing fzz javascript library\",\n  \"author\": \"Paul Vollmer\",\n  \"license\": \"MIT\",\n  \"keywords\": [\n    \"fritzing\",\n    \"fzz\"\n  ],\n  \"homepage\": \"https://github.com/paulvollmer/fzz-js#readme\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/paulvollmer/fzz-js.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/paulvollmer/fzz-js/issues\"\n  },\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"pretest\": \"make lint\",\n    \"test\": \"make test\",\n    \"precommit\": \"make lint\",\n    \"prepush\": \"make lint\"\n  },\n  \"jest\": {\n    \"verbose\": true,\n    \"collectCoverage\": true\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-plugin-add-header-comment\": \"^1.0.3\",\n    \"babel-preset-env\": \"^1.6.1\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.18.0\",\n    \"eslint-config-google\": \"^0.9.1\",\n    \"husky\": \"^0.14.3\",\n    \"jest\": \"^22.0.6\"\n  },\n  \"dependencies\": {\n    \"fritzing-js\": \"github:fritzing/fritzing-js\",\n    \"fzp-js\": \"github:fritzing/fzp-js#develop\",\n    \"jszip\": \"^3.1.5\",\n    \"jszip-utils\": \"^0.0.2\",\n    \"request\": \"^2.83.0\",\n    \"xml2js\": \"^0.4.19\"\n  }\n}\n",
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "__docId__": 165,
+    "kind": "testFile",
+    "name": "test/fz.test.js",
+    "content": "'use strict';\n\nconst fs = require('fs');\nconst {parseFZ} = require('../src/fz/fz');\n\n\ntest('Test parseFZ', (done) => {\n  const src = './test/fixtures/Blink/Blink.fz';\n  const data = fs.readFileSync(src);\n  parseFZ(src, data, (err, fz) => {\n    if (err) {\n      console.error('parseFZ Error', err);\n      done(err);\n    }\n    // console.log(JSON.stringify(fz.boards, '', '  '));\n\n    // console.log(fz);\n\n    // test metadata\n    expect(fz.uri).toEqual(src);\n    expect(fz.fritzingVersion).toEqual('0.8.3b.07.27.048f');\n\n    // test the boards\n    expect(fz.boards.length).toEqual(1);\n    expect(fz.boards[0].title).toEqual('Arduino Shield PCB');\n    expect(fz.boards[0].instance).toEqual('PCB1');\n    expect(fz.boards[0].width).toEqual('6.9215cm');\n    expect(fz.boards[0].height).toEqual('5.33756cm');\n\n    // test the views\n    expect(fz.views.breadboard.name).toEqual('breadboardView');\n    expect(fz.views.breadboard.backgroundColor).toEqual('#eff3f5');\n    expect(fz.views.breadboard.gridSize).toEqual('0.1in');\n    expect(fz.views.breadboard.showGrid).toEqual('0');\n    expect(fz.views.breadboard.alignToGrid).toEqual('1');\n    expect(fz.views.breadboard.viewFromBelow).toEqual('0');\n\n    expect(fz.views.schematic.name).toEqual('schematicView');\n    expect(fz.views.schematic.backgroundColor).toEqual('#eff3f5');\n    expect(fz.views.schematic.gridSize).toEqual('0.295276in');\n    expect(fz.views.schematic.showGrid).toEqual('0');\n    expect(fz.views.schematic.alignToGrid).toEqual('1');\n    expect(fz.views.schematic.viewFromBelow).toEqual('0');\n\n    expect(fz.views.pcb.name).toEqual('pcbView');\n    expect(fz.views.pcb.backgroundColor).toEqual('#a0a8b3');\n    expect(fz.views.pcb.gridSize).toEqual('0.05in');\n    expect(fz.views.pcb.showGrid).toEqual('1');\n    expect(fz.views.pcb.alignToGrid).toEqual('1');\n    expect(fz.views.pcb.viewFromBelow).toEqual('0');\n    // expect(fz.views.pcb.gpgKeepout).toEqual('0');\n    expect(fz.views.pcb.autorouteViaHoleSize).toEqual('0.4mm');\n    expect(fz.views.pcb.autorouteTraceWidth).toEqual('24');\n    expect(fz.views.pcb.autorouteViaRingThickness).toEqual('0.3mm');\n    // expect(fz.views.pcb.drcKeepout).toEqual('0.01in');\n\n    expect(fz.instances[0].moduleIdRef).toEqual('5mmColorLEDModuleID');\n    expect(fz.instances[0].modelIndex).toEqual('2017');\n    expect(fz.instances[0].path).toEqual('/Applications/Fritzing.app/Contents/MacOS/pdb/core/LED-generic-5mm.fzp');\n    // expect(fz.instances[0].property.name).toEqual('color');\n    // expect(fz.instances[0].property.value).toEqual('Red (633nm)');\n    // expect(fz.instances[0].title).toEqual('LED');\n\n    // console.log(fzz.fz.instances[0]);\n\n    // fz.loadFzps(() => {\n    // .then(d => {\n    //   console.log('loaded all fzp files');\n    //   return d\n    // })\n    // .catch(e => {\n    //     console.error(e);\n    // });\n    // fzz.fz.instances[0].loadFzp().then(data => {\n    //   console.log('OKKKK');\n\n    //   expect(fz.fzps['5mmColorLEDModuleID'].modelIndex).toEqual('2017');\n    // });\n\n    done();\n  });\n});\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/test/fz.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 166,
+    "kind": "test",
+    "name": "test0",
+    "testId": 0,
+    "memberof": "test/fz.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "test/fz.test.js~test0",
+    "access": null,
+    "description": "Test parseFZ",
+    "lineNumber": 7
+  },
+  {
+    "__docId__": 167,
+    "kind": "testFile",
+    "name": "test/utils.test.js",
+    "content": "'use strict';\n\nconst fs = require('fs');\nconst {loadFZZ, readFZZ} = require('../src/utils');\nconsole.log(readFZZ);\n\ntest('Test loadFZZ', (done) => {\n  const url = 'https://raw.githubusercontent.com/fritzing/creatorkit-code/master/en/Fritzing/Blink.fzz';\n  loadFZZ(url, (err, fzz) => {\n    if (err) {\n      console.log('loadFZZ Error', err);\n      done(err);\n    }\n    expect(fzz.uri).toEqual(url);\n    expect(fzz.files.length).toEqual(1);\n    expect(fzz.files[0]).toEqual('Blink.fz');\n    expect(fzz.fz.uri).toEqual('Blink.fz');\n    done();\n  });\n});\n\ntest('Test readFZZ', (done) => {\n  const data = fs.readFileSync('./test/fixtures/Blink.fzz');\n  readFZZ('test', data, (err, fzz) => {\n    if (err) {\n      console.error('readFileSync Error', err);\n      done(err);\n    }\n    // TODO: expect\n    done();\n  });\n});\n",
+    "static": true,
+    "longname": "/Users/paul/code/src/github.com/fritzing/fzz-js/test/utils.test.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 168,
+    "kind": "test",
+    "name": "test1",
+    "testId": 1,
+    "memberof": "test/utils.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "test/utils.test.js~test1",
+    "access": null,
+    "description": "Test loadFZZ",
+    "lineNumber": 7
+  },
+  {
+    "__docId__": 169,
+    "kind": "test",
+    "name": "test2",
+    "testId": 2,
+    "memberof": "test/utils.test.js",
+    "testDepth": 0,
+    "static": true,
+    "longname": "test/utils.test.js~test2",
+    "access": null,
+    "description": "Test readFZZ",
+    "lineNumber": 22
+  }
+]

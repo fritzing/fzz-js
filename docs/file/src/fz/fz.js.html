@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/fz/fz.js | fzz</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="fritzing fzz"><meta property="og:type" content="website"><meta property="og:url" content="https://paulvollmer.net"><meta property="og:site_name" content="fzz"><meta property="og:title" content="fzz"><meta property="og:image" content="https://github.com/paulvollmer/logo.png"><meta property="og:description" content="fritzing fzz"><meta property="og:author" content="https://github.com/paulvollmer"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"><meta property="twitter:image" content="https://github.com/paulvollmer/logo.png"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/paulvollmer/fzz"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFilenameFromPath">getFilenameFromPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-loadFZZ">loadFZZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFZZ">readFZZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFzpFromUrl">readFzpFromUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FZZSourceTypes">FZZSourceTypes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fz">fz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/board.js~FZBoard.html">FZBoard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connect.html">Connect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connector.html">Connector</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/fz.js~FZ.html">FZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/geometry.js~Geometry.html">Geometry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstance.html">FZInstance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstanceView.html">FZInstanceView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/leg.js~FZLeg.html">FZLeg</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/program.js~FZProgram.html">FZProgram</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/vector2d.js~Vector2D.html">Vector2D</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createFZPsMap">createFZPsMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFileExt">getFileExt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseConnects">parseConnects</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZ">parseFZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZBoard">parseFZBoard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZBoards">parseFZBoards</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZInstance">parseFZInstance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZInstances">parseFZInstances</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZViews">parseFZViews</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseGeometry">parseGeometry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseInstanceView">parseInstanceView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseInstanceViewConnectors">parseInstanceViewConnectors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseProperty">parseProperty</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fzz">fzz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fzz/code.js~FZZCode.html">FZZCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fzz/fzz.js~FZZ.html">FZZ</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/fz/fz.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const parseXml = require(&apos;xml2js&apos;).parseString;
+const {FZP} = require(&apos;fzp-js&apos;);
+const FZBoard = require(&apos;./board&apos;);
+const {Connector} = require(&apos;./connector&apos;);
+const {FZInstance, FZInstanceView} = require(&apos;./instance&apos;);
+
+/**
+ * the FZ constructor
+ */
+class FZ {
+  /**
+   * @param {String} uri uri of the fz
+   */
+  constructor(uri) {
+    this.xml = undefined; // store the raw xml data
+    this.uri = uri || &apos;&apos;; // store the fzz filename
+    this.fritzingVersion = &apos;&apos;;
+    this.boards = {}; // list of FZBoard items
+    this.programs = {}; // list of FZProgram items
+    this.instances = {}; //
+    this.views = {
+      breadboard: {
+        backgroundColor: &apos;#ffffff&apos;,
+        gridSize: &apos;0.1in&apos;,
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0,
+      },
+      schematic: {
+        backgroundColor: &apos;#ffffff&apos;,
+        gridSize: &apos;0.1in&apos;,
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0,
+      },
+      pcb: {
+        backgroundColor: &apos;#333333&apos;,
+        gridSize: &apos;0.05in&apos;,
+        showGrid: 1,
+        alignToGrid: 1,
+        viewFromBelow: 0,
+        autorouteViaHoleSize: &apos;0.4mm&apos;,
+        autorouteTraceWidth: 24,
+        autorouteViaRingThickness: &apos;0.3mm&apos;,
+      },
+    };
+    this.code = {};
+
+    this.fzps = {};
+  }
+
+  /**
+   * get the BOM
+   * @return {Array}
+   */
+  getBOM() {
+    let bomData = [];
+    for (let i = 0; i &lt; this.fz.instances.length; i++) {
+      // console.log(this.fz.instances[i]);
+      if (this.fz.instances[i].moduleIdRef !== &apos;WireModuleID&apos; &amp;&amp;
+          this.fz.instances[i].moduleIdRef !== &apos;LogoImageModuleID&apos;) {
+        let bomItem = {
+          moduleIdRef: this.fz.instances[i].moduleIdRef,
+          active: true,
+        };
+        bomData.push(bomItem);
+      }
+    }
+    return bomData;
+  }
+}
+
+/**
+ * parse fz xml data and return a FZ object.&#xA7;&#xA7;&#xA7;&#xA7;&#xA7;&#xA7;
+ * @param {String} uri
+ * @param {String} src
+ * @param {Function} cb
+ */
+function parseFZ(uri, src, cb) {
+  let tmpFZ = new FZ();
+  tmpFZ.uri = uri;
+
+  parseXml(src, (err, xmlDoc) =&gt; {
+    if (err) {
+      cb(err);
+    }
+
+    if (xmlDoc) {
+      // console.log(&apos;#-------------------------------------&apos;);
+      // console.log(xmlDoc);
+      // console.log(&apos;#-------------------------------------&apos;);
+
+      // the fz file must be the same name as the filepath/filename.fz
+      // var base = src.replace(/^.*[\\\/]/, &apos;&apos;);
+      // var baseFz = base.slice(0, -1);
+      // if (filename !== undefined || filename !== baseFz) {
+      //   alert(&apos;FZZ NOT VALID&apos;)
+      //   console.log(&apos;OKKK&apos;, filename, baseFz);
+      // }
+
+      tmpFZ.fritzingVersion = xmlDoc.module.$.fritzingVersion;
+      if (xmlDoc.module.boards) tmpFZ.boards = parseFZBoards(xmlDoc.module.boards);
+      if (xmlDoc.module.views) tmpFZ.views = parseFZViews(xmlDoc.module.views);
+      if (xmlDoc.module.instances) tmpFZ.instances = parseFZInstances(xmlDoc.module.instances);
+
+      // tmpFZ.programs = parseFZPrograms(xmlDoc.module.programs);
+
+      tmpFZ.fzps = createFZPsMap(xmlDoc.module.instances);
+    }
+
+    cb(null, tmpFZ);
+  });
+}
+
+/**
+ * @param {String} src
+ * @return {String}
+ */
+function getFileExt(src) {
+  return src.substr((src.lastIndexOf(&apos;.&apos;) +1));
+}
+
+/**
+ * @param {Object} xml
+ * @return {Object}
+ */
+function createFZPsMap(xml) {
+  let d = {};
+  for (let i = 0; i &lt; xml.length; i++) {
+    for (let j = 0; j &lt; xml[i].instance.length; j++) {
+      let modId = xml[i].instance[j].$.moduleIdRef;
+      let path = xml[i].instance[j].$.path;
+      if (getFileExt(path) === &apos;fzp&apos;) {
+        let theName = &apos;&apos;;
+        let theType = &apos;&apos;;
+
+        let pathSplitted = path.split(&apos;/&apos;);
+        theName = pathSplitted[pathSplitted.length-1];
+        if (pathSplitted[0] === &apos;:&apos; &amp;&amp; pathSplitted[1] === &apos;resources&apos;) {
+          theType = &apos;core-resources&apos;;
+        } else if (pathSplitted[pathSplitted.length-2] === &apos;core&apos;) {
+          theType = &apos;core&apos;;
+        } else if (pathSplitted[pathSplitted.length-2] === &apos;obsolete&apos;) {
+          theType = &apos;obsolete&apos;;
+        }
+
+        // console.log(theName, theType);
+        d[modId] = {
+          name: theName,
+          type: theType,
+          path: path,
+          fzp: new FZP(),
+        };
+      }
+    }
+  }
+  return d;
+}
+
+/**
+ * @param {Object} xml
+ * @return {Object}
+ */
+function parseProperty(xml) {
+  let d = {};
+  for (let i = 0; i &lt; xml.length; i++) {
+    const key = xml[i].$.name;
+    d[key] = xml[i].$.value;
+  }
+  return d;
+}
+
+/**
+ * @param {Object} xml
+ * @return {ARRAY}
+ */
+function parseFZInstances(xml) {
+  let instances = [];
+  for (let i = 0; i &lt; xml.length; i++) {
+    for (let j = 0; j &lt; xml[i].instance.length; j++) {
+      instances.push(parseFZInstance(xml[i].instance[j]));
+    }
+  }
+  return instances;
+}
+
+/**
+ * @param {Object} xml
+ * @return {FZInstance}
+ */
+function parseFZInstance(xml) {
+  let instance = new FZInstance();
+  instance.moduleIdRef = xml.$.moduleIdRef;
+  instance.modelIndex =xml.$.modelIndex;
+  instance.path = xml.$.path;
+  if (xml.property) instance.property = parseProperty(xml.property);
+  instance.title = xml.title;
+  if (xml.views[0].breadboardView) instance.views.breadboard = parseInstanceView(xml.views[0].breadboardView);
+  if (xml.views[0].pcbView) instance.views.pcb = parseInstanceView(xml.views[0].pcbView);
+  if (xml.views[0].schematicView) instance.views.schematic = parseInstanceView(xml.views[0].schematicView);
+  return instance;
+}
+
+/**
+ * @param {Object} xml
+ * @return {FZInstanceView}
+ */
+function parseInstanceView(xml) {
+  let instanceView = new FZInstanceView({
+    layer: xml[0].$.layer,
+    bottom: xml[0].$.bottom,
+    geometry: xml[0].geometry[0].$,
+    wireExtra: xml[0].wireExtra,
+    connectors: parseInstanceViewConnectors(xml[0].connectors),
+  });
+  return instanceView;
+}
+
+/**
+ * @param {Object} xml
+ * @return {ARRAY}
+ */
+function parseInstanceViewConnectors(xml) {
+  let connectors = [];
+  if (xml) {
+    for (let i = 0; i &lt; xml[0].connector.length; i++) {
+      // console.log(xml[0].connector[i]);
+      let connector = new Connector();
+      connector.connectorId = xml[0].connector[i].$.connectorId;
+      connector.layer = xml[0].connector[i].$.layer;
+      connector.geometry = parseGeometry(xml[0].connector[i].geometry);
+      connector.connects = parseConnects(xml[0].connector[i].connects);
+      connectors.push(connector);
+    }
+  }
+  return connectors;
+}
+
+/**
+ * @param {Object} xml
+ * @return {OBJECT}
+ */
+function parseConnects(xml) {
+  let connects = {};
+  if (xml) {
+    if (xml[0]) {
+      for (let i = 0; i &lt; xml[0].connect.length; i++) {
+        let id = xml[0].connect[i].$.connectorId;
+        connects[id] = {
+          modelIndex: xml[0].connect[i].$.modelIndex,
+          layer: xml[0].connect[i].$.layer,
+        };
+      }
+    }
+  }
+  return connects;
+}
+
+/**
+ * @param {Object} xml
+ * @return {Object}
+ */
+function parseGeometry(xml) {
+  let vect = {x: 0, y: 0};
+  if (xml) {
+    if (xml[0]) {
+      vect.x = xml[0].$.x;
+      vect.y = xml[0].$.y;
+    }
+  }
+  return vect;
+}
+
+/**
+ * @param {Object} xml
+ * @return {Array}
+ */
+function parseFZBoards(xml) {
+  let boards = [];
+  for (let i = 0; i &lt; xml.length; i++) {
+    boards.push(parseFZBoard(xml[i].board));
+  }
+  return boards;
+ }
+
+ /**
+  * @param {Object} xml
+  * @return {FZBoard}
+  */
+function parseFZBoard(xml) {
+  let board = new FZBoard();
+  board.moduleId = xml[0].$.moduleId;
+  board.title = xml[0].$.title;
+  board.instance = xml[0].$.instance;
+  board.width = xml[0].$.width;
+  board.height = xml[0].$.height;
+  return board;
+}
+
+ /**
+  * @param {Object} xml
+  * @return {Array}
+  */
+// function parseFZPrograms(xml) {
+//   // console.log(&apos;parseFZPrograms&apos;, xml);
+//   let programs = [];
+//   for (let i = 0; i &lt; xml.childNodes.length; i++) {
+//     let tmpNode = xml.childNodes[i];
+//     // console.log(&apos;view&apos;, tmpNode);
+//     if (tmpNode.nodeName === &apos;program&apos;) {
+//       // console.log(tmpNode);
+//
+//       let tmpProgram = new FZProgram();
+//       tmpProgram.source = tmpNode.innerHTML;
+//
+//       for (let a = 0; a &lt; tmpNode.attributes.length; a++) {
+//         let tmpAttr = tmpNode.attributes[a];
+//         switch (tmpAttr.name) {
+//           case &apos;language&apos;:
+//             tmpProgram.language = tmpAttr.nodeValue;
+//             break;
+//         }
+//       }
+//
+//       programs.push(tmpProgram);
+//     }
+//   }
+//   return programs;
+// }
+
+/**
+ * @param {Object} xml
+ * @return {Object}
+ */
+function parseFZViews(xml) {
+  let views = {
+    breadboard: {},
+    schematic: {},
+    pcb: {},
+  };
+  for (let j = 0; j &lt; xml[0].view.length; j++) {
+    switch (xml[0].view[j].$.name) {
+      case &apos;breadboardView&apos;:
+        views.breadboard = {
+          name: xml[0].view[j].$.name,
+          backgroundColor: xml[0].view[j].$.backgroundColor,
+          gridSize: xml[0].view[j].$.gridSize,
+          showGrid: xml[0].view[j].$.showGrid,
+          alignToGrid: xml[0].view[j].$.alignToGrid,
+          viewFromBelow: xml[0].view[j].$.viewFromBelow,
+        };
+        break;
+
+      case &apos;schematicView&apos;:
+        views.schematic = {
+          name: xml[0].view[j].$.name,
+          backgroundColor: xml[0].view[j].$.backgroundColor,
+          gridSize: xml[0].view[j].$.gridSize,
+          showGrid: xml[0].view[j].$.showGrid,
+          alignToGrid: xml[0].view[j].$.alignToGrid,
+          viewFromBelow: xml[0].view[j].$.viewFromBelow,
+        };
+        break;
+
+      case &apos;pcbView&apos;:
+        views.pcb = {
+          name: xml[0].view[j].$.name,
+          backgroundColor: xml[0].view[j].$.backgroundColor,
+          gridSize: xml[0].view[j].$.gridSize,
+          showGrid: xml[0].view[j].$.showGrid,
+          alignToGrid: xml[0].view[j].$.alignToGrid,
+          viewFromBelow: xml[0].view[j].$.viewFromBelow,
+          gpgKeepout: xml[0].view[j].$.gpgKeepout,
+          autorouteViaHoleSize: xml[0].view[j].$.autorouteViaHoleSize,
+          autorouteTraceWidth: xml[0].view[j].$.autorouteTraceWidth,
+          autorouteViaRingThickness: xml[0].view[j].$.autorouteViaRingThickness,
+          drcKeepout: xml[0].view[j].$.drcKeepout,
+        };
+        break;
+    }
+  }
+  return views;
+}
+
+/**
+ * @param {Object} xml
+ * @return {FZView}
+ */
+// function parseFZView(xml) {
+//   let view = new FZView();
+//   view.name = xml.$.name;
+//   view.backgroundColor = xml.$.backgroundColor;
+//   view.gridSize = xml.$.gridSize;
+//   view.showGrid = xml.$.showGrid;
+//   view.alignToGrid = xml.$.alignToGrid;
+//   view.viewFromBelow = xml.$.viewFromBelow;
+//   view.gpgKeepout = xml.$.gpgKeepout;
+//   view.autorouteViaHoleSize = xml.$.autorouteViaHoleSize;
+//   view.autorouteTraceWidth = xml.$.autorouteTraceWidth;
+//   view.autorouteViaRingThickness = xml.$.autorouteViaRingThickness;
+//   view.drcKeepout = xml.$.drcKeepout;
+//   return view;
+// }
+
+// function parseFZInstances(xml) {
+//   // console.log(&apos;parseFZInstances&apos;, xml);
+//
+//   let instances = [];
+//
+//   for (let i = 0; i &lt; xml.childNodes.length; i++) {
+//     let tmpNode = xml.childNodes[i];
+//     // console.log(&apos;view&apos;, tmpNode);
+//
+//     if (tmpNode.nodeName === &apos;instance&apos;) {
+//       // console.log(tmpNode);
+//
+//       let tmpInstance = {
+//           moduleIdRef: &apos;&apos;,
+//           modelIndex: &apos;&apos;,
+//           path: &apos;&apos;,
+//           property: {
+//             name: &apos;&apos;,
+//             value: &apos;&apos;,
+//           },
+//           title: &apos;&apos;,
+//           views: {
+//             breadboardView: undefined,
+//             pcbView: undefined,
+//             schematicView: undefined,
+//           },
+//       };
+//
+//       // get the attributes of the instance tag...
+//       // console.log(&apos;attributes&apos;, tmpNode.attributes);
+//       for (let a = 0; a &lt; tmpNode.attributes.length; a++) {
+//         let tmpAttr = tmpNode.attributes[a];
+//         switch (tmpAttr.name) {
+//           case &apos;moduleIdRef&apos;:
+//             tmpInstance.moduleIdRef = tmpAttr.nodeValue;
+//             break;
+//           case &apos;modelIndex&apos;:
+//             tmpInstance.modelIndex = tmpAttr.nodeValue;
+//             break;
+//           case &apos;path&apos;:
+//             tmpInstance.path = tmpAttr.nodeValue;
+//             break;
+//         }
+//       }
+//
+//       // get the instance tag childs...
+//       // console.log(tmpNode.childNodes);
+//       for (let j = 0; j &lt; tmpNode.childNodes.length; j++) {
+//         // console.log(&apos;--&apos;, j, tmpNode.childNodes[j]);
+//         switch (tmpNode.childNodes[j].nodeName) {
+//           // get property...
+//           case &apos;property&apos;:
+//             var tmpProp = tmpNode.childNodes[j];
+//             // console.log(&apos;tmpProp:&apos;, tmpProp);
+//             // get attributes...
+//             for (let pa = 0; pa &lt; tmpProp.attributes.length; pa++) {
+//               // console.log(tmpProp.attributes[pa]);
+//               switch (tmpProp.attributes[pa].name) {
+//                 case &apos;name&apos;:
+//                   tmpInstance.property.name = tmpProp.attributes[pa].nodeValue;
+//                   break;
+//                 case &apos;value&apos;:
+//                   tmpInstance.property.value = tmpProp.attributes[pa].nodeValue;
+//                   break;
+//               }
+//             }
+//             break;
+//
+//           // get title...
+//           case &apos;title&apos;:
+//             // console.log(&apos;TITLE&apos;, tmpNode.childNodes[j].innerHTML);
+//             tmpInstance.title = tmpNode.childNodes[j].innerHTML;
+//             break;
+//
+//           // get views...
+//           case &apos;views&apos;:
+//             tmpInstance.views = parseFZInstancesViews(tmpNode.childNodes[j]);
+//             break;
+//         }
+//       }
+//
+//       instances.push(tmpInstance);
+//     }
+//   }
+//
+//   return instances;
+// }
+
+/**
+ * @param {Object} xml
+ * @return {Object}
+ */
+// function parseFZInstancesViews(xml) {
+//   // console.log(&apos;call parseFZInstancesViews&apos;, xml);
+//   let tmpViews = {
+//     breadboardView: undefined,
+//     pcbView: undefined,
+//     schematicView: undefined,
+//   };
+//
+//
+//   for (let i = 0; i &lt; xml.childNodes.length; i++) {
+//     let tmpNode = xml.childNodes[i];
+//     // console.log(tmpNode.nodeName);
+//
+//     let tmpInstanceView = {
+//       layer: &apos;&apos;,
+//       geometry: {
+//         x: 0,
+//         y: 0,
+//         z: 0,
+//       },
+//       connectors: [],
+//     };
+//
+//     switch (tmpNode.nodeName) {
+//       case &apos;breadboardView&apos;:
+//
+//         // console.log(&apos;BB&apos;, tmpNode.childNodes);
+//         for (let ib = 0; ib &lt; tmpNode.childNodes.length; ib++) {
+//           // console.log(tmpNode.childNodes[ib]);
+//           switch (tmpNode.childNodes[ib].nodeName) {
+//             case &apos;geometry&apos;:
+//               // console.log(&apos;X&apos;, &apos;Y&apos;, tmpNode.childNodes[ib].attributes);
+//               for (let i = 0; i &lt; tmpNode.childNodes[ib].attributes.length; i++) {
+//                 let tmpAttr = tmpNode.childNodes[ib].attributes[i];
+//                 // console.log(tmpAttr);
+//                 switch (tmpAttr.name) {
+//                   case &apos;x&apos;:
+//                     tmpInstanceView.geometry.x = tmpAttr.nodeValue;
+//                     break;
+//                   case &apos;y&apos;:
+//                     tmpInstanceView.geometry.y = tmpAttr.nodeValue;
+//                     break;
+//                   case &apos;z&apos;:
+//                     tmpInstanceView.geometry.z = tmpAttr.nodeValue;
+//                     break;
+//                 }
+//               }
+//               break;
+//
+//             case &apos;connectors&apos;:
+//               let tmpCons = tmpNode.childNodes[ib].childNodes;
+//               // console.log(tmpCons);
+//               for (let ic = 0; ic &lt; tmpCons.length; ic++) {
+//                 switch (tmpCons[ic].nodeName) {
+//                   case &apos;connector&apos;:
+//                     // console.log(&apos;CON&apos;, tmpCons[ic]);
+//
+//                     break;
+//                   default:
+//                 }
+//               }
+//               break;
+//           }
+//         }
+//         tmpViews.breadboardView = tmpInstanceView;
+//
+//         break;
+//     }
+//   }
+//
+//   return tmpViews;
+// }
+
+module.exports = {FZ, parseFZ};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

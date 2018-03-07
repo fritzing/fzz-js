@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">test/fz.test.js | fzz</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="fritzing fzz"><meta property="og:type" content="website"><meta property="og:url" content="https://paulvollmer.net"><meta property="og:site_name" content="fzz"><meta property="og:title" content="fzz"><meta property="og:image" content="https://github.com/paulvollmer/logo.png"><meta property="og:description" content="fritzing fzz"><meta property="og:author" content="https://github.com/paulvollmer"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"><meta property="twitter:image" content="https://github.com/paulvollmer/logo.png"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  <a href="test.html" data-ice="testLink">Test</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/paulvollmer/fzz"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFilenameFromPath">getFilenameFromPath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-loadFZZ">loadFZZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFZZ">readFZZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFzpFromUrl">readFzpFromUrl</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FZZSourceTypes">FZZSourceTypes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fz">fz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/board.js~FZBoard.html">FZBoard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connect.html">Connect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connector.html">Connector</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/fz.js~FZ.html">FZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/geometry.js~Geometry.html">Geometry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstance.html">FZInstance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstanceView.html">FZInstanceView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/leg.js~FZLeg.html">FZLeg</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/program.js~FZProgram.html">FZProgram</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/vector2d.js~Vector2D.html">Vector2D</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createFZPsMap">createFZPsMap</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getFileExt">getFileExt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseConnects">parseConnects</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZ">parseFZ</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZBoard">parseFZBoard</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZBoards">parseFZBoards</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZInstance">parseFZInstance</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZInstances">parseFZInstances</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseFZViews">parseFZViews</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseGeometry">parseGeometry</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseInstanceView">parseInstanceView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseInstanceViewConnectors">parseInstanceViewConnectors</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-parseProperty">parseProperty</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fzz">fzz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fzz/code.js~FZZCode.html">FZZCode</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fzz/fzz.js~FZZ.html">FZZ</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">test/fz.test.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&apos;use strict&apos;;
+
+const fs = require(&apos;fs&apos;);
+const {parseFZ} = require(&apos;../src/fz/fz&apos;);
+
+
+test(&apos;Test parseFZ&apos;, (done) =&gt; {
+  const src = &apos;./test/fixtures/Blink/Blink.fz&apos;;
+  const data = fs.readFileSync(src);
+  parseFZ(src, data, (err, fz) =&gt; {
+    if (err) {
+      console.error(&apos;parseFZ Error&apos;, err);
+      done(err);
+    }
+    // console.log(JSON.stringify(fz.boards, &apos;&apos;, &apos;  &apos;));
+
+    // console.log(fz);
+
+    // test metadata
+    expect(fz.uri).toEqual(src);
+    expect(fz.fritzingVersion).toEqual(&apos;0.8.3b.07.27.048f&apos;);
+
+    // test the boards
+    expect(fz.boards.length).toEqual(1);
+    expect(fz.boards[0].title).toEqual(&apos;Arduino Shield PCB&apos;);
+    expect(fz.boards[0].instance).toEqual(&apos;PCB1&apos;);
+    expect(fz.boards[0].width).toEqual(&apos;6.9215cm&apos;);
+    expect(fz.boards[0].height).toEqual(&apos;5.33756cm&apos;);
+
+    // test the views
+    expect(fz.views.breadboard.name).toEqual(&apos;breadboardView&apos;);
+    expect(fz.views.breadboard.backgroundColor).toEqual(&apos;#eff3f5&apos;);
+    expect(fz.views.breadboard.gridSize).toEqual(&apos;0.1in&apos;);
+    expect(fz.views.breadboard.showGrid).toEqual(&apos;0&apos;);
+    expect(fz.views.breadboard.alignToGrid).toEqual(&apos;1&apos;);
+    expect(fz.views.breadboard.viewFromBelow).toEqual(&apos;0&apos;);
+
+    expect(fz.views.schematic.name).toEqual(&apos;schematicView&apos;);
+    expect(fz.views.schematic.backgroundColor).toEqual(&apos;#eff3f5&apos;);
+    expect(fz.views.schematic.gridSize).toEqual(&apos;0.295276in&apos;);
+    expect(fz.views.schematic.showGrid).toEqual(&apos;0&apos;);
+    expect(fz.views.schematic.alignToGrid).toEqual(&apos;1&apos;);
+    expect(fz.views.schematic.viewFromBelow).toEqual(&apos;0&apos;);
+
+    expect(fz.views.pcb.name).toEqual(&apos;pcbView&apos;);
+    expect(fz.views.pcb.backgroundColor).toEqual(&apos;#a0a8b3&apos;);
+    expect(fz.views.pcb.gridSize).toEqual(&apos;0.05in&apos;);
+    expect(fz.views.pcb.showGrid).toEqual(&apos;1&apos;);
+    expect(fz.views.pcb.alignToGrid).toEqual(&apos;1&apos;);
+    expect(fz.views.pcb.viewFromBelow).toEqual(&apos;0&apos;);
+    // expect(fz.views.pcb.gpgKeepout).toEqual(&apos;0&apos;);
+    expect(fz.views.pcb.autorouteViaHoleSize).toEqual(&apos;0.4mm&apos;);
+    expect(fz.views.pcb.autorouteTraceWidth).toEqual(&apos;24&apos;);
+    expect(fz.views.pcb.autorouteViaRingThickness).toEqual(&apos;0.3mm&apos;);
+    // expect(fz.views.pcb.drcKeepout).toEqual(&apos;0.01in&apos;);
+
+    expect(fz.instances[0].moduleIdRef).toEqual(&apos;5mmColorLEDModuleID&apos;);
+    expect(fz.instances[0].modelIndex).toEqual(&apos;2017&apos;);
+    expect(fz.instances[0].path).toEqual(&apos;/Applications/Fritzing.app/Contents/MacOS/pdb/core/LED-generic-5mm.fzp&apos;);
+    // expect(fz.instances[0].property.name).toEqual(&apos;color&apos;);
+    // expect(fz.instances[0].property.value).toEqual(&apos;Red (633nm)&apos;);
+    // expect(fz.instances[0].title).toEqual(&apos;LED&apos;);
+
+    // console.log(fzz.fz.instances[0]);
+
+    // fz.loadFzps(() =&gt; {
+    // .then(d =&gt; {
+    //   console.log(&apos;loaded all fzp files&apos;);
+    //   return d
+    // })
+    // .catch(e =&gt; {
+    //     console.error(e);
+    // });
+    // fzz.fz.instances[0].loadFzp().then(data =&gt; {
+    //   console.log(&apos;OKKKK&apos;);
+
+    //   expect(fz.fzps[&apos;5mmColorLEDModuleID&apos;].modelIndex).toEqual(&apos;2017&apos;);
+    // });
+
+    done();
+  });
+});
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.0.4)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
