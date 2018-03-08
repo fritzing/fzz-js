@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * FZLeg
+ * FZLeg for breadboard views.
  */
 class FZLeg {
   /**

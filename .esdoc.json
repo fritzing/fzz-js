@@ -19,10 +19,10 @@
           "logo": "",
           "title": "fzz",
           "description": "fritzing fzz",
-          "repository": "https://github.com/paulvollmer/fzz",
-          "site": "https://paulvollmer.net",
-          "author": "https://github.com/paulvollmer",
-          "image": "https://github.com/paulvollmer/logo.png"
+          "repository": "https://github.com/fritzing/fzz",
+          "site": "https://fritzing.org",
+          "author": "https://github.com/fritzing",
+          "image": ""
         },
         "test": {
           "source": "./test/",
