@@ -48,7 +48,7 @@ test('Test loadFZZ', (done) => {
   });
 });
 
-test('Test readFZZ', (done) => {
+test('Test readFZZ and loadFzps', (done) => {
   const data = fs.readFileSync('./test/fixtures/Blink.fzz');
   readFZZ('test', data, (err, fzz) => {
     if (err) {
