@@ -1,7 +1,9 @@
+'use strict';
+
 const parseXml = require('xml2js').parseString;
 const {FZP} = require('fzp-js');
 const FZBoard = require('./board');
-const {Connector} = require('./connector');
+const {FZConnector} = require('./connector');
 const {FZInstance, FZInstanceView} = require('./instance');
 
 /**
@@ -194,7 +196,7 @@ function parseFZInstance(xml) {
   instance.modelIndex =xml.$.modelIndex;
   instance.path = xml.$.path;
   if (xml.property) instance.property = parseProperty(xml.property);
-  instance.title = xml.title;
+  instance.title = xml.title[0];
   if (xml.views[0].breadboardView) instance.views.breadboard = parseInstanceView(xml.views[0].breadboardView);
   if (xml.views[0].pcbView) instance.views.pcb = parseInstanceView(xml.views[0].pcbView);
   if (xml.views[0].schematicView) instance.views.schematic = parseInstanceView(xml.views[0].schematicView);
@@ -225,7 +227,7 @@ function parseInstanceViewConnectors(xml) {
   if (xml) {
     for (let i = 0; i < xml[0].connector.length; i++) {
       // console.log(xml[0].connector[i]);
-      let connector = new Connector();
+      let connector = new FZConnector();
       connector.connectorId = xml[0].connector[i].$.connectorId;
       connector.layer = xml[0].connector[i].$.layer;
       connector.geometry = parseGeometry(xml[0].connector[i].geometry);

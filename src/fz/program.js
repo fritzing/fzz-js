@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * FZProgram
  */
@@ -7,8 +9,9 @@ class FZProgram {
    * @param {Object} opt
    */
   constructor(opt) {
-    this.language = '';
-    this.source = '';
+    opt = opt || {};
+    this.language = opt.language || null;
+    this.source = opt.source || null;
   }
 }
 

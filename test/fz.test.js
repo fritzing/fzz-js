@@ -54,14 +54,40 @@ test('Test parseFZ', (done) => {
     expect(fz.views.pcb.autorouteViaRingThickness).toEqual('0.3mm');
     // expect(fz.views.pcb.drcKeepout).toEqual('0.01in');
 
-    expect(fz.instances[0].moduleIdRef).toEqual('5mmColorLEDModuleID');
-    expect(fz.instances[0].modelIndex).toEqual('2017');
-    expect(fz.instances[0].path).toEqual('/Applications/Fritzing.app/Contents/MacOS/pdb/core/LED-generic-5mm.fzp');
-    // expect(fz.instances[0].property.name).toEqual('color');
-    // expect(fz.instances[0].property.value).toEqual('Red (633nm)');
-    // expect(fz.instances[0].title).toEqual('LED');
+    let inst1 = fz.instances[0];
+    expect(inst1.moduleIdRef).toEqual('5mmColorLEDModuleID');
+    expect(inst1.modelIndex).toEqual('2017');
+    expect(inst1.path).toEqual('/Applications/Fritzing.app/Contents/MacOS/pdb/core/LED-generic-5mm.fzp');
+    expect(inst1.title).toEqual('LED');
+    expect(inst1.property['color']).toEqual('Red (633nm)');
+    expect(inst1.views.breadboard.layer).toEqual('breadboard');
+    expect(inst1.views.breadboard.bottom).toEqual('');
+    expect(inst1.views.breadboard.wireExtra).toEqual('');
+    expect(inst1.views.breadboard.geometry.x).toEqual('327.339');
+    expect(inst1.views.breadboard.geometry.y).toEqual('-58.2786');
+    expect(inst1.views.breadboard.geometry.z).toEqual('2.50003');
+    expect(inst1.views.breadboard.geometry.x1).toEqual(0);
+    expect(inst1.views.breadboard.geometry.y1).toEqual(0);
+    expect(inst1.views.breadboard.geometry.x2).toEqual(0);
+    expect(inst1.views.breadboard.geometry.y2).toEqual(0);
+    // connectors
+    let instbbcon = inst1.views.breadboard.connectors;
+    expect(instbbcon[0].connectorId).toEqual('connector0');
+    expect(instbbcon[0].connects['connector0'].layer).toEqual('breadboardWire');
+    expect(instbbcon[0].connects['connector0'].modelIndex).toEqual('2066');
+    expect(instbbcon[0].connects['connector1'].layer).toEqual('breadboardWire');
+    expect(instbbcon[0].connects['connector1'].modelIndex).toEqual('1717691');
+    expect(instbbcon[0].connects['connector57'].layer).toEqual('breadboardbreadboard');
+    expect(instbbcon[0].connects['connector57'].modelIndex).toEqual('1767216');
 
-    // console.log(fzz.fz.instances[0]);
+    expect(instbbcon[1].connectorId).toEqual('connector1');
+    expect(instbbcon[1].layer).toEqual('breadboard');
+    expect(instbbcon[1].leg).toEqual({});
+    expect(instbbcon[1].geometry).toEqual({x: '14.661', y: '36.5085'});
+    expect(instbbcon[1].connects['connector1'].modelIndex).toEqual('1717704');
+    expect(instbbcon[1].connects['connector1'].layer).toEqual('breadboardWire');
+    expect(instbbcon[1].connects['connector56'].modelIndex).toEqual('1767216');
+    expect(instbbcon[1].connects['connector56'].layer).toEqual('breadboardbreadboard');
 
     // fz.loadFzps(() => {
     // .then(d => {

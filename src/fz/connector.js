@@ -1,32 +1,34 @@
+'use strict';
+
 /**
- * FZ Connector
+ * FZConnector
  */
-class Connector {
+class FZConnector {
   /**
    * @param {Object} opt
    */
   constructor(opt) {
     opt = opt || {};
-    this.connectorId = opt.connectorId || '';
-    this.layer = opt.layer || '';
-    this.leg = {};
+    this.connectorId = opt.connectorId || null;
+    this.layer = opt.layer || null;
+    this.leg = opt.leg || {};
     this.geometry = opt.geometry || {};
     this.connects = opt.connects || {};
   }
 }
 
 /**
- * FZ Connect
+ * FZConnect
  */
-class Connect {
+class FZConnect {
   /**
    *
    */
   constructor() {
-    this.connectorId = '',
-    this.modelIndex = '';
-    this.layer = '';
+    this.connectorId = null,
+    this.modelIndex = null;
+    this.layer = null;
   }
 }
 
-module.exports = {Connector, Connect};
+module.exports = {FZConnector, FZConnect};

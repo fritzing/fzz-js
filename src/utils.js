@@ -1,3 +1,5 @@
+'use strict';
+
 const request = require('request');
 const JSZip = require('jszip');
 const FZZ = require('./fzz/fzz');

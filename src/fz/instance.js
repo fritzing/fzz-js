@@ -1,3 +1,5 @@
+'use strict';
+
 const Geometry = require('./geometry');
 
 /**

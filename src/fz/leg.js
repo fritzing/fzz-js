@@ -1,13 +1,17 @@
+'use strict';
+
 /**
  * FZLeg
  */
 class FZLeg {
   /**
    * FZLeg constructor
+   * @param {Object} opt
    */
-  constructor() {
-    this.point = new Vector2D();
-    this.bezier = null;
+  constructor(opt) {
+    opt = opt || {};
+    this.point = new Vector2D(opt.point);
+    this.bezier = opt.bezier || null;
   }
 }
 

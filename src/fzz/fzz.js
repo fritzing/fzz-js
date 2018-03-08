@@ -1,3 +1,5 @@
+'use strict';
+
 const {FZ} = require('../fz/fz');
 
 /**

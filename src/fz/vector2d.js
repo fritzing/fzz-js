@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Vector 2D
  */
@@ -7,6 +9,7 @@ class Vector2D {
    * @param {Object} opt
    */
   constructor(opt) {
+    opt = opt || {};
     this.x = opt.x || 0;
     this.y = opt.y || 0;
   }

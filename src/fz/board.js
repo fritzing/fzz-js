@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  *
  */
@@ -8,11 +10,11 @@ class FZBoard {
    */
   constructor(opt) {
     opt = opt || {};
-    this.moduleId = opt.moduleId || '';
-    this.title = opt.title || '';
-    this.instance = opt.instance || '';
-    this.width = opt.width || '';
-    this.height = opt.height || '';
+    this.moduleId = opt.moduleId || null;
+    this.title = opt.title || null;
+    this.instance = opt.instance || null;
+    this.width = opt.width || null;
+    this.height = opt.height || null;
   }
 }
 

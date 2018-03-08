@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Geometry
  */
@@ -14,7 +16,7 @@ class Geometry {
     this.x1 = opt.x1 || 0;
     this.y1 = opt.y1 || 0;
     this.x2 = opt.x2 || 0;
-    this.y2 = opt.y1 || 0;
+    this.y2 = opt.y2 || 0;
     this.wireFlags = opt.wireFlags || '';
   }
 }
