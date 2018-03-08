@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 748,
+  "end": 600,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 30,
+      "line": 28,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 748,
+    "end": 600,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 30,
+        "line": 28,
         "column": 0
       }
     },
@@ -31,7 +31,7 @@
       {
         "type": "VariableDeclaration",
         "start": 15,
-        "end": 57,
+        "end": 53,
         "loc": {
           "start": {
             "line": 3,
@@ -39,14 +39,14 @@
           },
           "end": {
             "line": 3,
-            "column": 42
+            "column": 38
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 21,
-            "end": 56,
+            "end": 52,
             "loc": {
               "start": {
                 "line": 3,
@@ -54,7 +54,7 @@
               },
               "end": {
                 "line": 3,
-                "column": 41
+                "column": 37
               }
             },
             "id": {
@@ -77,7 +77,7 @@
             "init": {
               "type": "CallExpression",
               "start": 31,
-              "end": 56,
+              "end": 52,
               "loc": {
                 "start": {
                   "line": 3,
@@ -85,7 +85,7 @@
                 },
                 "end": {
                   "line": 3,
-                  "column": 41
+                  "column": 37
                 }
               },
               "callee": {
@@ -109,7 +109,7 @@
                 {
                   "type": "StringLiteral",
                   "start": 39,
-                  "end": 55,
+                  "end": 51,
                   "loc": {
                     "start": {
                       "line": 3,
@@ -117,14 +117,14 @@
                     },
                     "end": {
                       "line": 3,
-                      "column": 40
+                      "column": 36
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/board",
-                    "raw": "'./lib/fz/board'"
+                    "rawValue": "./fz/board",
+                    "raw": "'./fz/board'"
                   },
-                  "value": "./lib/fz/board"
+                  "value": "./fz/board"
                 }
               ]
             }
@@ -134,8 +134,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 58,
-        "end": 108,
+        "start": 54,
+        "end": 100,
         "loc": {
           "start": {
             "line": 4,
@@ -143,14 +143,14 @@
           },
           "end": {
             "line": 4,
-            "column": 50
+            "column": 46
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 64,
-            "end": 107,
+            "start": 60,
+            "end": 99,
             "loc": {
               "start": {
                 "line": 4,
@@ -158,13 +158,13 @@
               },
               "end": {
                 "line": 4,
-                "column": 49
+                "column": 45
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 64,
-              "end": 75,
+              "start": 60,
+              "end": 71,
               "loc": {
                 "start": {
                   "line": 4,
@@ -180,8 +180,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 78,
-              "end": 107,
+              "start": 74,
+              "end": 99,
               "loc": {
                 "start": {
                   "line": 4,
@@ -189,13 +189,13 @@
                 },
                 "end": {
                   "line": 4,
-                  "column": 49
+                  "column": 45
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 78,
-                "end": 85,
+                "start": 74,
+                "end": 81,
                 "loc": {
                   "start": {
                     "line": 4,
@@ -212,8 +212,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 86,
-                  "end": 106,
+                  "start": 82,
+                  "end": 98,
                   "loc": {
                     "start": {
                       "line": 4,
@@ -221,14 +221,14 @@
                     },
                     "end": {
                       "line": 4,
-                      "column": 48
+                      "column": 44
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/connector",
-                    "raw": "'./lib/fz/connector'"
+                    "rawValue": "./fz/connector",
+                    "raw": "'./fz/connector'"
                   },
-                  "value": "./lib/fz/connector"
+                  "value": "./fz/connector"
                 }
               ]
             }
@@ -238,8 +238,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 109,
-        "end": 143,
+        "start": 101,
+        "end": 131,
         "loc": {
           "start": {
             "line": 5,
@@ -247,14 +247,14 @@
           },
           "end": {
             "line": 5,
-            "column": 34
+            "column": 30
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 115,
-            "end": 142,
+            "start": 107,
+            "end": 130,
             "loc": {
               "start": {
                 "line": 5,
@@ -262,13 +262,13 @@
               },
               "end": {
                 "line": 5,
-                "column": 33
+                "column": 29
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 115,
-              "end": 117,
+              "start": 107,
+              "end": 109,
               "loc": {
                 "start": {
                   "line": 5,
@@ -284,8 +284,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 120,
-              "end": 142,
+              "start": 112,
+              "end": 130,
               "loc": {
                 "start": {
                   "line": 5,
@@ -293,13 +293,13 @@
                 },
                 "end": {
                   "line": 5,
-                  "column": 33
+                  "column": 29
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 120,
-                "end": 127,
+                "start": 112,
+                "end": 119,
                 "loc": {
                   "start": {
                     "line": 5,
@@ -316,8 +316,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 128,
-                  "end": 141,
+                  "start": 120,
+                  "end": 129,
                   "loc": {
                     "start": {
                       "line": 5,
@@ -325,14 +325,14 @@
                     },
                     "end": {
                       "line": 5,
-                      "column": 32
+                      "column": 28
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/fz",
-                    "raw": "'./lib/fz/fz'"
+                    "rawValue": "./fz/fz",
+                    "raw": "'./fz/fz'"
                   },
-                  "value": "./lib/fz/fz"
+                  "value": "./fz/fz"
                 }
               ]
             }
@@ -342,8 +342,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 144,
-        "end": 192,
+        "start": 132,
+        "end": 176,
         "loc": {
           "start": {
             "line": 6,
@@ -351,14 +351,14 @@
           },
           "end": {
             "line": 6,
-            "column": 48
+            "column": 44
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 150,
-            "end": 191,
+            "start": 138,
+            "end": 175,
             "loc": {
               "start": {
                 "line": 6,
@@ -366,13 +366,13 @@
               },
               "end": {
                 "line": 6,
-                "column": 47
+                "column": 43
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 150,
-              "end": 160,
+              "start": 138,
+              "end": 148,
               "loc": {
                 "start": {
                   "line": 6,
@@ -388,8 +388,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 163,
-              "end": 191,
+              "start": 151,
+              "end": 175,
               "loc": {
                 "start": {
                   "line": 6,
@@ -397,13 +397,13 @@
                 },
                 "end": {
                   "line": 6,
-                  "column": 47
+                  "column": 43
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 163,
-                "end": 170,
+                "start": 151,
+                "end": 158,
                 "loc": {
                   "start": {
                     "line": 6,
@@ -420,8 +420,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 171,
-                  "end": 190,
+                  "start": 159,
+                  "end": 174,
                   "loc": {
                     "start": {
                       "line": 6,
@@ -429,14 +429,14 @@
                     },
                     "end": {
                       "line": 6,
-                      "column": 46
+                      "column": 42
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/geometry",
-                    "raw": "'./lib/fz/geometry'"
+                    "rawValue": "./fz/geometry",
+                    "raw": "'./fz/geometry'"
                   },
-                  "value": "./lib/fz/geometry"
+                  "value": "./fz/geometry"
                 }
               ]
             }
@@ -446,8 +446,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 193,
-        "end": 241,
+        "start": 177,
+        "end": 221,
         "loc": {
           "start": {
             "line": 7,
@@ -455,14 +455,14 @@
           },
           "end": {
             "line": 7,
-            "column": 48
+            "column": 44
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 199,
-            "end": 240,
+            "start": 183,
+            "end": 220,
             "loc": {
               "start": {
                 "line": 7,
@@ -470,13 +470,13 @@
               },
               "end": {
                 "line": 7,
-                "column": 47
+                "column": 43
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 199,
-              "end": 209,
+              "start": 183,
+              "end": 193,
               "loc": {
                 "start": {
                   "line": 7,
@@ -492,8 +492,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 212,
-              "end": 240,
+              "start": 196,
+              "end": 220,
               "loc": {
                 "start": {
                   "line": 7,
@@ -501,13 +501,13 @@
                 },
                 "end": {
                   "line": 7,
-                  "column": 47
+                  "column": 43
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 212,
-                "end": 219,
+                "start": 196,
+                "end": 203,
                 "loc": {
                   "start": {
                     "line": 7,
@@ -524,8 +524,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 220,
-                  "end": 239,
+                  "start": 204,
+                  "end": 219,
                   "loc": {
                     "start": {
                       "line": 7,
@@ -533,14 +533,14 @@
                     },
                     "end": {
                       "line": 7,
-                      "column": 46
+                      "column": 42
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/instance",
-                    "raw": "'./lib/fz/instance'"
+                    "rawValue": "./fz/instance",
+                    "raw": "'./fz/instance'"
                   },
-                  "value": "./lib/fz/instance"
+                  "value": "./fz/instance"
                 }
               ]
             }
@@ -550,8 +550,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 242,
-        "end": 280,
+        "start": 222,
+        "end": 256,
         "loc": {
           "start": {
             "line": 8,
@@ -559,14 +559,14 @@
           },
           "end": {
             "line": 8,
-            "column": 38
+            "column": 34
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 248,
-            "end": 279,
+            "start": 228,
+            "end": 255,
             "loc": {
               "start": {
                 "line": 8,
@@ -574,13 +574,13 @@
               },
               "end": {
                 "line": 8,
-                "column": 37
+                "column": 33
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 248,
-              "end": 253,
+              "start": 228,
+              "end": 233,
               "loc": {
                 "start": {
                   "line": 8,
@@ -596,8 +596,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 256,
-              "end": 279,
+              "start": 236,
+              "end": 255,
               "loc": {
                 "start": {
                   "line": 8,
@@ -605,13 +605,13 @@
                 },
                 "end": {
                   "line": 8,
-                  "column": 37
+                  "column": 33
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 256,
-                "end": 263,
+                "start": 236,
+                "end": 243,
                 "loc": {
                   "start": {
                     "line": 8,
@@ -628,8 +628,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 264,
-                  "end": 278,
+                  "start": 244,
+                  "end": 254,
                   "loc": {
                     "start": {
                       "line": 8,
@@ -637,14 +637,14 @@
                     },
                     "end": {
                       "line": 8,
-                      "column": 36
+                      "column": 32
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/leg",
-                    "raw": "'./lib/fz/leg'"
+                    "rawValue": "./fz/leg",
+                    "raw": "'./fz/leg'"
                   },
-                  "value": "./lib/fz/leg"
+                  "value": "./fz/leg"
                 }
               ]
             }
@@ -654,8 +654,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 281,
-        "end": 327,
+        "start": 257,
+        "end": 299,
         "loc": {
           "start": {
             "line": 9,
@@ -663,14 +663,14 @@
           },
           "end": {
             "line": 9,
-            "column": 46
+            "column": 42
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 287,
-            "end": 326,
+            "start": 263,
+            "end": 298,
             "loc": {
               "start": {
                 "line": 9,
@@ -678,13 +678,13 @@
               },
               "end": {
                 "line": 9,
-                "column": 45
+                "column": 41
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 287,
-              "end": 296,
+              "start": 263,
+              "end": 272,
               "loc": {
                 "start": {
                   "line": 9,
@@ -700,8 +700,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 299,
-              "end": 326,
+              "start": 275,
+              "end": 298,
               "loc": {
                 "start": {
                   "line": 9,
@@ -709,13 +709,13 @@
                 },
                 "end": {
                   "line": 9,
-                  "column": 45
+                  "column": 41
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 299,
-                "end": 306,
+                "start": 275,
+                "end": 282,
                 "loc": {
                   "start": {
                     "line": 9,
@@ -732,8 +732,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 307,
-                  "end": 325,
+                  "start": 283,
+                  "end": 297,
                   "loc": {
                     "start": {
                       "line": 9,
@@ -741,14 +741,14 @@
                     },
                     "end": {
                       "line": 9,
-                      "column": 44
+                      "column": 40
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/program",
-                    "raw": "'./lib/fz/program'"
+                    "rawValue": "./fz/program",
+                    "raw": "'./fz/program'"
                   },
-                  "value": "./lib/fz/program"
+                  "value": "./fz/program"
                 }
               ]
             }
@@ -758,8 +758,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 328,
-        "end": 374,
+        "start": 300,
+        "end": 342,
         "loc": {
           "start": {
             "line": 10,
@@ -767,14 +767,14 @@
           },
           "end": {
             "line": 10,
-            "column": 46
+            "column": 42
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 334,
-            "end": 373,
+            "start": 306,
+            "end": 341,
             "loc": {
               "start": {
                 "line": 10,
@@ -782,13 +782,13 @@
               },
               "end": {
                 "line": 10,
-                "column": 45
+                "column": 41
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 334,
-              "end": 342,
+              "start": 306,
+              "end": 314,
               "loc": {
                 "start": {
                   "line": 10,
@@ -804,8 +804,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 345,
-              "end": 373,
+              "start": 317,
+              "end": 341,
               "loc": {
                 "start": {
                   "line": 10,
@@ -813,13 +813,13 @@
                 },
                 "end": {
                   "line": 10,
-                  "column": 45
+                  "column": 41
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 345,
-                "end": 352,
+                "start": 317,
+                "end": 324,
                 "loc": {
                   "start": {
                     "line": 10,
@@ -836,8 +836,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 353,
-                  "end": 372,
+                  "start": 325,
+                  "end": 340,
                   "loc": {
                     "start": {
                       "line": 10,
@@ -845,14 +845,14 @@
                     },
                     "end": {
                       "line": 10,
-                      "column": 44
+                      "column": 40
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fz/vector2d",
-                    "raw": "'./lib/fz/vector2d'"
+                    "rawValue": "./fz/vector2d",
+                    "raw": "'./fz/vector2d'"
                   },
-                  "value": "./lib/fz/vector2d"
+                  "value": "./fz/vector2d"
                 }
               ]
             }
@@ -862,8 +862,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 375,
-        "end": 412,
+        "start": 343,
+        "end": 376,
         "loc": {
           "start": {
             "line": 11,
@@ -871,14 +871,14 @@
           },
           "end": {
             "line": 11,
-            "column": 37
+            "column": 33
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 381,
-            "end": 411,
+            "start": 349,
+            "end": 375,
             "loc": {
               "start": {
                 "line": 11,
@@ -886,13 +886,13 @@
               },
               "end": {
                 "line": 11,
-                "column": 36
+                "column": 32
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 381,
-              "end": 384,
+              "start": 349,
+              "end": 352,
               "loc": {
                 "start": {
                   "line": 11,
@@ -908,8 +908,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 387,
-              "end": 411,
+              "start": 355,
+              "end": 375,
               "loc": {
                 "start": {
                   "line": 11,
@@ -917,13 +917,13 @@
                 },
                 "end": {
                   "line": 11,
-                  "column": 36
+                  "column": 32
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 387,
-                "end": 394,
+                "start": 355,
+                "end": 362,
                 "loc": {
                   "start": {
                     "line": 11,
@@ -940,8 +940,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 395,
-                  "end": 410,
+                  "start": 363,
+                  "end": 374,
                   "loc": {
                     "start": {
                       "line": 11,
@@ -949,14 +949,14 @@
                     },
                     "end": {
                       "line": 11,
-                      "column": 35
+                      "column": 31
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fzz/fzz",
-                    "raw": "'./lib/fzz/fzz'"
+                    "rawValue": "./fzz/fzz",
+                    "raw": "'./fzz/fzz'"
                   },
-                  "value": "./lib/fzz/fzz"
+                  "value": "./fzz/fzz"
                 }
               ]
             }
@@ -966,8 +966,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 413,
-        "end": 455,
+        "start": 377,
+        "end": 415,
         "loc": {
           "start": {
             "line": 12,
@@ -975,14 +975,14 @@
           },
           "end": {
             "line": 12,
-            "column": 42
+            "column": 38
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 419,
-            "end": 454,
+            "start": 383,
+            "end": 414,
             "loc": {
               "start": {
                 "line": 12,
@@ -990,13 +990,13 @@
               },
               "end": {
                 "line": 12,
-                "column": 41
+                "column": 37
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 419,
-              "end": 426,
+              "start": 383,
+              "end": 390,
               "loc": {
                 "start": {
                   "line": 12,
@@ -1012,8 +1012,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 429,
-              "end": 454,
+              "start": 393,
+              "end": 414,
               "loc": {
                 "start": {
                   "line": 12,
@@ -1021,13 +1021,13 @@
                 },
                 "end": {
                   "line": 12,
-                  "column": 41
+                  "column": 37
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 429,
-                "end": 436,
+                "start": 393,
+                "end": 400,
                 "loc": {
                   "start": {
                     "line": 12,
@@ -1044,8 +1044,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 437,
-                  "end": 453,
+                  "start": 401,
+                  "end": 413,
                   "loc": {
                     "start": {
                       "line": 12,
@@ -1053,14 +1053,14 @@
                     },
                     "end": {
                       "line": 12,
-                      "column": 40
+                      "column": 36
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/fzz/code",
-                    "raw": "'./lib/fzz/code'"
+                    "rawValue": "./fzz/code",
+                    "raw": "'./fzz/code'"
                   },
-                  "value": "./lib/fzz/code"
+                  "value": "./fzz/code"
                 }
               ]
             }
@@ -1070,8 +1070,8 @@
       },
       {
         "type": "VariableDeclaration",
-        "start": 456,
-        "end": 496,
+        "start": 416,
+        "end": 452,
         "loc": {
           "start": {
             "line": 13,
@@ -1079,14 +1079,14 @@
           },
           "end": {
             "line": 13,
-            "column": 40
+            "column": 36
           }
         },
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 462,
-            "end": 495,
+            "start": 422,
+            "end": 451,
             "loc": {
               "start": {
                 "line": 13,
@@ -1094,13 +1094,13 @@
               },
               "end": {
                 "line": 13,
-                "column": 39
+                "column": 35
               }
             },
             "id": {
               "type": "Identifier",
-              "start": 462,
-              "end": 470,
+              "start": 422,
+              "end": 430,
               "loc": {
                 "start": {
                   "line": 13,
@@ -1116,8 +1116,8 @@
             },
             "init": {
               "type": "CallExpression",
-              "start": 473,
-              "end": 495,
+              "start": 433,
+              "end": 451,
               "loc": {
                 "start": {
                   "line": 13,
@@ -1125,13 +1125,13 @@
                 },
                 "end": {
                   "line": 13,
-                  "column": 39
+                  "column": 35
                 }
               },
               "callee": {
                 "type": "Identifier",
-                "start": 473,
-                "end": 480,
+                "start": 433,
+                "end": 440,
                 "loc": {
                   "start": {
                     "line": 13,
@@ -1148,8 +1148,8 @@
               "arguments": [
                 {
                   "type": "StringLiteral",
-                  "start": 481,
-                  "end": 494,
+                  "start": 441,
+                  "end": 450,
                   "loc": {
                     "start": {
                       "line": 13,
@@ -1157,14 +1157,14 @@
                     },
                     "end": {
                       "line": 13,
-                      "column": 38
+                      "column": 34
                     }
                   },
                   "extra": {
-                    "rawValue": "./lib/utils",
-                    "raw": "'./lib/utils'"
+                    "rawValue": "./utils",
+                    "raw": "'./utils'"
                   },
-                  "value": "./lib/utils"
+                  "value": "./utils"
                 }
               ]
             }
@@ -1174,37 +1174,37 @@
       },
       {
         "type": "ExpressionStatement",
-        "start": 498,
-        "end": 747,
+        "start": 454,
+        "end": 599,
         "loc": {
           "start": {
             "line": 15,
             "column": 0
           },
           "end": {
-            "line": 29,
+            "line": 27,
             "column": 2
           }
         },
         "expression": {
           "type": "AssignmentExpression",
-          "start": 498,
-          "end": 746,
+          "start": 454,
+          "end": 598,
           "loc": {
             "start": {
               "line": 15,
               "column": 0
             },
             "end": {
-              "line": 29,
+              "line": 27,
               "column": 1
             }
           },
           "operator": "=",
           "left": {
             "type": "MemberExpression",
-            "start": 498,
-            "end": 512,
+            "start": 454,
+            "end": 468,
             "loc": {
               "start": {
                 "line": 15,
@@ -1217,8 +1217,8 @@
             },
             "object": {
               "type": "Identifier",
-              "start": 498,
-              "end": 504,
+              "start": 454,
+              "end": 460,
               "loc": {
                 "start": {
                   "line": 15,
@@ -1234,8 +1234,8 @@
             },
             "property": {
               "type": "Identifier",
-              "start": 505,
-              "end": 512,
+              "start": 461,
+              "end": 468,
               "loc": {
                 "start": {
                   "line": 15,
@@ -1253,23 +1253,23 @@
           },
           "right": {
             "type": "ObjectExpression",
-            "start": 515,
-            "end": 746,
+            "start": 471,
+            "end": 598,
             "loc": {
               "start": {
                 "line": 15,
                 "column": 17
               },
               "end": {
-                "line": 29,
+                "line": 27,
                 "column": 1
               }
             },
             "properties": [
               {
                 "type": "ObjectProperty",
-                "start": 519,
-                "end": 535,
+                "start": 475,
+                "end": 482,
                 "loc": {
                   "start": {
                     "line": 16,
@@ -1277,16 +1277,16 @@
                   },
                   "end": {
                     "line": 16,
-                    "column": 18
+                    "column": 9
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 519,
-                  "end": 526,
+                  "start": 475,
+                  "end": 482,
                   "loc": {
                     "start": {
                       "line": 16,
@@ -1302,26 +1302,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 528,
-                  "end": 535,
+                  "start": 475,
+                  "end": 482,
                   "loc": {
                     "start": {
                       "line": 16,
-                      "column": 11
+                      "column": 2
                     },
                     "end": {
                       "line": 16,
-                      "column": 18
+                      "column": 9
                     },
                     "identifierName": "FZBoard"
                   },
                   "name": "FZBoard"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 539,
-                "end": 563,
+                "start": 486,
+                "end": 497,
                 "loc": {
                   "start": {
                     "line": 17,
@@ -1329,16 +1332,16 @@
                   },
                   "end": {
                     "line": 17,
-                    "column": 26
+                    "column": 13
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 539,
-                  "end": 550,
+                  "start": 486,
+                  "end": 497,
                   "loc": {
                     "start": {
                       "line": 17,
@@ -1354,26 +1357,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 552,
-                  "end": 563,
+                  "start": 486,
+                  "end": 497,
                   "loc": {
                     "start": {
                       "line": 17,
-                      "column": 15
+                      "column": 2
                     },
                     "end": {
                       "line": 17,
-                      "column": 26
+                      "column": 13
                     },
                     "identifierName": "FZConnector"
                   },
                   "name": "FZConnector"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 567,
-                "end": 573,
+                "start": 501,
+                "end": 503,
                 "loc": {
                   "start": {
                     "line": 18,
@@ -1381,16 +1387,16 @@
                   },
                   "end": {
                     "line": 18,
-                    "column": 8
+                    "column": 4
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 567,
-                  "end": 569,
+                  "start": 501,
+                  "end": 503,
                   "loc": {
                     "start": {
                       "line": 18,
@@ -1406,26 +1412,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 571,
-                  "end": 573,
+                  "start": 501,
+                  "end": 503,
                   "loc": {
                     "start": {
                       "line": 18,
-                      "column": 6
+                      "column": 2
                     },
                     "end": {
                       "line": 18,
-                      "column": 8
+                      "column": 4
                     },
                     "identifierName": "FZ"
                   },
                   "name": "FZ"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 577,
-                "end": 599,
+                "start": 507,
+                "end": 517,
                 "loc": {
                   "start": {
                     "line": 19,
@@ -1433,16 +1442,16 @@
                   },
                   "end": {
                     "line": 19,
-                    "column": 24
+                    "column": 12
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 577,
-                  "end": 587,
+                  "start": 507,
+                  "end": 517,
                   "loc": {
                     "start": {
                       "line": 19,
@@ -1458,26 +1467,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 589,
-                  "end": 599,
+                  "start": 507,
+                  "end": 517,
                   "loc": {
                     "start": {
                       "line": 19,
-                      "column": 14
+                      "column": 2
                     },
                     "end": {
                       "line": 19,
-                      "column": 24
+                      "column": 12
                     },
                     "identifierName": "FZGeometry"
                   },
                   "name": "FZGeometry"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 603,
-                "end": 625,
+                "start": 521,
+                "end": 531,
                 "loc": {
                   "start": {
                     "line": 20,
@@ -1485,16 +1497,16 @@
                   },
                   "end": {
                     "line": 20,
-                    "column": 24
+                    "column": 12
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 603,
-                  "end": 613,
+                  "start": 521,
+                  "end": 531,
                   "loc": {
                     "start": {
                       "line": 20,
@@ -1510,26 +1522,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 615,
-                  "end": 625,
+                  "start": 521,
+                  "end": 531,
                   "loc": {
                     "start": {
                       "line": 20,
-                      "column": 14
+                      "column": 2
                     },
                     "end": {
                       "line": 20,
-                      "column": 24
+                      "column": 12
                     },
                     "identifierName": "FZInstance"
                   },
                   "name": "FZInstance"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 629,
-                "end": 641,
+                "start": 535,
+                "end": 540,
                 "loc": {
                   "start": {
                     "line": 21,
@@ -1537,16 +1552,16 @@
                   },
                   "end": {
                     "line": 21,
-                    "column": 14
+                    "column": 7
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 629,
-                  "end": 634,
+                  "start": 535,
+                  "end": 540,
                   "loc": {
                     "start": {
                       "line": 21,
@@ -1562,26 +1577,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 636,
-                  "end": 641,
+                  "start": 535,
+                  "end": 540,
                   "loc": {
                     "start": {
                       "line": 21,
-                      "column": 9
+                      "column": 2
                     },
                     "end": {
                       "line": 21,
-                      "column": 14
+                      "column": 7
                     },
                     "identifierName": "FZLeg"
                   },
                   "name": "FZLeg"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 645,
-                "end": 665,
+                "start": 544,
+                "end": 553,
                 "loc": {
                   "start": {
                     "line": 22,
@@ -1589,16 +1607,16 @@
                   },
                   "end": {
                     "line": 22,
-                    "column": 22
+                    "column": 11
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 645,
-                  "end": 654,
+                  "start": 544,
+                  "end": 553,
                   "loc": {
                     "start": {
                       "line": 22,
@@ -1614,26 +1632,29 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 656,
-                  "end": 665,
+                  "start": 544,
+                  "end": 553,
                   "loc": {
                     "start": {
                       "line": 22,
-                      "column": 13
+                      "column": 2
                     },
                     "end": {
                       "line": 22,
-                      "column": 22
+                      "column": 11
                     },
                     "identifierName": "FZProgram"
                   },
                   "name": "FZProgram"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 669,
-                "end": 687,
+                "start": 557,
+                "end": 565,
                 "loc": {
                   "start": {
                     "line": 23,
@@ -1641,16 +1662,16 @@
                   },
                   "end": {
                     "line": 23,
-                    "column": 20
+                    "column": 10
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 669,
-                  "end": 677,
+                  "start": 557,
+                  "end": 565,
                   "loc": {
                     "start": {
                       "line": 23,
@@ -1666,50 +1687,53 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 679,
-                  "end": 687,
+                  "start": 557,
+                  "end": 565,
                   "loc": {
                     "start": {
                       "line": 23,
-                      "column": 12
+                      "column": 2
                     },
                     "end": {
                       "line": 23,
-                      "column": 20
+                      "column": 10
                     },
                     "identifierName": "Vector2D"
                   },
                   "name": "Vector2D"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 692,
-                "end": 700,
+                "start": 569,
+                "end": 572,
                 "loc": {
                   "start": {
-                    "line": 25,
+                    "line": 24,
                     "column": 2
                   },
                   "end": {
-                    "line": 25,
-                    "column": 10
+                    "line": 24,
+                    "column": 5
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 692,
-                  "end": 695,
+                  "start": 569,
+                  "end": 572,
                   "loc": {
                     "start": {
-                      "line": 25,
+                      "line": 24,
                       "column": 2
                     },
                     "end": {
-                      "line": 25,
+                      "line": 24,
                       "column": 5
                     },
                     "identifierName": "FZZ"
@@ -1718,50 +1742,53 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 697,
-                  "end": 700,
+                  "start": 569,
+                  "end": 572,
                   "loc": {
                     "start": {
-                      "line": 25,
-                      "column": 7
+                      "line": 24,
+                      "column": 2
                     },
                     "end": {
-                      "line": 25,
-                      "column": 10
+                      "line": 24,
+                      "column": 5
                     },
                     "identifierName": "FZZ"
                   },
                   "name": "FZZ"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 704,
-                "end": 720,
+                "start": 576,
+                "end": 583,
                 "loc": {
                   "start": {
-                    "line": 26,
+                    "line": 25,
                     "column": 2
                   },
                   "end": {
-                    "line": 26,
-                    "column": 18
+                    "line": 25,
+                    "column": 9
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 704,
-                  "end": 711,
+                  "start": 576,
+                  "end": 583,
                   "loc": {
                     "start": {
-                      "line": 26,
+                      "line": 25,
                       "column": 2
                     },
                     "end": {
-                      "line": 26,
+                      "line": 25,
                       "column": 9
                     },
                     "identifierName": "FZZCode"
@@ -1770,50 +1797,53 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 713,
-                  "end": 720,
+                  "start": 576,
+                  "end": 583,
                   "loc": {
                     "start": {
-                      "line": 26,
-                      "column": 11
+                      "line": 25,
+                      "column": 2
                     },
                     "end": {
-                      "line": 26,
-                      "column": 18
+                      "line": 25,
+                      "column": 9
                     },
                     "identifierName": "FZZCode"
                   },
                   "name": "FZZCode"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               },
               {
                 "type": "ObjectProperty",
-                "start": 725,
-                "end": 743,
+                "start": 587,
+                "end": 595,
                 "loc": {
                   "start": {
-                    "line": 28,
+                    "line": 26,
                     "column": 2
                   },
                   "end": {
-                    "line": 28,
-                    "column": 20
+                    "line": 26,
+                    "column": 10
                   }
                 },
                 "method": false,
-                "shorthand": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 725,
-                  "end": 733,
+                  "start": 587,
+                  "end": 595,
                   "loc": {
                     "start": {
-                      "line": 28,
+                      "line": 26,
                       "column": 2
                     },
                     "end": {
-                      "line": 28,
+                      "line": 26,
                       "column": 10
                     },
                     "identifierName": "FZZUtils"
@@ -1822,20 +1852,23 @@
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 735,
-                  "end": 743,
+                  "start": 587,
+                  "end": 595,
                   "loc": {
                     "start": {
-                      "line": 28,
-                      "column": 12
+                      "line": 26,
+                      "column": 2
                     },
                     "end": {
-                      "line": 28,
-                      "column": 20
+                      "line": 26,
+                      "column": 10
                     },
                     "identifierName": "FZZUtils"
                   },
                   "name": "FZZUtils"
+                },
+                "extra": {
+                  "shorthand": true
                 }
               }
             ]
@@ -2081,9 +2114,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/board",
+      "value": "./fz/board",
       "start": 39,
-      "end": 55,
+      "end": 51,
       "loc": {
         "start": {
           "line": 3,
@@ -2091,7 +2124,7 @@
         },
         "end": {
           "line": 3,
-          "column": 40
+          "column": 36
         }
       }
     },
@@ -2107,16 +2140,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 55,
-      "end": 56,
+      "start": 51,
+      "end": 52,
       "loc": {
         "start": {
           "line": 3,
-          "column": 40
+          "column": 36
         },
         "end": {
           "line": 3,
-          "column": 41
+          "column": 37
         }
       }
     },
@@ -2133,16 +2166,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 56,
-      "end": 57,
+      "start": 52,
+      "end": 53,
       "loc": {
         "start": {
           "line": 3,
-          "column": 41
+          "column": 37
         },
         "end": {
           "line": 3,
-          "column": 42
+          "column": 38
         }
       }
     },
@@ -2161,8 +2194,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 58,
-      "end": 63,
+      "start": 54,
+      "end": 59,
       "loc": {
         "start": {
           "line": 4,
@@ -2187,8 +2220,8 @@
         "binop": null
       },
       "value": "FZConnector",
-      "start": 64,
-      "end": 75,
+      "start": 60,
+      "end": 71,
       "loc": {
         "start": {
           "line": 4,
@@ -2214,8 +2247,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 76,
-      "end": 77,
+      "start": 72,
+      "end": 73,
       "loc": {
         "start": {
           "line": 4,
@@ -2240,8 +2273,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 78,
-      "end": 85,
+      "start": 74,
+      "end": 81,
       "loc": {
         "start": {
           "line": 4,
@@ -2265,8 +2298,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 85,
-      "end": 86,
+      "start": 81,
+      "end": 82,
       "loc": {
         "start": {
           "line": 4,
@@ -2291,9 +2324,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/connector",
-      "start": 86,
-      "end": 106,
+      "value": "./fz/connector",
+      "start": 82,
+      "end": 98,
       "loc": {
         "start": {
           "line": 4,
@@ -2301,7 +2334,7 @@
         },
         "end": {
           "line": 4,
-          "column": 48
+          "column": 44
         }
       }
     },
@@ -2317,16 +2350,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 106,
-      "end": 107,
+      "start": 98,
+      "end": 99,
       "loc": {
         "start": {
           "line": 4,
-          "column": 48
+          "column": 44
         },
         "end": {
           "line": 4,
-          "column": 49
+          "column": 45
         }
       }
     },
@@ -2343,16 +2376,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 107,
-      "end": 108,
+      "start": 99,
+      "end": 100,
       "loc": {
         "start": {
           "line": 4,
-          "column": 49
+          "column": 45
         },
         "end": {
           "line": 4,
-          "column": 50
+          "column": 46
         }
       }
     },
@@ -2371,8 +2404,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 109,
-      "end": 114,
+      "start": 101,
+      "end": 106,
       "loc": {
         "start": {
           "line": 5,
@@ -2397,8 +2430,8 @@
         "binop": null
       },
       "value": "FZ",
-      "start": 115,
-      "end": 117,
+      "start": 107,
+      "end": 109,
       "loc": {
         "start": {
           "line": 5,
@@ -2424,8 +2457,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 118,
-      "end": 119,
+      "start": 110,
+      "end": 111,
       "loc": {
         "start": {
           "line": 5,
@@ -2450,8 +2483,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 120,
-      "end": 127,
+      "start": 112,
+      "end": 119,
       "loc": {
         "start": {
           "line": 5,
@@ -2475,8 +2508,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 127,
-      "end": 128,
+      "start": 119,
+      "end": 120,
       "loc": {
         "start": {
           "line": 5,
@@ -2501,9 +2534,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/fz",
-      "start": 128,
-      "end": 141,
+      "value": "./fz/fz",
+      "start": 120,
+      "end": 129,
       "loc": {
         "start": {
           "line": 5,
@@ -2511,7 +2544,7 @@
         },
         "end": {
           "line": 5,
-          "column": 32
+          "column": 28
         }
       }
     },
@@ -2527,16 +2560,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 141,
-      "end": 142,
+      "start": 129,
+      "end": 130,
       "loc": {
         "start": {
           "line": 5,
-          "column": 32
+          "column": 28
         },
         "end": {
           "line": 5,
-          "column": 33
+          "column": 29
         }
       }
     },
@@ -2553,16 +2586,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 142,
-      "end": 143,
+      "start": 130,
+      "end": 131,
       "loc": {
         "start": {
           "line": 5,
-          "column": 33
+          "column": 29
         },
         "end": {
           "line": 5,
-          "column": 34
+          "column": 30
         }
       }
     },
@@ -2581,8 +2614,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 144,
-      "end": 149,
+      "start": 132,
+      "end": 137,
       "loc": {
         "start": {
           "line": 6,
@@ -2607,8 +2640,8 @@
         "binop": null
       },
       "value": "FZGeometry",
-      "start": 150,
-      "end": 160,
+      "start": 138,
+      "end": 148,
       "loc": {
         "start": {
           "line": 6,
@@ -2634,8 +2667,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 161,
-      "end": 162,
+      "start": 149,
+      "end": 150,
       "loc": {
         "start": {
           "line": 6,
@@ -2660,8 +2693,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 163,
-      "end": 170,
+      "start": 151,
+      "end": 158,
       "loc": {
         "start": {
           "line": 6,
@@ -2685,8 +2718,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 170,
-      "end": 171,
+      "start": 158,
+      "end": 159,
       "loc": {
         "start": {
           "line": 6,
@@ -2711,9 +2744,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/geometry",
-      "start": 171,
-      "end": 190,
+      "value": "./fz/geometry",
+      "start": 159,
+      "end": 174,
       "loc": {
         "start": {
           "line": 6,
@@ -2721,7 +2754,7 @@
         },
         "end": {
           "line": 6,
-          "column": 46
+          "column": 42
         }
       }
     },
@@ -2737,16 +2770,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 190,
-      "end": 191,
+      "start": 174,
+      "end": 175,
       "loc": {
         "start": {
           "line": 6,
-          "column": 46
+          "column": 42
         },
         "end": {
           "line": 6,
-          "column": 47
+          "column": 43
         }
       }
     },
@@ -2763,16 +2796,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 191,
-      "end": 192,
+      "start": 175,
+      "end": 176,
       "loc": {
         "start": {
           "line": 6,
-          "column": 47
+          "column": 43
         },
         "end": {
           "line": 6,
-          "column": 48
+          "column": 44
         }
       }
     },
@@ -2791,8 +2824,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 193,
-      "end": 198,
+      "start": 177,
+      "end": 182,
       "loc": {
         "start": {
           "line": 7,
@@ -2817,8 +2850,8 @@
         "binop": null
       },
       "value": "FZInstance",
-      "start": 199,
-      "end": 209,
+      "start": 183,
+      "end": 193,
       "loc": {
         "start": {
           "line": 7,
@@ -2844,8 +2877,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 210,
-      "end": 211,
+      "start": 194,
+      "end": 195,
       "loc": {
         "start": {
           "line": 7,
@@ -2870,8 +2903,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 212,
-      "end": 219,
+      "start": 196,
+      "end": 203,
       "loc": {
         "start": {
           "line": 7,
@@ -2895,8 +2928,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 219,
-      "end": 220,
+      "start": 203,
+      "end": 204,
       "loc": {
         "start": {
           "line": 7,
@@ -2921,9 +2954,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/instance",
-      "start": 220,
-      "end": 239,
+      "value": "./fz/instance",
+      "start": 204,
+      "end": 219,
       "loc": {
         "start": {
           "line": 7,
@@ -2931,7 +2964,7 @@
         },
         "end": {
           "line": 7,
-          "column": 46
+          "column": 42
         }
       }
     },
@@ -2947,16 +2980,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 239,
-      "end": 240,
+      "start": 219,
+      "end": 220,
       "loc": {
         "start": {
           "line": 7,
-          "column": 46
+          "column": 42
         },
         "end": {
           "line": 7,
-          "column": 47
+          "column": 43
         }
       }
     },
@@ -2973,16 +3006,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 240,
-      "end": 241,
+      "start": 220,
+      "end": 221,
       "loc": {
         "start": {
           "line": 7,
-          "column": 47
+          "column": 43
         },
         "end": {
           "line": 7,
-          "column": 48
+          "column": 44
         }
       }
     },
@@ -3001,8 +3034,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 242,
-      "end": 247,
+      "start": 222,
+      "end": 227,
       "loc": {
         "start": {
           "line": 8,
@@ -3027,8 +3060,8 @@
         "binop": null
       },
       "value": "FZLeg",
-      "start": 248,
-      "end": 253,
+      "start": 228,
+      "end": 233,
       "loc": {
         "start": {
           "line": 8,
@@ -3054,8 +3087,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 254,
-      "end": 255,
+      "start": 234,
+      "end": 235,
       "loc": {
         "start": {
           "line": 8,
@@ -3080,8 +3113,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 256,
-      "end": 263,
+      "start": 236,
+      "end": 243,
       "loc": {
         "start": {
           "line": 8,
@@ -3105,8 +3138,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 263,
-      "end": 264,
+      "start": 243,
+      "end": 244,
       "loc": {
         "start": {
           "line": 8,
@@ -3131,9 +3164,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/leg",
-      "start": 264,
-      "end": 278,
+      "value": "./fz/leg",
+      "start": 244,
+      "end": 254,
       "loc": {
         "start": {
           "line": 8,
@@ -3141,7 +3174,7 @@
         },
         "end": {
           "line": 8,
-          "column": 36
+          "column": 32
         }
       }
     },
@@ -3157,16 +3190,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 278,
-      "end": 279,
+      "start": 254,
+      "end": 255,
       "loc": {
         "start": {
           "line": 8,
-          "column": 36
+          "column": 32
         },
         "end": {
           "line": 8,
-          "column": 37
+          "column": 33
         }
       }
     },
@@ -3183,16 +3216,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 279,
-      "end": 280,
+      "start": 255,
+      "end": 256,
       "loc": {
         "start": {
           "line": 8,
-          "column": 37
+          "column": 33
         },
         "end": {
           "line": 8,
-          "column": 38
+          "column": 34
         }
       }
     },
@@ -3211,8 +3244,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 281,
-      "end": 286,
+      "start": 257,
+      "end": 262,
       "loc": {
         "start": {
           "line": 9,
@@ -3237,8 +3270,8 @@
         "binop": null
       },
       "value": "FZProgram",
-      "start": 287,
-      "end": 296,
+      "start": 263,
+      "end": 272,
       "loc": {
         "start": {
           "line": 9,
@@ -3264,8 +3297,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 297,
-      "end": 298,
+      "start": 273,
+      "end": 274,
       "loc": {
         "start": {
           "line": 9,
@@ -3290,8 +3323,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 299,
-      "end": 306,
+      "start": 275,
+      "end": 282,
       "loc": {
         "start": {
           "line": 9,
@@ -3315,8 +3348,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 306,
-      "end": 307,
+      "start": 282,
+      "end": 283,
       "loc": {
         "start": {
           "line": 9,
@@ -3341,9 +3374,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/program",
-      "start": 307,
-      "end": 325,
+      "value": "./fz/program",
+      "start": 283,
+      "end": 297,
       "loc": {
         "start": {
           "line": 9,
@@ -3351,7 +3384,7 @@
         },
         "end": {
           "line": 9,
-          "column": 44
+          "column": 40
         }
       }
     },
@@ -3367,16 +3400,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 325,
-      "end": 326,
+      "start": 297,
+      "end": 298,
       "loc": {
         "start": {
           "line": 9,
-          "column": 44
+          "column": 40
         },
         "end": {
           "line": 9,
-          "column": 45
+          "column": 41
         }
       }
     },
@@ -3393,16 +3426,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 326,
-      "end": 327,
+      "start": 298,
+      "end": 299,
       "loc": {
         "start": {
           "line": 9,
-          "column": 45
+          "column": 41
         },
         "end": {
           "line": 9,
-          "column": 46
+          "column": 42
         }
       }
     },
@@ -3421,8 +3454,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 328,
-      "end": 333,
+      "start": 300,
+      "end": 305,
       "loc": {
         "start": {
           "line": 10,
@@ -3447,8 +3480,8 @@
         "binop": null
       },
       "value": "Vector2D",
-      "start": 334,
-      "end": 342,
+      "start": 306,
+      "end": 314,
       "loc": {
         "start": {
           "line": 10,
@@ -3474,8 +3507,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 343,
-      "end": 344,
+      "start": 315,
+      "end": 316,
       "loc": {
         "start": {
           "line": 10,
@@ -3500,8 +3533,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 345,
-      "end": 352,
+      "start": 317,
+      "end": 324,
       "loc": {
         "start": {
           "line": 10,
@@ -3525,8 +3558,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 352,
-      "end": 353,
+      "start": 324,
+      "end": 325,
       "loc": {
         "start": {
           "line": 10,
@@ -3551,9 +3584,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fz/vector2d",
-      "start": 353,
-      "end": 372,
+      "value": "./fz/vector2d",
+      "start": 325,
+      "end": 340,
       "loc": {
         "start": {
           "line": 10,
@@ -3561,7 +3594,7 @@
         },
         "end": {
           "line": 10,
-          "column": 44
+          "column": 40
         }
       }
     },
@@ -3577,16 +3610,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 372,
-      "end": 373,
+      "start": 340,
+      "end": 341,
       "loc": {
         "start": {
           "line": 10,
-          "column": 44
+          "column": 40
         },
         "end": {
           "line": 10,
-          "column": 45
+          "column": 41
         }
       }
     },
@@ -3603,16 +3636,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 373,
-      "end": 374,
+      "start": 341,
+      "end": 342,
       "loc": {
         "start": {
           "line": 10,
-          "column": 45
+          "column": 41
         },
         "end": {
           "line": 10,
-          "column": 46
+          "column": 42
         }
       }
     },
@@ -3631,8 +3664,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 375,
-      "end": 380,
+      "start": 343,
+      "end": 348,
       "loc": {
         "start": {
           "line": 11,
@@ -3657,8 +3690,8 @@
         "binop": null
       },
       "value": "FZZ",
-      "start": 381,
-      "end": 384,
+      "start": 349,
+      "end": 352,
       "loc": {
         "start": {
           "line": 11,
@@ -3684,8 +3717,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 385,
-      "end": 386,
+      "start": 353,
+      "end": 354,
       "loc": {
         "start": {
           "line": 11,
@@ -3710,8 +3743,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 387,
-      "end": 394,
+      "start": 355,
+      "end": 362,
       "loc": {
         "start": {
           "line": 11,
@@ -3735,8 +3768,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 394,
-      "end": 395,
+      "start": 362,
+      "end": 363,
       "loc": {
         "start": {
           "line": 11,
@@ -3761,9 +3794,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fzz/fzz",
-      "start": 395,
-      "end": 410,
+      "value": "./fzz/fzz",
+      "start": 363,
+      "end": 374,
       "loc": {
         "start": {
           "line": 11,
@@ -3771,7 +3804,7 @@
         },
         "end": {
           "line": 11,
-          "column": 35
+          "column": 31
         }
       }
     },
@@ -3787,16 +3820,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 410,
-      "end": 411,
+      "start": 374,
+      "end": 375,
       "loc": {
         "start": {
           "line": 11,
-          "column": 35
+          "column": 31
         },
         "end": {
           "line": 11,
-          "column": 36
+          "column": 32
         }
       }
     },
@@ -3813,16 +3846,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 411,
-      "end": 412,
+      "start": 375,
+      "end": 376,
       "loc": {
         "start": {
           "line": 11,
-          "column": 36
+          "column": 32
         },
         "end": {
           "line": 11,
-          "column": 37
+          "column": 33
         }
       }
     },
@@ -3841,8 +3874,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 413,
-      "end": 418,
+      "start": 377,
+      "end": 382,
       "loc": {
         "start": {
           "line": 12,
@@ -3867,8 +3900,8 @@
         "binop": null
       },
       "value": "FZZCode",
-      "start": 419,
-      "end": 426,
+      "start": 383,
+      "end": 390,
       "loc": {
         "start": {
           "line": 12,
@@ -3894,8 +3927,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 427,
-      "end": 428,
+      "start": 391,
+      "end": 392,
       "loc": {
         "start": {
           "line": 12,
@@ -3920,8 +3953,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 429,
-      "end": 436,
+      "start": 393,
+      "end": 400,
       "loc": {
         "start": {
           "line": 12,
@@ -3945,8 +3978,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 436,
-      "end": 437,
+      "start": 400,
+      "end": 401,
       "loc": {
         "start": {
           "line": 12,
@@ -3971,9 +4004,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/fzz/code",
-      "start": 437,
-      "end": 453,
+      "value": "./fzz/code",
+      "start": 401,
+      "end": 413,
       "loc": {
         "start": {
           "line": 12,
@@ -3981,7 +4014,7 @@
         },
         "end": {
           "line": 12,
-          "column": 40
+          "column": 36
         }
       }
     },
@@ -3997,16 +4030,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 453,
-      "end": 454,
+      "start": 413,
+      "end": 414,
       "loc": {
         "start": {
           "line": 12,
-          "column": 40
+          "column": 36
         },
         "end": {
           "line": 12,
-          "column": 41
+          "column": 37
         }
       }
     },
@@ -4023,16 +4056,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 454,
-      "end": 455,
+      "start": 414,
+      "end": 415,
       "loc": {
         "start": {
           "line": 12,
-          "column": 41
+          "column": 37
         },
         "end": {
           "line": 12,
-          "column": 42
+          "column": 38
         }
       }
     },
@@ -4051,8 +4084,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 456,
-      "end": 461,
+      "start": 416,
+      "end": 421,
       "loc": {
         "start": {
           "line": 13,
@@ -4077,8 +4110,8 @@
         "binop": null
       },
       "value": "FZZUtils",
-      "start": 462,
-      "end": 470,
+      "start": 422,
+      "end": 430,
       "loc": {
         "start": {
           "line": 13,
@@ -4104,8 +4137,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 471,
-      "end": 472,
+      "start": 431,
+      "end": 432,
       "loc": {
         "start": {
           "line": 13,
@@ -4130,8 +4163,8 @@
         "binop": null
       },
       "value": "require",
-      "start": 473,
-      "end": 480,
+      "start": 433,
+      "end": 440,
       "loc": {
         "start": {
           "line": 13,
@@ -4155,8 +4188,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 480,
-      "end": 481,
+      "start": 440,
+      "end": 441,
       "loc": {
         "start": {
           "line": 13,
@@ -4181,9 +4214,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./lib/utils",
-      "start": 481,
-      "end": 494,
+      "value": "./utils",
+      "start": 441,
+      "end": 450,
       "loc": {
         "start": {
           "line": 13,
@@ -4191,7 +4224,7 @@
         },
         "end": {
           "line": 13,
-          "column": 38
+          "column": 34
         }
       }
     },
@@ -4207,16 +4240,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 494,
-      "end": 495,
+      "start": 450,
+      "end": 451,
       "loc": {
         "start": {
           "line": 13,
-          "column": 38
+          "column": 34
         },
         "end": {
           "line": 13,
-          "column": 39
+          "column": 35
         }
       }
     },
@@ -4233,16 +4266,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 495,
-      "end": 496,
+      "start": 451,
+      "end": 452,
       "loc": {
         "start": {
           "line": 13,
-          "column": 39
+          "column": 35
         },
         "end": {
           "line": 13,
-          "column": 40
+          "column": 36
         }
       }
     },
@@ -4259,8 +4292,8 @@
         "binop": null
       },
       "value": "module",
-      "start": 498,
-      "end": 504,
+      "start": 454,
+      "end": 460,
       "loc": {
         "start": {
           "line": 15,
@@ -4285,8 +4318,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 504,
-      "end": 505,
+      "start": 460,
+      "end": 461,
       "loc": {
         "start": {
           "line": 15,
@@ -4311,8 +4344,8 @@
         "binop": null
       },
       "value": "exports",
-      "start": 505,
-      "end": 512,
+      "start": 461,
+      "end": 468,
       "loc": {
         "start": {
           "line": 15,
@@ -4338,8 +4371,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 513,
-      "end": 514,
+      "start": 469,
+      "end": 470,
       "loc": {
         "start": {
           "line": 15,
@@ -4363,8 +4396,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 515,
-      "end": 516,
+      "start": 471,
+      "end": 472,
       "loc": {
         "start": {
           "line": 15,
@@ -4389,8 +4422,8 @@
         "binop": null
       },
       "value": "FZBoard",
-      "start": 519,
-      "end": 526,
+      "start": 475,
+      "end": 482,
       "loc": {
         "start": {
           "line": 16,
@@ -4404,7 +4437,7 @@
     },
     {
       "type": {
-        "label": ":",
+        "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -4415,8 +4448,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 526,
-      "end": 527,
+      "start": 482,
+      "end": 483,
       "loc": {
         "start": {
           "line": 16,
@@ -4440,17 +4473,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "FZBoard",
-      "start": 528,
-      "end": 535,
+      "value": "FZConnector",
+      "start": 486,
+      "end": 497,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 11
+          "line": 17,
+          "column": 2
         },
         "end": {
-          "line": 16,
-          "column": 18
+          "line": 17,
+          "column": 13
         }
       }
     },
@@ -4467,60 +4500,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 535,
-      "end": 536,
-      "loc": {
-        "start": {
-          "line": 16,
-          "column": 18
-        },
-        "end": {
-          "line": 16,
-          "column": 19
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZConnector",
-      "start": 539,
-      "end": 550,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 2
-        },
-        "end": {
-          "line": 17,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 550,
-      "end": 551,
+      "start": 497,
+      "end": 498,
       "loc": {
         "start": {
           "line": 17,
@@ -4544,17 +4525,17 @@
         "postfix": false,
         "binop": null
       },
-      "value": "FZConnector",
-      "start": 552,
-      "end": 563,
+      "value": "FZ",
+      "start": 501,
+      "end": 503,
       "loc": {
         "start": {
-          "line": 17,
-          "column": 15
+          "line": 18,
+          "column": 2
         },
         "end": {
-          "line": 17,
-          "column": 26
+          "line": 18,
+          "column": 4
         }
       }
     },
@@ -4571,60 +4552,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 563,
-      "end": 564,
-      "loc": {
-        "start": {
-          "line": 17,
-          "column": 26
-        },
-        "end": {
-          "line": 17,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZ",
-      "start": 567,
-      "end": 569,
-      "loc": {
-        "start": {
-          "line": 18,
-          "column": 2
-        },
-        "end": {
-          "line": 18,
-          "column": 4
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 569,
-      "end": 570,
+      "start": 503,
+      "end": 504,
       "loc": {
         "start": {
           "line": 18,
@@ -4648,17 +4577,329 @@
         "postfix": false,
         "binop": null
       },
-      "value": "FZ",
-      "start": 571,
+      "value": "FZGeometry",
+      "start": 507,
+      "end": 517,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 517,
+      "end": 518,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 12
+        },
+        "end": {
+          "line": 19,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "FZInstance",
+      "start": 521,
+      "end": 531,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 531,
+      "end": 532,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 12
+        },
+        "end": {
+          "line": 20,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "FZLeg",
+      "start": 535,
+      "end": 540,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 7
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 540,
+      "end": 541,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 7
+        },
+        "end": {
+          "line": 21,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "FZProgram",
+      "start": 544,
+      "end": 553,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 553,
+      "end": 554,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 11
+        },
+        "end": {
+          "line": 22,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "Vector2D",
+      "start": 557,
+      "end": 565,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 10
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 565,
+      "end": 566,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 10
+        },
+        "end": {
+          "line": 23,
+          "column": 11
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "FZZ",
+      "start": 569,
+      "end": 572,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": 5
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ",",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 572,
       "end": 573,
       "loc": {
         "start": {
-          "line": 18,
-          "column": 6
+          "line": 24,
+          "column": 5
         },
         "end": {
-          "line": 18,
-          "column": 8
+          "line": 24,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null
+      },
+      "value": "FZZCode",
+      "start": 576,
+      "end": 583,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 25,
+          "column": 9
         }
       }
     },
@@ -4675,16 +4916,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 573,
-      "end": 574,
+      "start": 583,
+      "end": 584,
       "loc": {
         "start": {
-          "line": 18,
-          "column": 8
+          "line": 25,
+          "column": 9
         },
         "end": {
-          "line": 18,
-          "column": 9
+          "line": 25,
+          "column": 10
         }
       }
     },
@@ -4700,633 +4941,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "FZGeometry",
-      "start": 577,
-      "end": 587,
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 2
-        },
-        "end": {
-          "line": 19,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
+      "value": "FZZUtils",
       "start": 587,
-      "end": 588,
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 12
-        },
-        "end": {
-          "line": 19,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZGeometry",
-      "start": 589,
-      "end": 599,
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 14
-        },
-        "end": {
-          "line": 19,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 599,
-      "end": 600,
-      "loc": {
-        "start": {
-          "line": 19,
-          "column": 24
-        },
-        "end": {
-          "line": 19,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZInstance",
-      "start": 603,
-      "end": 613,
-      "loc": {
-        "start": {
-          "line": 20,
-          "column": 2
-        },
-        "end": {
-          "line": 20,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 613,
-      "end": 614,
-      "loc": {
-        "start": {
-          "line": 20,
-          "column": 12
-        },
-        "end": {
-          "line": 20,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZInstance",
-      "start": 615,
-      "end": 625,
-      "loc": {
-        "start": {
-          "line": 20,
-          "column": 14
-        },
-        "end": {
-          "line": 20,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 625,
-      "end": 626,
-      "loc": {
-        "start": {
-          "line": 20,
-          "column": 24
-        },
-        "end": {
-          "line": 20,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZLeg",
-      "start": 629,
-      "end": 634,
-      "loc": {
-        "start": {
-          "line": 21,
-          "column": 2
-        },
-        "end": {
-          "line": 21,
-          "column": 7
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 634,
-      "end": 635,
-      "loc": {
-        "start": {
-          "line": 21,
-          "column": 7
-        },
-        "end": {
-          "line": 21,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZLeg",
-      "start": 636,
-      "end": 641,
-      "loc": {
-        "start": {
-          "line": 21,
-          "column": 9
-        },
-        "end": {
-          "line": 21,
-          "column": 14
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 641,
-      "end": 642,
-      "loc": {
-        "start": {
-          "line": 21,
-          "column": 14
-        },
-        "end": {
-          "line": 21,
-          "column": 15
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZProgram",
-      "start": 645,
-      "end": 654,
-      "loc": {
-        "start": {
-          "line": 22,
-          "column": 2
-        },
-        "end": {
-          "line": 22,
-          "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 654,
-      "end": 655,
-      "loc": {
-        "start": {
-          "line": 22,
-          "column": 11
-        },
-        "end": {
-          "line": 22,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZProgram",
-      "start": 656,
-      "end": 665,
-      "loc": {
-        "start": {
-          "line": 22,
-          "column": 13
-        },
-        "end": {
-          "line": 22,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 665,
-      "end": 666,
-      "loc": {
-        "start": {
-          "line": 22,
-          "column": 22
-        },
-        "end": {
-          "line": 22,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "Vector2D",
-      "start": 669,
-      "end": 677,
-      "loc": {
-        "start": {
-          "line": 23,
-          "column": 2
-        },
-        "end": {
-          "line": 23,
-          "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 677,
-      "end": 678,
-      "loc": {
-        "start": {
-          "line": 23,
-          "column": 10
-        },
-        "end": {
-          "line": 23,
-          "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "Vector2D",
-      "start": 679,
-      "end": 687,
-      "loc": {
-        "start": {
-          "line": 23,
-          "column": 12
-        },
-        "end": {
-          "line": 23,
-          "column": 20
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 687,
-      "end": 688,
-      "loc": {
-        "start": {
-          "line": 23,
-          "column": 20
-        },
-        "end": {
-          "line": 23,
-          "column": 21
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZZ",
-      "start": 692,
-      "end": 695,
-      "loc": {
-        "start": {
-          "line": 25,
-          "column": 2
-        },
-        "end": {
-          "line": 25,
-          "column": 5
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 695,
-      "end": 696,
-      "loc": {
-        "start": {
-          "line": 25,
-          "column": 5
-        },
-        "end": {
-          "line": 25,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZZ",
-      "start": 697,
-      "end": 700,
-      "loc": {
-        "start": {
-          "line": 25,
-          "column": 7
-        },
-        "end": {
-          "line": 25,
-          "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 700,
-      "end": 701,
-      "loc": {
-        "start": {
-          "line": 25,
-          "column": 10
-        },
-        "end": {
-          "line": 25,
-          "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZZCode",
-      "start": 704,
-      "end": 711,
+      "end": 595,
       "loc": {
         "start": {
           "line": 26,
@@ -5334,13 +4951,13 @@
         },
         "end": {
           "line": 26,
-          "column": 9
+          "column": 10
         }
       }
     },
     {
       "type": {
-        "label": ":",
+        "label": ",",
         "beforeExpr": true,
         "startsExpr": false,
         "rightAssociative": false,
@@ -5351,172 +4968,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 711,
-      "end": 712,
+      "start": 595,
+      "end": 596,
       "loc": {
         "start": {
-          "line": 26,
-          "column": 9
-        },
-        "end": {
           "line": 26,
           "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZZCode",
-      "start": 713,
-      "end": 720,
-      "loc": {
-        "start": {
+        },
+        "end": {
           "line": 26,
           "column": 11
-        },
-        "end": {
-          "line": 26,
-          "column": 18
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 720,
-      "end": 721,
-      "loc": {
-        "start": {
-          "line": 26,
-          "column": 18
-        },
-        "end": {
-          "line": 26,
-          "column": 19
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZZUtils",
-      "start": 725,
-      "end": 733,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 2
-        },
-        "end": {
-          "line": 28,
-          "column": 10
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 733,
-      "end": 734,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 10
-        },
-        "end": {
-          "line": 28,
-          "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "FZZUtils",
-      "start": 735,
-      "end": 743,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 12
-        },
-        "end": {
-          "line": 28,
-          "column": 20
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 743,
-      "end": 744,
-      "loc": {
-        "start": {
-          "line": 28,
-          "column": 20
-        },
-        "end": {
-          "line": 28,
-          "column": 21
         }
       }
     },
@@ -5532,15 +4993,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 745,
-      "end": 746,
+      "start": 597,
+      "end": 598,
       "loc": {
         "start": {
-          "line": 29,
+          "line": 27,
           "column": 0
         },
         "end": {
-          "line": 29,
+          "line": 27,
           "column": 1
         }
       }
@@ -5558,15 +5019,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 746,
-      "end": 747,
+      "start": 598,
+      "end": 599,
       "loc": {
         "start": {
-          "line": 29,
+          "line": 27,
           "column": 1
         },
         "end": {
-          "line": 29,
+          "line": 27,
           "column": 2
         }
       }
@@ -5584,15 +5045,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 748,
-      "end": 748,
+      "start": 600,
+      "end": 600,
       "loc": {
         "start": {
-          "line": 30,
+          "line": 28,
           "column": 0
         },
         "end": {
-          "line": 30,
+          "line": 28,
           "column": 0
         }
       }
