@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="fritzing fzz"><meta property="og:type" content="website"><meta property="og:url" content="https://paulvollmer.net"><meta property="og:site_name" content="fzz"><meta property="og:title" content="fzz"><meta property="og:image" content="https://github.com/paulvollmer/logo.png"><meta property="og:description" content="fritzing fzz"><meta property="og:author" content="https://github.com/paulvollmer"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"><meta property="twitter:image" content="https://github.com/paulvollmer/logo.png"></head>
+<meta name="description" content="fritzing fzz"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/paulvollmer/fzz"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/fritzing/fzz"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -35,8 +35,8 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFzpFromUrl">readFzpFromUrl</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FZZSourceTypes">FZZSourceTypes</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fz">fz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/board.js~FZBoard.html">FZBoard</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connect.html">Connect</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connector.html">Connector</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~FZConnect.html">FZConnect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~FZConnector.html">FZConnector</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/fz.js~FZ.html">FZ</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/geometry.js~Geometry.html">Geometry</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstance.html">FZInstance</a></span></span></li>
@@ -64,11 +64,16 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/fz/fz.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const parseXml = require(&apos;xml2js&apos;).parseString;
-const {FZP} = require(&apos;fzp-js&apos;);
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&apos;use strict&apos;;
+
+const Promise = require(&apos;bluebird&apos;);
+const parseXml = require(&apos;xml2js&apos;).parseString;
+const {FZP, FZPUtils} = require(&apos;fzp-js&apos;);
 const FZBoard = require(&apos;./board&apos;);
-const {Connector} = require(&apos;./connector&apos;);
+const {FZConnector} = require(&apos;./connector&apos;);
 const {FZInstance, FZInstanceView} = require(&apos;./instance&apos;);
+
+const FritzingAPI = &apos;https://fritzing.github.io/fritzing-parts&apos;;
 
 /**
  * the FZ constructor
@@ -133,6 +138,52 @@ class FZ {
       }
     }
     return bomData;
+  }
+
+  /**
+   * Load all Fzp files from the fritzing-parts api
+   * @return {Promise}
+   */
+  loadFzps() {
+    let self = this;
+
+    // create a map of the fzp filenames we want to fetch from the api
+    let fzpsArr = [];
+    for (let k in self.fzps) {
+      if (self.fzps.hasOwnProperty(k)) {
+        if (self.fzps[k].type !== &apos;core-resources&apos;) {
+          fzpsArr.push(k);
+        }
+      }
+    }
+
+    // console.log(&apos;total items:&apos;, fzpsArr.length);
+    // console.log(&apos;data:&apos;, fzpsArr);
+    return Promise.mapSeries(fzpsArr, function(chapter) {
+      let url = FritzingAPI+&apos;/&apos;+self.fzps[chapter].type+&apos;/&apos;+self.fzps[chapter].name;
+      // console.log(&apos;self.fzps&apos;,chapter, self.fzps[chapter]);
+      // console.log(&apos;c&apos;, chapter, self.fzps[chapter].name, self.fzps[chapter].type);
+      // console.log(url);
+      return FZPUtils.loadFZP(url)
+      .then((fzp) =&gt; {
+        console.log(&apos;fzp loaded...&apos;, fzp.title);
+        self.fzps[chapter] = fzp;
+      })
+      .catch((e) =&gt; {
+        // try to load the obsolete parte
+        if (self.fzps[chapter].type === &apos;core&apos;) {
+          url = FritzingAPI+&apos;/obsolete/&apos;+self.fzps[chapter].name;
+          return FZPUtils.loadFZP(url)
+          .then((fzp) =&gt; {
+            console.log(&apos;fzp obsolete loaded...&apos;, fzp.title);
+            return fzp;
+          })
+          .catch((e) =&gt; {
+            console.error(&apos;ERROR LOADING OBSOLETE PART&apos;, e);
+          });
+        }
+      });
+    });
   }
 }
 
@@ -260,7 +311,7 @@ function parseFZInstance(xml) {
   instance.modelIndex =xml.$.modelIndex;
   instance.path = xml.$.path;
   if (xml.property) instance.property = parseProperty(xml.property);
-  instance.title = xml.title;
+  instance.title = xml.title[0];
   if (xml.views[0].breadboardView) instance.views.breadboard = parseInstanceView(xml.views[0].breadboardView);
   if (xml.views[0].pcbView) instance.views.pcb = parseInstanceView(xml.views[0].pcbView);
   if (xml.views[0].schematicView) instance.views.schematic = parseInstanceView(xml.views[0].schematicView);
@@ -291,7 +342,7 @@ function parseInstanceViewConnectors(xml) {
   if (xml) {
     for (let i = 0; i &lt; xml[0].connector.length; i++) {
       // console.log(xml[0].connector[i]);
-      let connector = new Connector();
+      let connector = new FZConnector();
       connector.connectorId = xml[0].connector[i].$.connectorId;
       connector.layer = xml[0].connector[i].$.layer;
       connector.geometry = parseGeometry(xml[0].connector[i].geometry);

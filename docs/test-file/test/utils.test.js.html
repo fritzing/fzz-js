@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="fritzing fzz"><meta property="og:type" content="website"><meta property="og:url" content="https://paulvollmer.net"><meta property="og:site_name" content="fzz"><meta property="og:title" content="fzz"><meta property="og:image" content="https://github.com/paulvollmer/logo.png"><meta property="og:description" content="fritzing fzz"><meta property="og:author" content="https://github.com/paulvollmer"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"><meta property="twitter:image" content="https://github.com/paulvollmer/logo.png"></head>
+<meta name="description" content="fritzing fzz"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/paulvollmer/fzz"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/fritzing/fzz"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -35,8 +35,8 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFzpFromUrl">readFzpFromUrl</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FZZSourceTypes">FZZSourceTypes</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fz">fz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/board.js~FZBoard.html">FZBoard</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connect.html">Connect</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connector.html">Connector</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~FZConnect.html">FZConnect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~FZConnector.html">FZConnector</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/fz.js~FZ.html">FZ</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/geometry.js~Geometry.html">Geometry</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstance.html">FZInstance</a></span></span></li>
@@ -68,7 +68,6 @@
 
 const fs = require(&apos;fs&apos;);
 const {loadFZZ, readFZZ} = require(&apos;../src/utils&apos;);
-console.log(readFZZ);
 
 test(&apos;Test loadFZZ&apos;, (done) =&gt; {
   const url = &apos;https://raw.githubusercontent.com/fritzing/creatorkit-code/master/en/Fritzing/Blink.fzz&apos;;
@@ -81,6 +80,36 @@ test(&apos;Test loadFZZ&apos;, (done) =&gt; {
     expect(fzz.files.length).toEqual(1);
     expect(fzz.files[0]).toEqual(&apos;Blink.fz&apos;);
     expect(fzz.fz.uri).toEqual(&apos;Blink.fz&apos;);
+
+    const path1 = &apos;/Applications/Fritzing.app/Contents/MacOS/pdb/core/LED-generic-5mm.fzp&apos;;
+    expect(fzz.fz.fzps[&apos;5mmColorLEDModuleID&apos;].name).toEqual(&apos;LED-generic-5mm.fzp&apos;);
+    expect(fzz.fz.fzps[&apos;5mmColorLEDModuleID&apos;].type).toEqual(&apos;core&apos;);
+    expect(fzz.fz.fzps[&apos;5mmColorLEDModuleID&apos;].path).toEqual(path1);
+
+    expect(fzz.fz.fzps[&apos;WireModuleID&apos;].name).toEqual(&apos;wire.fzp&apos;);
+    expect(fzz.fz.fzps[&apos;WireModuleID&apos;].type).toEqual(&apos;core-resources&apos;);
+    expect(fzz.fz.fzps[&apos;WireModuleID&apos;].path).toEqual(&apos;:/resources/parts/core/wire.fzp&apos;);
+
+    expect(fzz.fz.fzps[&apos;arduino_Uno_Rev3&apos;].name).toEqual(&apos;arduino_Uno_Rev3.fzp&apos;);
+    expect(fzz.fz.fzps[&apos;arduino_Uno_Rev3&apos;].type).toEqual(&apos;core&apos;);
+    expect(fzz.fz.fzps[&apos;arduino_Uno_Rev3&apos;].path).toEqual(
+      &apos;/Applications/Fritzing.app/Contents/MacOS/pdb/core/arduino_Uno_Rev3.fzp&apos;);
+
+    expect(fzz.fz.fzps[&apos;pcb-arduino-r3-shield&apos;].name).toEqual(&apos;arduino-shield_r3_two_layer.fzp&apos;);
+    expect(fzz.fz.fzps[&apos;pcb-arduino-r3-shield&apos;].type).toEqual(&apos;core&apos;);
+    expect(fzz.fz.fzps[&apos;pcb-arduino-r3-shield&apos;].path).toEqual(
+      &apos;/Applications/Fritzing.app/Contents/MacOS/pdb/core/arduino-shield_r3_two_layer.fzp&apos;);
+
+    expect(fzz.fz.fzps[&apos;newLogoImageModuleID&apos;].name).toEqual(&apos;newlogoimage.fzp&apos;);
+    expect(fzz.fz.fzps[&apos;newLogoImageModuleID&apos;].type).toEqual(&apos;core-resources&apos;);
+    expect(fzz.fz.fzps[&apos;newLogoImageModuleID&apos;].path).toEqual(
+      &apos;:/resources/parts/core/newlogoimage.fzp&apos;);
+
+    expect(fzz.fz.fzps[&apos;LogoTextModuleID&apos;].name).toEqual(&apos;logotext.fzp&apos;);
+    expect(fzz.fz.fzps[&apos;LogoTextModuleID&apos;].type).toEqual(&apos;core-resources&apos;);
+    expect(fzz.fz.fzps[&apos;LogoTextModuleID&apos;].path).toEqual(
+      &apos;:/resources/parts/core/logotext.fzp&apos;);
+
     done();
   });
 });
@@ -92,8 +121,19 @@ test(&apos;Test readFZZ&apos;, (done) =&gt; {
       console.error(&apos;readFileSync Error&apos;, err);
       done(err);
     }
-    // TODO: expect
-    done();
+
+    // load all fzps
+    fzz.fz.loadFzps()
+    .then((data) =&gt; {
+      // console.log(data[2]);
+      expect(data[2].author).toEqual(&apos;althaus&apos;);
+      expect(data[2].date).toEqual(&apos;Mo Apr 15 2013&apos;);
+      done();
+    })
+    .catch((err) =&gt; {
+      console.error(&apos;Error&apos;, err);
+      done(err);
+    });
   });
 });
 </code></pre>

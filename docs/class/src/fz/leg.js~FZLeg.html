@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="fritzing fzz"><meta property="og:type" content="website"><meta property="og:url" content="https://paulvollmer.net"><meta property="og:site_name" content="fzz"><meta property="og:title" content="fzz"><meta property="og:image" content="https://github.com/paulvollmer/logo.png"><meta property="og:description" content="fritzing fzz"><meta property="og:author" content="https://github.com/paulvollmer"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"><meta property="twitter:image" content="https://github.com/paulvollmer/logo.png"></head>
+<meta name="description" content="fritzing fzz"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="fzz"><meta property="twitter:description" content="fritzing fzz"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/paulvollmer/fzz"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/fritzing/fzz"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -35,8 +35,8 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-readFzpFromUrl">readFzpFromUrl</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-FZZSourceTypes">FZZSourceTypes</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fz">fz</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/board.js~FZBoard.html">FZBoard</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connect.html">Connect</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~Connector.html">Connector</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~FZConnect.html">FZConnect</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/connector.js~FZConnector.html">FZConnector</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/fz.js~FZ.html">FZ</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/geometry.js~Geometry.html">Geometry</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/fz/instance.js~FZInstance.html">FZInstance</a></span></span></li>
@@ -70,7 +70,7 @@
   
   
   
-  <span data-ice="source">| <span><a href="file/src/fz/leg.js.html#lineNumber4">source</a></span></span>
+  <span data-ice="source">| <span><a href="file/src/fz/leg.js.html#lineNumber6">source</a></span></span>
 </div>
 
 <div class="self-detail detail">
@@ -90,7 +90,7 @@
 
   
   
-  <div class="description" data-ice="description"><p>FZLeg</p>
+  <div class="description" data-ice="description"><p>FZLeg for breadboard views.</p>
 </div>
   
 
@@ -123,7 +123,7 @@
           
           
           
-          <span class="code" data-ice="name"><span><a href="class/src/fz/leg.js~FZLeg.html#instance-constructor-constructor">constructor</a></span></span><span class="code" data-ice="signature">()</span>
+          <span class="code" data-ice="name"><span><a href="class/src/fz/leg.js~FZLeg.html#instance-constructor-constructor">constructor</a></span></span><span class="code" data-ice="signature">(opt: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span>)</span>
         </p>
       </div>
       <div>
@@ -158,11 +158,11 @@
     
     
     
-    <span class="code" data-ice="name">constructor</span><span class="code" data-ice="signature">()</span>
+    <span class="code" data-ice="name">constructor</span><span class="code" data-ice="signature">(opt: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span>)</span>
     <span class="right-info">
       
       
-      <span data-ice="source"><span><a href="file/src/fz/leg.js.html#lineNumber8">source</a></span></span>
+      <span data-ice="source"><span><a href="file/src/fz/leg.js.html#lineNumber11">source</a></span></span>
     </span>
   </h3>
 
@@ -174,7 +174,23 @@
 
   
 
-  <div data-ice="properties">
+  <div data-ice="properties"><div data-ice="properties">
+  <h4 data-ice="title">Params:</h4>
+  <table class="params">
+    <thead>
+    <tr><td>Name</td><td>Type</td><td>Attribute</td><td>Description</td></tr>
+    </thead>
+    <tbody>
+    
+    <tr data-ice="property" data-depth="0">
+      <td data-ice="name" class="code" data-depth="0">opt</td>
+      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></td>
+      <td data-ice="appendix"></td>
+      <td data-ice="description"></td>
+    </tr>
+</tbody>
+  </table>
+</div>
 </div>
 
   

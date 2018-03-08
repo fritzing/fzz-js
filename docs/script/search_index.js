@@ -1,17 +1,5 @@
 window.esdocSearchIndex = [
   [
-    "fzz-js/src/fz/connector.js~connect",
-    "class/src/fz/connector.js~Connect.html",
-    "<span>Connect</span> <span class=\"search-result-import-path\">fzz-js/src/fz/connector.js</span>",
-    "class"
-  ],
-  [
-    "fzz-js/src/fz/connector.js~connector",
-    "class/src/fz/connector.js~Connector.html",
-    "<span>Connector</span> <span class=\"search-result-import-path\">fzz-js/src/fz/connector.js</span>",
-    "class"
-  ],
-  [
     "fzz-js/src/fz/fz.js~fz",
     "class/src/fz/fz.js~FZ.html",
     "<span>FZ</span> <span class=\"search-result-import-path\">fzz-js/src/fz/fz.js</span>",
@@ -21,6 +9,18 @@ window.esdocSearchIndex = [
     "fzz-js/src/fz/board.js~fzboard",
     "class/src/fz/board.js~FZBoard.html",
     "<span>FZBoard</span> <span class=\"search-result-import-path\">fzz-js/src/fz/board.js</span>",
+    "class"
+  ],
+  [
+    "fzz-js/src/fz/connector.js~fzconnect",
+    "class/src/fz/connector.js~FZConnect.html",
+    "<span>FZConnect</span> <span class=\"search-result-import-path\">fzz-js/src/fz/connector.js</span>",
+    "class"
+  ],
+  [
+    "fzz-js/src/fz/connector.js~fzconnector",
+    "class/src/fz/connector.js~FZConnector.html",
+    "<span>FZConnector</span> <span class=\"search-result-import-path\">fzz-js/src/fz/connector.js</span>",
     "class"
   ],
   [
@@ -181,8 +181,80 @@ window.esdocSearchIndex = [
   ],
   [
     "",
-    "test-file/test/utils.test.js.html#lineNumber7",
+    "test-file/test/utils.test.js.html#lineNumber6",
     "Test loadFZZ",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.board.test.js.html#lineNumber14",
+    "Test new FZBoard",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.board.test.js.html#lineNumber5",
+    "Test new FZBoard (empty)",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.connector.test.js.html#lineNumber14",
+    "Test new FZConnector",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.connector.test.js.html#lineNumber5",
+    "Test new FZConnector (empty)",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.geometry.test.js.html#lineNumber17",
+    "Test new FZGeometry",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.geometry.test.js.html#lineNumber5",
+    "Test new FZGeometry (empty)",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.instance.test.js.html#lineNumber17",
+    "Test new FZInstance",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.instance.test.js.html#lineNumber5",
+    "Test new FZInstance (empty)",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.program.test.js.html#lineNumber11",
+    "Test new Program",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.program.test.js.html#lineNumber5",
+    "Test new Program (empty)",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.vector2d.test.js.html#lineNumber11",
+    "Test new Vector2D",
+    "test"
+  ],
+  [
+    "",
+    "test-file/test/fz.vector2d.test.js.html#lineNumber5",
+    "Test new Vector2D (empty)",
     "test"
   ],
   [
@@ -193,7 +265,7 @@ window.esdocSearchIndex = [
   ],
   [
     "",
-    "test-file/test/utils.test.js.html#lineNumber22",
+    "test-file/test/utils.test.js.html#lineNumber51",
     "Test readFZZ",
     "test"
   ],
@@ -498,15 +570,15 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/fz/connector.js~connect#constructor",
-    "class/src/fz/connector.js~Connect.html#instance-constructor-constructor",
-    "src/fz/connector.js~Connect#constructor",
+    "src/fz/connector.js~fzconnect#constructor",
+    "class/src/fz/connector.js~FZConnect.html#instance-constructor-constructor",
+    "src/fz/connector.js~FZConnect#constructor",
     "method"
   ],
   [
-    "src/fz/connector.js~connector#constructor",
-    "class/src/fz/connector.js~Connector.html#instance-constructor-constructor",
-    "src/fz/connector.js~Connector#constructor",
+    "src/fz/connector.js~fzconnector#constructor",
+    "class/src/fz/connector.js~FZConnector.html#instance-constructor-constructor",
+    "src/fz/connector.js~FZConnector#constructor",
     "method"
   ],
   [
@@ -525,6 +597,12 @@ window.esdocSearchIndex = [
     "src/fz/fz.js~fz#getbom",
     "class/src/fz/fz.js~FZ.html#instance-method-getBOM",
     "src/fz/fz.js~FZ#getBOM",
+    "method"
+  ],
+  [
+    "src/fz/fz.js~fz#loadfzps",
+    "class/src/fz/fz.js~FZ.html#instance-method-loadFzps",
+    "src/fz/fz.js~FZ#loadFzps",
     "method"
   ],
   [
@@ -594,6 +672,18 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/fz/vector2d.js~vector2d#x",
+    "class/src/fz/vector2d.js~Vector2D.html#instance-member-x",
+    "src/fz/vector2d.js~Vector2D#x",
+    "member"
+  ],
+  [
+    "src/fz/vector2d.js~vector2d#y",
+    "class/src/fz/vector2d.js~Vector2D.html#instance-member-y",
+    "src/fz/vector2d.js~Vector2D#y",
+    "member"
+  ],
+  [
     "src/fzz/code.js",
     "file/src/fzz/code.js.html",
     "src/fzz/code.js",
@@ -618,15 +708,57 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/index.js",
+    "file/src/index.js.html",
+    "src/index.js",
+    "file"
+  ],
+  [
     "src/utils.js",
     "file/src/utils.js.html",
     "src/utils.js",
     "file"
   ],
   [
+    "test/fz.board.test.js",
+    "test-file/test/fz.board.test.js.html",
+    "test/fz.board.test.js",
+    "testFile"
+  ],
+  [
+    "test/fz.connector.test.js",
+    "test-file/test/fz.connector.test.js.html",
+    "test/fz.connector.test.js",
+    "testFile"
+  ],
+  [
+    "test/fz.geometry.test.js",
+    "test-file/test/fz.geometry.test.js.html",
+    "test/fz.geometry.test.js",
+    "testFile"
+  ],
+  [
+    "test/fz.instance.test.js",
+    "test-file/test/fz.instance.test.js.html",
+    "test/fz.instance.test.js",
+    "testFile"
+  ],
+  [
+    "test/fz.program.test.js",
+    "test-file/test/fz.program.test.js.html",
+    "test/fz.program.test.js",
+    "testFile"
+  ],
+  [
     "test/fz.test.js",
     "test-file/test/fz.test.js.html",
     "test/fz.test.js",
+    "testFile"
+  ],
+  [
+    "test/fz.vector2d.test.js",
+    "test-file/test/fz.vector2d.test.js.html",
+    "test/fz.vector2d.test.js",
     "testFile"
   ],
   [
