@@ -1,10 +1,13 @@
 'use strict';
 
+const Promise = require('bluebird');
 const parseXml = require('xml2js').parseString;
-const {FZP} = require('fzp-js');
+const {FZP, FZPUtils} = require('fzp-js');
 const FZBoard = require('./board');
 const {FZConnector} = require('./connector');
 const {FZInstance, FZInstanceView} = require('./instance');
+
+const FritzingAPI = 'https://fritzing.github.io/fritzing-parts';
 
 /**
  * the FZ constructor
@@ -69,6 +72,52 @@ class FZ {
       }
     }
     return bomData;
+  }
+
+  /**
+   * Load all Fzp files from the fritzing-parts api
+   * @return {Promise}
+   */
+  loadFzps() {
+    let self = this;
+
+    // create a map of the fzp filenames we want to fetch from the api
+    let fzpsArr = [];
+    for (let k in self.fzps) {
+      if (self.fzps.hasOwnProperty(k)) {
+        if (self.fzps[k].type !== 'core-resources') {
+          fzpsArr.push(k);
+        }
+      }
+    }
+
+    // console.log('total items:', fzpsArr.length);
+    // console.log('data:', fzpsArr);
+    return Promise.mapSeries(fzpsArr, function(chapter) {
+      let url = FritzingAPI+'/'+self.fzps[chapter].type+'/'+self.fzps[chapter].name;
+      // console.log('self.fzps',chapter, self.fzps[chapter]);
+      // console.log('c', chapter, self.fzps[chapter].name, self.fzps[chapter].type);
+      // console.log(url);
+      return FZPUtils.loadFZP(url)
+      .then((fzp) => {
+        console.log('fzp loaded...', fzp.title);
+        self.fzps[chapter] = fzp;
+      })
+      .catch((e) => {
+        // try to load the obsolete parte
+        if (self.fzps[chapter].type === 'core') {
+          url = FritzingAPI+'/obsolete/'+self.fzps[chapter].name;
+          return FZPUtils.loadFZP(url)
+          .then((fzp) => {
+            console.log('fzp obsolete loaded...', fzp.title);
+            return fzp;
+          })
+          .catch((e) => {
+            console.error('ERROR LOADING OBSOLETE PART', e);
+          });
+        }
+      });
+    });
   }
 }
 
