@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/paulvollmer/fzz-js/issues"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "pretest": "make lint",
     "test": "make test",
@@ -40,6 +40,7 @@
     "jest": "^22.0.6"
   },
   "dependencies": {
+    "bluebird": "^3.5.1",
     "fritzing-js": "github:fritzing/fritzing-js",
     "fzp-js": "github:fritzing/fzp-js#develop",
     "jszip": "^3.1.5",
