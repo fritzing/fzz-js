@@ -8,13 +8,13 @@
     "fritzing",
     "fzz"
   ],
-  "homepage": "https://github.com/paulvollmer/fzz-js#readme",
+  "homepage": "https://github.com/fritzing/fzz-js#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulvollmer/fzz-js.git"
+    "url": "git+https://github.com/fritzing/fzz-js.git"
   },
   "bugs": {
-    "url": "https://github.com/paulvollmer/fzz-js/issues"
+    "url": "https://github.com/fritzing/fzz-js/issues"
   },
   "main": "lib/index.js",
   "scripts": {
