@@ -8,8 +8,17 @@ class FZZCode {
    * the FZBoard constructor
    * @param {Object} opt
    */
-  constructor(opt) {
-    this.filename = '';
+  constructor(opt = {}) {
+    /**
+     * The codde filename
+     * @type {String}
+     */
+    this.filename = opt.filename || '';
+
+    /**
+     * The code source
+     * @type {String}
+     */
     this.source = '';
   }
 }

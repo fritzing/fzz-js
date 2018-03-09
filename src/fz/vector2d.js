@@ -9,9 +9,7 @@ class Vector2D {
    * Vector2D constructor
    * @param {Object} opt
    */
-  constructor(opt) {
-    opt = opt || {};
-
+  constructor(opt = {}) {
     /**
      * The x position
      * @type {Number}

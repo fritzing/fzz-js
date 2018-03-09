@@ -17,12 +17,39 @@ class FZ {
    * @param {String} uri uri of the fz
    */
   constructor(uri) {
+    /**
+     * @type {String}
+     */
     this.xml = undefined; // store the raw xml data
+
+    /**
+     * @type {String}
+     */
     this.uri = uri || ''; // store the fzz filename
+
+    /**
+     * @type {String}
+     */
     this.fritzingVersion = '';
+
+    /**
+     * @type {Object}
+     */
     this.boards = {}; // list of FZBoard items
-    this.programs = {}; // list of FZProgram items
+
+    /**
+     * @type {Object}
+     */
     this.instances = {}; //
+
+    /**
+     * @type {Object}
+     */
+    this.programs = {}; // list of FZProgram items
+
+    /**
+     * @type {Object}
+     */
     this.views = {
       breadboard: {
         backgroundColor: '#ffffff',
@@ -49,8 +76,15 @@ class FZ {
         autorouteViaRingThickness: '0.3mm',
       },
     };
+
+    /**
+     * @type {Object}
+     */
     this.code = {};
 
+    /**
+     * @type {Object}
+     */
     this.fzps = {};
   }
 
@@ -118,6 +152,47 @@ class FZ {
         }
       });
     });
+  }
+
+  /**
+   * Get the total; number of boards
+   * @return {Number}
+   */
+  totalBoards() {
+    console.log('boards', this.boards);
+    return this.boards.length;
+  }
+
+  /**
+   * Get the total; number of code
+   * @return {Number}
+   */
+  totalCode() {
+    return Object.keys(this.code).length;
+  }
+
+  /**
+   * Get the total; number of instances
+   * @return {Number}
+   */
+  totalInstances() {
+    return Object.keys(this.instances).length;
+  }
+
+  /**
+   * Get the total; number of programs
+   * @return {Number}
+   */
+  totalPrograms() {
+    return Object.keys(this.programs).length;
+  }
+
+  /**
+   * Get the total; number of fzp files
+   * @return {Number}
+   */
+  totalFzps() {
+    return Object.keys(this.fzps).length;
   }
 }
 
@@ -421,11 +496,11 @@ function parseFZViews(xml) {
           showGrid: xml[0].view[j].$.showGrid,
           alignToGrid: xml[0].view[j].$.alignToGrid,
           viewFromBelow: xml[0].view[j].$.viewFromBelow,
-          gpgKeepout: xml[0].view[j].$.gpgKeepout,
+          gpgKeepout: xml[0].view[j].$.GPG_Keepout,
           autorouteViaHoleSize: xml[0].view[j].$.autorouteViaHoleSize,
           autorouteTraceWidth: xml[0].view[j].$.autorouteTraceWidth,
           autorouteViaRingThickness: xml[0].view[j].$.autorouteViaRingThickness,
-          drcKeepout: xml[0].view[j].$.drcKeepout,
+          drcKeepout: xml[0].view[j].$.DRC_Keepout,
         };
         break;
     }
@@ -433,10 +508,6 @@ function parseFZViews(xml) {
   return views;
 }
 
-/**
- * @param {Object} xml
- * @return {FZView}
- */
 // function parseFZView(xml) {
 //   let view = new FZView();
 //   view.name = xml.$.name;
@@ -445,11 +516,11 @@ function parseFZViews(xml) {
 //   view.showGrid = xml.$.showGrid;
 //   view.alignToGrid = xml.$.alignToGrid;
 //   view.viewFromBelow = xml.$.viewFromBelow;
-//   view.gpgKeepout = xml.$.gpgKeepout;
+//   view.gpgKeepout = xml.$.GPG_Keepout;
 //   view.autorouteViaHoleSize = xml.$.autorouteViaHoleSize;
 //   view.autorouteTraceWidth = xml.$.autorouteTraceWidth;
 //   view.autorouteViaRingThickness = xml.$.autorouteViaRingThickness;
-//   view.drcKeepout = xml.$.drcKeepout;
+//   view.drcKeepout = xml.$.DRC_Keepout;
 //   return view;
 // }
 
@@ -540,11 +611,7 @@ function parseFZViews(xml) {
 //
 //   return instances;
 // }
-
-/**
- * @param {Object} xml
- * @return {Object}
- */
+//
 // function parseFZInstancesViews(xml) {
 //   // console.log('call parseFZInstancesViews', xml);
 //   let tmpViews = {

@@ -8,9 +8,15 @@ class FZLeg {
    * FZLeg constructor
    * @param {Object} opt
    */
-  constructor(opt) {
-    opt = opt || {};
+  constructor(opt = {}) {
+    /**
+     * @type {Vector2D}
+     */
     this.point = new Vector2D(opt.point);
+
+    /**
+     * @type {String}
+     */
     this.bezier = opt.bezier || null;
   }
 }
