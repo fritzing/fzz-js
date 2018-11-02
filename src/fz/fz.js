@@ -4,15 +4,15 @@ const Promise = require('bluebird');
 const parseXml = require('xml2js').parseString;
 const {
   FZP,
-  FZPUtils
+  FZPUtils,
 } = require('fzp-js');
 const FZBoard = require('./board');
 const {
-  FZConnector
+  FZConnector,
 } = require('./connector');
 const {
   FZInstance,
-  FZInstanceView
+  FZInstanceView,
 } = require('./instance');
 
 const FritzingAPI = 'https://fritzing.github.io/fritzing-parts';
@@ -239,7 +239,7 @@ function parseFZ(uri, src, cb) {
         tmpFZ.boards = [{
           moduleId: 'no-board-id',
           title: 'no-board-title',
-          instance: 'no-board-instance'
+          instance: 'no-board-instance',
         }];
       }
       if (xmlDoc.module.views) tmpFZ.views = parseFZViews(xmlDoc.module.views);
@@ -405,7 +405,7 @@ function parseConnects(xml) {
 function parseGeometry(xml) {
   let vect = {
     x: 0,
-    y: 0
+    y: 0,
   };
   if (xml) {
     if (xml[0]) {
@@ -706,5 +706,5 @@ function parseFZViews(xml) {
 
 module.exports = {
   FZ,
-  parseFZ
+  parseFZ,
 };

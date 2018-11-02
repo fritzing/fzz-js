@@ -33,10 +33,10 @@ function readFZZ(url, data, cb) {
     // console.log('ZIP', zip);
     // console.log('FZZ Files:', zip.files);
 
-    let totalFiles = Object.keys(zip.files).length;
+    // let totalFiles = Object.keys(zip.files).length;
     // console.log('TOTAL FILES', totalFiles);
     // let counter = 0;
-    for (var filename in zip.files) {
+    for (let filename in zip.files) {
       if (zip.files.hasOwnProperty(filename)) {
         // add each filename to the files array...
         tmpFZZ.files.push(filename);

@@ -66,10 +66,10 @@ class FZProgram {
   }
 }
 /**
- * the parseFz function
- * @params {Object} filename the filename of the file
- * @params {Object} src the source of the file
- * @params {Function} cb the callback
+ * the parseFz Function
+ * @param {Object} filename
+ * @param {Object} src the source of the file
+ * @param {Function} cb the callback
  */
 function parseFZ(filename, src, cb) {
   let tmpFZ = new FZ();
@@ -431,5 +431,5 @@ module.exports = {
   FZ,
   FZBoard,
   FZProgram,
-  parseFZ
+  parseFZ,
 };

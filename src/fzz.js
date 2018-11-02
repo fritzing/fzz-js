@@ -22,7 +22,7 @@ class FZZ {
     this.files = opt.files || [];
     this.fz = opt.fz || new FZ();
     // this.code = opt.code || new FZZCode();
-    this.parts = opt.parts || []; // list of parts (fzp and svg files)
+    this.parts = opt.parts || []; // list of parts (fzp and svg files)
   }
 }
 

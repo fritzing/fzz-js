@@ -11,12 +11,12 @@ test( 'Test LoadFZZ', (done) => {
   });
 });
 
-// test('Test readFZZ', (done) => {
-//   var data = fs.readFileSync("./test/fixtures/Blink.fzz")
-//   readFZZ(data, (fzz) => {
-//     console.log("FZZ", fzz);
-//     // assert.ok( fzz.code.totalSources() == 1, "Passed!" );
-//     //   console.log(fzz.bom());
-//     done()
-//   });
-// });
+test('Test readFZZ', (done) => {
+  const data = fs.readFileSync('./test/fixtures/Blink.fzz');
+  readFZZ(data, (fzz) => {
+    console.log('FZZ', fzz);
+    // assert.ok( fzz.code.totalSources() == 1, "Passed!" );
+    //   console.log(fzz.bom());
+    done();
+  });
+});
