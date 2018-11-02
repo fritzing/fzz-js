@@ -2,10 +2,18 @@
 
 const Promise = require('bluebird');
 const parseXml = require('xml2js').parseString;
-const {FZP, FZPUtils} = require('fzp-js');
+const {
+  FZP,
+  FZPUtils
+} = require('fzp-js');
 const FZBoard = require('./board');
-const {FZConnector} = require('./connector');
-const {FZInstance, FZInstanceView} = require('./instance');
+const {
+  FZConnector
+} = require('./connector');
+const {
+  FZInstance,
+  FZInstanceView
+} = require('./instance');
 
 const FritzingAPI = 'https://fritzing.github.io/fritzing-parts';
 
@@ -97,7 +105,7 @@ class FZ {
     for (let i = 0; i < this.fz.instances.length; i++) {
       // console.log(this.fz.instances[i]);
       if (this.fz.instances[i].moduleIdRef !== 'WireModuleID' &&
-          this.fz.instances[i].moduleIdRef !== 'LogoImageModuleID') {
+        this.fz.instances[i].moduleIdRef !== 'LogoImageModuleID') {
         let bomItem = {
           moduleIdRef: this.fz.instances[i].moduleIdRef,
           active: true,
@@ -128,29 +136,29 @@ class FZ {
     // console.log('total items:', fzpsArr.length);
     // console.log('data:', fzpsArr);
     return Promise.mapSeries(fzpsArr, function(chapter) {
-      let url = FritzingAPI+'/'+self.fzps[chapter].type+'/'+self.fzps[chapter].name;
+      let url = FritzingAPI + '/' + self.fzps[chapter].type + '/' + self.fzps[chapter].name;
       // console.log('self.fzps',chapter, self.fzps[chapter]);
       // console.log('c', chapter, self.fzps[chapter].name, self.fzps[chapter].type);
       // console.log(url);
       return FZPUtils.loadFZP(url)
-      .then((fzp) => {
-        console.log('fzp loaded...', fzp.title);
-        self.fzps[chapter] = fzp;
-      })
-      .catch((e) => {
-        // try to load the obsolete parte
-        if (self.fzps[chapter].type === 'core') {
-          url = FritzingAPI+'/obsolete/'+self.fzps[chapter].name;
-          return FZPUtils.loadFZP(url)
-          .then((fzp) => {
-            console.log('fzp obsolete loaded...', fzp.title);
-            return fzp;
-          })
-          .catch((e) => {
-            console.error('ERROR LOADING OBSOLETE PART', e);
-          });
-        }
-      });
+        .then((fzp) => {
+          console.log('fzp loaded...', fzp.title);
+          self.fzps[chapter] = fzp;
+        })
+        .catch((e) => {
+          // try to load the obsolete parte
+          if (self.fzps[chapter].type === 'core') {
+            url = FritzingAPI + '/obsolete/' + self.fzps[chapter].name;
+            return FZPUtils.loadFZP(url)
+              .then((fzp) => {
+                console.log('fzp obsolete loaded...', fzp.title);
+                return fzp;
+              })
+              .catch((e) => {
+                console.error('ERROR LOADING OBSOLETE PART', e);
+              });
+          }
+        });
     });
   }
 
@@ -225,7 +233,15 @@ function parseFZ(uri, src, cb) {
       // }
 
       tmpFZ.fritzingVersion = xmlDoc.module.$.fritzingVersion;
-      if (xmlDoc.module.boards) tmpFZ.boards = parseFZBoards(xmlDoc.module.boards);
+      if (xmlDoc.module.boards) {
+        tmpFZ.boards = parseFZBoards(xmlDoc.module.boards);
+      } else {
+        tmpFZ.boards = [{
+          moduleId: 'no-board-id',
+          title: 'no-board-title',
+          instance: 'no-board-instance'
+        }];
+      }
       if (xmlDoc.module.views) tmpFZ.views = parseFZViews(xmlDoc.module.views);
       if (xmlDoc.module.instances) tmpFZ.instances = parseFZInstances(xmlDoc.module.instances);
 
@@ -243,7 +259,7 @@ function parseFZ(uri, src, cb) {
  * @return {String}
  */
 function getFileExt(src) {
-  return src.substr((src.lastIndexOf('.') +1));
+  return src.substr((src.lastIndexOf('.') + 1));
 }
 
 /**
@@ -261,12 +277,12 @@ function createFZPsMap(xml) {
         let theType = '';
 
         let pathSplitted = path.split('/');
-        theName = pathSplitted[pathSplitted.length-1];
+        theName = pathSplitted[pathSplitted.length - 1];
         if (pathSplitted[0] === ':' && pathSplitted[1] === 'resources') {
           theType = 'core-resources';
-        } else if (pathSplitted[pathSplitted.length-2] === 'core') {
+        } else if (pathSplitted[pathSplitted.length - 2] === 'core') {
           theType = 'core';
-        } else if (pathSplitted[pathSplitted.length-2] === 'obsolete') {
+        } else if (pathSplitted[pathSplitted.length - 2] === 'obsolete') {
           theType = 'obsolete';
         }
 
@@ -317,7 +333,7 @@ function parseFZInstances(xml) {
 function parseFZInstance(xml) {
   let instance = new FZInstance();
   instance.moduleIdRef = xml.$.moduleIdRef;
-  instance.modelIndex =xml.$.modelIndex;
+  instance.modelIndex = xml.$.modelIndex;
   instance.path = xml.$.path;
   if (xml.property) instance.property = parseProperty(xml.property);
   instance.title = xml.title[0];
@@ -387,7 +403,10 @@ function parseConnects(xml) {
  * @return {Object}
  */
 function parseGeometry(xml) {
-  let vect = {x: 0, y: 0};
+  let vect = {
+    x: 0,
+    y: 0
+  };
   if (xml) {
     if (xml[0]) {
       vect.x = xml[0].$.x;
@@ -407,12 +426,12 @@ function parseFZBoards(xml) {
     boards.push(parseFZBoard(xml[i].board));
   }
   return boards;
- }
+}
 
- /**
-  * @param {Object} xml
-  * @return {FZBoard}
-  */
+/**
+ * @param {Object} xml
+ * @return {FZBoard}
+ */
 function parseFZBoard(xml) {
   let board = new FZBoard();
   board.moduleId = xml[0].$.moduleId;
@@ -423,10 +442,10 @@ function parseFZBoard(xml) {
   return board;
 }
 
- /**
-  * @param {Object} xml
-  * @return {Array}
-  */
+/**
+ * @param {Object} xml
+ * @return {Array}
+ */
 // function parseFZPrograms(xml) {
 //   // console.log('parseFZPrograms', xml);
 //   let programs = [];
@@ -685,4 +704,7 @@ function parseFZViews(xml) {
 //   return tmpViews;
 // }
 
-module.exports = {FZ, parseFZ};
+module.exports = {
+  FZ,
+  parseFZ
+};

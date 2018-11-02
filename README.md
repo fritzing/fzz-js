@@ -12,7 +12,7 @@ and int your files after changes
 ```sh
 make lint
 ```
-
+gut
 to build an es5 compatible version run
 ```sh
 make build
